@@ -106,3 +106,6 @@ ul.social-buttons li.bg-linkedin a:active, ul.social-buttons li.bg-linkedin a:fo
 .text-bold{
   font-weight: bold;
 }
+.no-resize{
+  resize: none
+}

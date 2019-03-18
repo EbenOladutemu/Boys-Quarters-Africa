@@ -985,7 +985,7 @@
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                          <textarea class="form-control no-resize" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
                           <p class="help-block text-danger"></p>
                         </div>
                       </div>
