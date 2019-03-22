@@ -16,6 +16,24 @@
        new Vue ({el: '#header-component'})
 
 
+       Vue.component ('header2-tag',{
+        template: `
+          <header class="masthead2 masthead" style="height: 680px">
+            <div class="container">
+              <div class="intro-text">
+                <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
+                <div class="intro-lead-in d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block pad-lg text-uppercase text-bold">Intentional and deliberate transition from Boyhood to Manhood</div>
+                <!-- Visible only on xs, Visible only on sm -->
+                <div class="intro-lead-in d-block d-sm-none d-none d-sm-block d-md-none pad-sm text-uppercase text-bold">Intentional and deliberate transition from Boyhood to Manhood</div>
+                <div class="intro-heading text-uppercase"></div>
+                <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
+              </div>
+            </div>
+          </header>`
+       })
+       new Vue ({el: '#header2-component'})
+
+
        Vue.component ('about',
        {
         template: `
@@ -1023,7 +1041,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Boys Quarters Africa </span><?= date('Y'); ?>
+                <span class="copyright">Copyright &copy; Boys Quarters Africa 2019</span>
               </div>
               <div class="col-md-4">
                 <ul class="list-inline social-buttons">

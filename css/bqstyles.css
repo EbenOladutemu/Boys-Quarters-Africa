@@ -1,6 +1,9 @@
 header.masthead {
 	background-image: url("../img/boysq/bg-1.jpeg");
 }
+header.masthead2 {
+  background-image: url("../img/boysq/bg-2.jpg");
+}
 section#contact {
     background-color: #000;
     background-image: url(../img/bqafrica4.png);
