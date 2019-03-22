@@ -50,7 +50,7 @@
                   <ul class="timeline">
                     <li>
                       <div class="timeline-image img-1">
-                        <img class="rounded-circle img-fluid" src="img/about/about-1.jpeg" alt="">
+                        <img class="rounded-circle img-fluid" src="img/about/about-1.jpeg" alt="Boys Quarter Africa">
                       </div>
                       <div class="timeline-panel about-1">
                         <div class="timeline-heading">
@@ -80,7 +80,7 @@
                     </li>
                     <li class="timeline-inverted">
                       <div class="timeline-image img-1">
-                        <img class="rounded-circle img-fluid" src="img/about/about-2.jpg" alt="">
+                        <img class="rounded-circle img-fluid" src="img/about/about-2.jpg" alt="Boys Quarter Africa">
                       </div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -101,7 +101,7 @@
                     </li>
                     <li>
                       <div class="timeline-image">
-                        <img class="rounded-circle img-fluid" src="img/about/about-3.jpeg" alt="">
+                        <img class="rounded-circle img-fluid" src="img/about/about-3.jpeg" alt="Boys Quarter Africa">
                       </div>
                       <div class="timeline-panel about-1">
                         <div class="timeline-heading">
@@ -120,7 +120,7 @@
                     </li>
                     <li class="timeline-inverted">
                       <div class="timeline-image">
-                        <img class="rounded-circle img-fluid" src="img/about/about-4.png" alt="">
+                        <img class="rounded-circle img-fluid" src="img/about/about-4.png" alt="Boys Quarter Africa">
                       </div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -149,7 +149,7 @@
                     </li>
                     <li>
                       <div class="timeline-image">
-                        <img class="rounded-circle img-fluid" src="img/about/about-5.jpeg" alt="">
+                        <img class="rounded-circle img-fluid" src="img/about/about-5.jpeg" alt="Boys Quarter Africa">
                       </div>
                       <div class="timeline-panel about-1">
                         <div class="timeline-heading">
@@ -275,7 +275,7 @@
               <div class="row">
                 <div class="col-sm-4">
                   <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Solomon-Ayodele.JPG" alt="">
+                    <img class="mx-auto rounded-circle" src="img/team/Solomon-Ayodele.JPG" alt="Solomon Ayodele">
                     <h4>Solomon Oluwatobi Ayodele</h4>
                     <p class="text-muted">Lead Execution Officer</p>
                     <ul class="list-inline social-buttons">
@@ -299,7 +299,7 @@
                 </div>
                 <div class="col-sm-4">
                   <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Oyindamola-Ejiro.JPG" alt="">
+                    <img class="mx-auto rounded-circle" src="img/team/Oyindamola-Ejiro.JPG" alt="Oyindamola Ejiro">
                     <h4>Oyindamola Ejiro Ohwesi</h4>
                     <p class="text-muted">Lead, Communications & Content Development</p>
                     <ul class="list-inline social-buttons">
@@ -323,7 +323,7 @@
                 </div>
                 <div class="col-sm-4">
                   <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Louis-Okoh.JPG" alt="">
+                    <img class="mx-auto rounded-circle" src="img/team/Louis-Okoh.JPG" alt="Louis Okoh">
                     <h4>Louis Okoh</h4>
                     <p class="text-muted">Lead, Project Management</p><br>
                     <ul class="list-inline social-buttons">
@@ -349,7 +349,7 @@
               <div class="row">
                 <div class="col-sm-4">
                   <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Ebenezer-Oladutemu.JPG" alt="">
+                    <img class="mx-auto rounded-circle" src="img/team/Ebenezer-Oladutemu.JPG" alt="Ebenezer Oladutemu">
                     <h4>Ebenezer Oladutemu</h4>
                     <p class="text-muted">Strategy/Project Manager</p><br>
                     <ul class="list-inline social-buttons">
@@ -373,7 +373,7 @@
                 </div>
                 <div class="col-sm-4">
                   <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Glory-Odikagbue.JPG" alt="">
+                    <img class="mx-auto rounded-circle" src="img/team/Glory-Odikagbue.JPG" alt="Glory Odikagbue">
                     <h4>Glory Odikagbue</h4>
                     <p class="text-muted">Project Support Officer/Volunteer Mobilization</p>
                     <ul class="list-inline social-buttons">
@@ -397,7 +397,7 @@
                 </div>
                 <div class="col-sm-4">
                   <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Kolade-Emmanuel.JPG" alt="">
+                    <img class="mx-auto rounded-circle" src="img/team/Kolade-Emmanuel.JPG" alt="Kolade Emmanuel">
                     <h4>Kolade Emmanuel</h4>
                     <p class="text-muted">Lead, Logistics</p><br>
                     <ul class="list-inline social-buttons">
@@ -440,14 +440,14 @@
             <div class="row">
               <!-- IMAGE 1 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2230.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2230.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -455,14 +455,14 @@
               </div>
               <!-- IMAGE 2 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2185.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2185.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -470,14 +470,14 @@
               </div>
               <!-- IMAGE 3 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2186.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2186.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -485,14 +485,14 @@
               </div>
               <!-- IMAGE 4 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2115.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2115.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -500,14 +500,14 @@
               </div>
               <!-- IMAGE 5 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2147.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2147.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -515,14 +515,14 @@
               </div>
               <!-- IMAGE 6 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2163.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2163.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -530,14 +530,14 @@
               </div>
               <!-- IMAGE 7 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2184.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2184.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -545,14 +545,14 @@
               </div>
               <!-- IMAGE 8 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2187.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2187.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -560,14 +560,14 @@
               </div>
               <!-- IMAGE 9 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2197.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2197.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -575,14 +575,14 @@
               </div>
               <!-- IMAGE 10 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2129.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2129.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -590,14 +590,14 @@
               </div>
               <!-- IMAGE 11 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2226.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2226.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -605,14 +605,14 @@
               </div>
               <!-- IMAGE 12 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2206.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2206.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -620,14 +620,14 @@
               </div>
               <!-- IMAGE 13 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2223.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2223.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -635,14 +635,14 @@
               </div>
               <!-- IMAGE 14 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2215.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2215.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -650,14 +650,14 @@
               </div>
               <!-- IMAGE 15 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2200.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2200.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -665,14 +665,14 @@
               </div>
               <!-- IMAGE 16 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2217.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2217.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -680,14 +680,14 @@
               </div>
               <!-- IMAGE 17 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2146.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2146.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -695,14 +695,14 @@
               </div>
               <!-- IMAGE 18 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2210.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2210.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -710,14 +710,14 @@
               </div>
               <!-- IMAGE 19 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2231.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2231.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -725,14 +725,14 @@
               </div>
               <!-- IMAGE 20 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <!-- <a class="" data-toggle="modal" href=""> -->
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2236.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2236.jpg" alt="Boys Quarter Africa">
+                <!-- </a> -->
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -740,14 +740,14 @@
               </div>
               <!-- IMAGE 21 -->
               <div class="col-md-4 col-sm-6 portfolio-item">
-                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                
                   <div class="portfolio-hover">
                     <div class="portfolio-hover-content">
                       <!-- <i class="fas fa-plus fa-3x"></i> -->
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2245.jpg" alt="">
-                </a>
+                  <img class="img-fluid" src="img/boystoo/IMG_2245.jpg" alt="Boys Quarter Africa">
+                
                 <div class="portfolio-caption">
                   <h4></h4>
                   <p class="text-muted"></p>
@@ -780,7 +780,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Project Name</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                            <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="Boys Quarter Africa">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                             <ul class="list-inline">
                               <li>Date: January 2017</li>
@@ -814,7 +814,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Project Name</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                            <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="Boys Quarter Africa">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                             <ul class="list-inline">
                               <li>Date: January 2017</li>
@@ -848,7 +848,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Project Name</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="Boys Quarter Africa">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                             <ul class="list-inline">
                               <li>Date: January 2017</li>
@@ -882,7 +882,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Project Name</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                            <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="Boys Quarter Africa">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                             <ul class="list-inline">
                               <li>Date: January 2017</li>
@@ -916,7 +916,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Project Name</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                            <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="Boys Quarter Africa">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                             <ul class="list-inline">
                               <li>Date: January 2017</li>
@@ -950,7 +950,7 @@
                             <!-- Project Details Go Here -->
                             <h2 class="text-uppercase">Project Name</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                            <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="Boys Quarter Africa">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                             <ul class="list-inline">
                               <li>Date: January 2017</li>
