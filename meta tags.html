@@ -1,0 +1,67 @@
+<!-- ErrorDocument 404 /404.html
+
+#remove php file extension-e.g. https://example.com/file.php will become https://example.com/file
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L] -->
+
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<!-- <meta http-equiv="refresh" content="3; https://eben.com.ng"> --> <!-- optional. for automatically refreshing pages or -->
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="robot" content="all">
+<meta name="author" content="">
+<meta name="copyright" content="">
+<meta name="image" content="">
+<meta name="url" content="">
+<meta name="generator" content=""> <!-- optional. for describing backend technology -->
+
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="">
+<meta itemprop="description" content="">
+<meta itemprop="image" content="">
+<meta itemprop="url" content="">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="">
+<meta name="twitter:url" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:image:src" content="">
+
+<!-- Twitter - Product (e-commerce) -->
+<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<meta property="og:site_name" content="">
+<meta property="og:locale" content="">
+<meta property="og:type" content="">
+
+<!-- Open Graph - Product (e-commerce) -->
+<meta name="product:availability" content="">
+<meta name="product:price:currency" content="">
+<meta name="product:price:amount" content="">
+<meta name="product:brand" content="">
+
+
+
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+	<a class="a2a_button_facebook btn"></a>
+	<a class="a2a_button_twitter"></a>
+	<a class="a2a_button_email"></a>
+	<a class="a2a_button_pinterest"></a>
+	<a class="a2a_button_whatsapp"></a>
+	<a class="a2a_button_telegram"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>

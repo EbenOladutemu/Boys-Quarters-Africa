@@ -1,6 +1,6 @@
        Vue.component ('header-tag',{
         template: `
-          <header class="masthead" style="height: 680px">
+          <header class="masthead" style="height: 535px">
             <div class="container">
               <div class="intro-text">
                 <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
@@ -16,9 +16,9 @@
        new Vue ({el: '#header-component'})
 
 
-       Vue.component ('header2-tag',{
+       Vue.component ('header-tag',{
         template: `
-          <header class="masthead2 masthead" style="height: 680px">
+          <header class="masthead-projects masthead" style="height: 535px">
             <div class="container">
               <div class="intro-text">
                 <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
@@ -33,11 +33,62 @@
        })
        new Vue ({el: '#header2-component'})
 
+       Vue.component ('header-tag',{
+        template: `
+          <header class="masthead-volunteer masthead" style="height: 535px">
+            <div class="container">
+              <div class="intro-text">
+                <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
+                <div class="intro-lead-in d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block pad-lg text-uppercase text-bold">Intentional and deliberate transition from Boyhood to Manhood</div>
+                <!-- Visible only on xs, Visible only on sm -->
+                <div class="intro-lead-in d-block d-sm-none d-none d-sm-block d-md-none pad-sm text-uppercase text-bold">Intentional and deliberate transition from Boyhood to Manhood</div>
+                <div class="intro-heading text-uppercase"></div>
+                <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
+              </div>
+            </div>
+          </header>`
+       })
+       new Vue ({el: '#header3-component'})
+
+       Vue.component ('header-tag',{
+        template: `
+          <header class="masthead-ondo masthead" style="height: 535px">
+            <div class="container">
+              <div class="intro-text">
+                <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
+                <div class="intro-lead-in d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block pad-lg text-uppercase text-bold">Intentional and deliberate transition from Boyhood to Manhood</div>
+                <!-- Visible only on xs, Visible only on sm -->
+                <div class="intro-lead-in d-block d-sm-none d-none d-sm-block d-md-none pad-sm text-uppercase text-bold">Intentional and deliberate transition from Boyhood to Manhood</div>
+                <div class="intro-heading text-uppercase"></div>
+                <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
+              </div>
+            </div>
+          </header>`
+       })
+       new Vue ({el: '#header4-component'});
+
+       Vue.component ('header-tag',{
+        template: `
+          <header class="masthead-osun masthead" style="height: 535px">
+            <div class="container">
+              <div class="intro-text">
+                <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
+                <div class="intro-lead-in d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block pad-lg text-uppercase text-bold">Intentional and deliberate transition from Boyhood to Manhood</div>
+                <!-- Visible only on xs, Visible only on sm -->
+                <div class="intro-lead-in d-block d-sm-none d-none d-sm-block d-md-none pad-sm text-uppercase text-bold">Intentional and deliberate transition from Boyhood to Manhood</div>
+                <div class="intro-heading text-uppercase"></div>
+                <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
+              </div>
+            </div>
+          </header>`
+       })
+       new Vue ({el: '#header5-component'})
+
 
        Vue.component ('about',
        {
         template: `
-          <section id="about">
+          <section id="about" style="padding-top: 50px; padding-bottom:0px">
             <div class="container">
               <div class="row">
                 <div class="col-lg-12 text-center">
@@ -149,7 +200,7 @@
                     </li>
                     <li>
                       <div class="timeline-image">
-                        <img class="rounded-circle img-fluid" src="img/about/about-5.jpeg" alt="Boys Quarter Africa">
+                        <img class="rounded-circle img-fluid" src="img/about/bqafrica2.jpg" alt="Boys Quarter Africa">
                       </div>
                       <div class="timeline-panel about-1">
                         <div class="timeline-heading">
@@ -264,7 +315,7 @@
        Vue.component ('team',
        {
         template: `
-          <section class="bg-light" id="team" style="padding-top: 0">
+          <section class="bg-light" id="team" style="padding-top: 0; padding-bottom:0">
             <div class="container">
               <div class="row">
                 <div class="col-lg-12 text-center">
@@ -426,552 +477,6 @@
        new Vue ({el: '#team-component'})
 
 
-       Vue.component ('projects',
-       {
-        template: `
-         <section class="bg-light" id="projects">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">The #BOYSTOO Project</h2>
-                <h3 class="section-subheading text-muted">Boys Quarters Africa's project maiden edition, held at Christ the Redeemer International Secondary School, Akure on the 6th of July, 2018.</h3>
-              </div>
-            </div>
-            <div class="row">
-              <!-- IMAGE 1 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2230.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 2 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2185.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 3 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2186.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 4 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2115.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 5 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2147.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 6 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2163.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 7 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2184.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 8 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2187.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 9 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2197.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 10 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2129.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 11 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2226.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 12 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2206.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 13 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2223.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 14 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2215.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 15 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2200.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 16 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2217.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 17 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2146.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 18 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2210.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 19 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2231.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 20 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                <!-- <a class="" data-toggle="modal" href=""> -->
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2236.jpg" alt="Boys Quarter Africa">
-                <!-- </a> -->
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-              <!-- IMAGE 21 -->
-              <div class="col-md-4 col-sm-6 portfolio-item">
-                
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <!-- <i class="fas fa-plus fa-3x"></i> -->
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/boystoo/IMG_2245.jpg" alt="Boys Quarter Africa">
-                
-                <div class="portfolio-caption">
-                  <h4></h4>
-                  <p class="text-muted"></p>
-                </div>
-              </div> 
-            </div>
-          </div>
-        </section>`
-       })
-       new Vue ({el: '#projects-component'})
-
-
-       Vue.component ('projects-modals',
-       {
-        template:`
-          <!-- Modal 1 -->
-            <section style="padding:0px">
-              <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                      <div class="lr">
-                        <div class="rl"></div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                          <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="Boys Quarter Africa">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                              <li>Date: January 2017</li>
-                              <li>Client: Threads</li>
-                              <li>Category: Illustration</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                              <i class="fas fa-times"></i>
-                              Close Project</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Modal 2 -->
-              <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                      <div class="lr">
-                        <div class="rl"></div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                          <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="Boys Quarter Africa">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                              <li>Date: January 2017</li>
-                              <li>Client: Explore</li>
-                              <li>Category: Graphic Design</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                              <i class="fas fa-times"></i>
-                              Close Project</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Modal 3 -->
-              <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                      <div class="lr">
-                        <div class="rl"></div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                          <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="Boys Quarter Africa">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                              <li>Date: January 2017</li>
-                              <li>Client: Finish</li>
-                              <li>Category: Identity</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                              <i class="fas fa-times"></i>
-                              Close Project</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Modal 4 -->
-              <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                      <div class="lr">
-                        <div class="rl"></div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                          <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="Boys Quarter Africa">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                              <li>Date: January 2017</li>
-                              <li>Client: Lines</li>
-                              <li>Category: Branding</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                              <i class="fas fa-times"></i>
-                              Close Project</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Modal 5 -->
-              <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                      <div class="lr">
-                        <div class="rl"></div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                          <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="Boys Quarter Africa">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                              <li>Date: January 2017</li>
-                              <li>Client: Southwest</li>
-                              <li>Category: Website Design</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                              <i class="fas fa-times"></i>
-                              Close Project</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Modal 6 -->
-              <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                      <div class="lr">
-                        <div class="rl"></div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                          <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2 class="text-uppercase">Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="Boys Quarter Africa">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <ul class="list-inline">
-                              <li>Date: January 2017</li>
-                              <li>Client: Window</li>
-                              <li>Category: Photography</li>
-                            </ul>
-                            <button class="btn btn-primary" data-dismiss="modal" type="button">
-                              <i class="fas fa-times"></i>
-                              Close Project</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>`
-       })
-       new Vue ({el: '#projects-modals-component'})
-
-
        Vue.component ('contact',
        {
         template: `
@@ -1019,7 +524,7 @@
               <div class="row text-white">
                 <div class="col-lg-4 ml-auto text-center">
                   <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-                  <p>0703-737-3284</p>
+                  <p><a href="tel:0703-737-3284" style="color: #c3ce62!important;">0703-737-3284</a></p>
                 </div>
                 <div class="col-lg-4 mr-auto text-center">
                   <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
@@ -1041,22 +546,24 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Boys Quarters Africa 2019</span>
+                <span class="copyright">Copyright &copy; Boys Quarters Africa 2019. Developed by 
+                    <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="blank" style="color: #c3ce62!important; text-decoration: none;">Eben. </a>All Rights Reserved.
+                </span>
               </div>
               <div class="col-md-4">
                 <ul class="list-inline social-buttons">
                   <li class="list-inline-item bg-facebook">
-                    <a href="https://facebook.com/OMODAFIDY">
+                    <a href="https://facebook.com/boysqafrica" target="blank">
                       <i class="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li class="list-inline-item">
-                    <a href="https://www.instagram.com/boysqafrica/" class="bg-instagram">
+                    <a href="https://www.instagram.com/boysqafrica" class="bg-instagram" target="blank">
                       <i class="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li class="list-inline-item bg-twitter">
-                    <a href="https://twitter.com/boysqafrica">
+                    <a href="https://twitter.com/boysqafrica" target="blank">
                       <i class="fab fa-twitter"></i>
                     </a>
                   </li>
@@ -1068,7 +575,7 @@
                     <a href="#boysCreed" data-toggle="modal" class="nav-link js-scroll-trigger" style="color: #c3ce62!important;">The Boys Creed</a>
                   </li>
                   <li class="list-inline-item">
-                    <a href="#" style="color: #c3ce62!important;">Terms of Use</a>
+                    <a href="" style="color: #c3ce62!important;">Terms of Use</a>
                   </li>
                 </ul>
               </div>
@@ -1076,4 +583,4 @@
           </div>
         </footer>`
       });
-      new Vue({ el: '#footer-component' })
+      new Vue({ el: '#footer-component' });

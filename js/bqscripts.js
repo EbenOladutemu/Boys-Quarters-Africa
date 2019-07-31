@@ -61,3 +61,30 @@ function myFunction4() {
     moreText.style.display = "inline";
   }
 }
+
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+
+
+// VUE
+new Vue ({
+   el: '#bq-projects',
+   data:{
+    back: 'Back to projects'
+   },
+   methods:{
+        goBack(){
+          window.history.back();
+      }
+    }
+ });
+
+new Vue({
+  el: '#boystoo',
+  data: {
+    width: '',
+    width_2: ''
+  }
+})

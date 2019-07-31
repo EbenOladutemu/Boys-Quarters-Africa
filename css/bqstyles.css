@@ -1,8 +1,17 @@
 header.masthead {
-	background-image: url("../img/boysq/bg-1.jpeg");
+	background-image: url("../img/theexchange/lagos/IMG_3540.jpg");
 }
-header.masthead2 {
-  background-image: url("../img/boysq/bg-2.jpg");
+header.masthead-projects {
+  background-image: url("../img/boystoo/ile-ife/IMG_5257.jpg");
+}
+header.masthead-volunteer {
+  background-image: url("../img/boystoo/ile-ife/IMG_5257.jpg");
+}
+header.masthead-ondo {
+  background-image: url("../img/boystoo/akure/IMG_2234.jpg");
+}
+header.masthead-osun {
+  background-image: url("../img/boystoo/ile-ife/IMG_5294.jpg");
 }
 section#contact {
     background-color: #000;
@@ -23,6 +32,31 @@ section#contact {
 @media (min-width: 768px){
 .timeline:before {
   left: 50%;
+  }
+}
+@media(min-width:576px) and (max-width:767px){
+  .form-sm{
+      width:360px;
+      height:1277px;
+      display:none!important;
+  }
+  
+}
+@media(min-width:768px){
+  .form-lg{
+      width:750px!important;
+      height:1277px!important;
+  }
+  
+}
+@media(min-width: 576px) and (max-width: 767px){
+  .screen-adj-hide{
+    display: none!important;
+  }
+}
+@media(min-width: 465px) and (max-width: 577px){
+  .screen-adj-show{
+    display: block!important;
   }
 }
 .timeline:before{
@@ -73,8 +107,8 @@ ul.social-buttons li.bg-linkedin a:active, ul.social-buttons li.bg-linkedin a:fo
   /*color:#e9f71d;*/
 }
 .contact-pad{
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .footer-links a{
   
@@ -112,3 +146,48 @@ ul.social-buttons li.bg-linkedin a:active, ul.social-buttons li.bg-linkedin a:fo
 .no-resize{
   resize: none
 }
+/* CARD +/- */
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+.something-else .fa {
+  transition: .3s transform ease-in-out;
+}
+.something-else .collapsed .fa {
+  transform: rotate(-90deg);
+}
+.list .fa {
+  transition: .3s transform ease-in-out;
+}
+.list .collapsed .fa {
+  transform: rotate(-90deg);
+}
+.a-color{
+  color: #c3ce62!important;
+}
+.brd-btm-w-2{
+  border-bottom-width: 2px;
+}
+.brd-btm-solid-1-d8{
+  border-bottom: solid 1px #d8d8d8;
+}
+.i-search{
+  width: 290px;
+  line-height: 3.5;
+  text-align: center;
+}
+
+.width-156{
+  width: 156px;
+}
+.width-154{
+  width: 154px;
+}
+
+#more  {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}

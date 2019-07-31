@@ -67,3 +67,35 @@
         </div>
       </div>
     </section>
+
+
+    <div class="col-md-4">
+      <div class="something-else">
+        <a class="" data-toggle="collapse" href="#or-something-else" aria-expanded="true" class="collapsed">
+          <i class="fa fa-hand-point-down"></i> Example open and close
+        </a>
+        <div id="or-something-else" class="collapse">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia blanditiis, consequatur odit nam quidem cumque impedit alias sint quibusdam temporibus commodi ex praesentium doloribus iste, et laboriosam officia saepe nostrum?</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <ul class="list">
+        <li>
+          <a class="" data-toggle="collapse" href="#a-list" aria-expanded="true">
+            <i class="fa fa-arrow-down pull-right"></i> Example open and close
+          </a>
+          <ul id="a-list" class="collapse show">
+            <li><a href="#">Sub item 1</a></li>
+            <li><a href="#">Sub item 2</a></li>
+            <li><a href="#">Sub item 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <style>
+      .dropdown-menu {display: block;visibility: hidden;opacity:0;transform: translateY(50px);transition:.5s ease all;}
+.dropdown-menu.show {display: block;visibility: visible;opacity:1;transform: translateY(0px);transition:.5s ease all;}
+    </style>
