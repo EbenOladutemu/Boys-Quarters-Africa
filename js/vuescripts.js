@@ -352,7 +352,7 @@
                   <div class="team-member">
                     <img class="mx-auto rounded-circle" src="img/team/Glory-Odikagbue.JPG" alt="Glory Odikagbue">
                     <h4>Glory Odikagbue</h4>
-                    <p class="text-muted">Chief Operations Officer</p>
+                    <p class="text-muted">Chief Operations Officer</p><br>
                     <ul class="list-inline social-buttons">
                     <li class="list-inline-item bg-facebook">
                       <a href="https://www.facebook.com/odikagbue.funayaglory">
@@ -376,7 +376,7 @@
                   <div class="team-member">
                     <img class="mx-auto rounded-circle" src="img/team/Tomi-Fowe.JPEG" alt="Tomi Fowe">
                     <h4>Oluwatomidimu Fowe</h4>
-                    <p class="text-muted">Lead, Finance</p>
+                    <p class="text-muted">Lead, Finance</p><br>
                     <ul class="list-inline social-buttons">
                     <li class="list-inline-item bg-facebook">
                       <a href="#">
@@ -422,7 +422,7 @@
                 </div>
                 <div class="col-sm-4">
                   <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Adetomiwa-Badewole.JPEG" alt="Adetomiwa Badewole">
+                    <img class="mx-auto rounded-circle" src="img/team/Adetomiwa-Badewole-2.JPEG" alt="Adetomiwa Badewole">
                     <h4>Adetomiwa Badewole</h4>
                     <p class="text-muted">Lead, Communications</p><br>
                     <ul class="list-inline social-buttons">
@@ -472,7 +472,7 @@
                 
                 <div class="col-sm-12">
                   <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/Kolade-Emmanuel.JPG" alt="Kolade Emmanuel">
+                    <img class="mx-auto rounded-circle" src="img/team/Isaac-Kanu.JPEG" alt="Isaac Kanu" style="width: 250px">
                     <h4>Isaac Kanu</h4>
                     <p class="text-muted">Lead, Research and Data Intelligence</p><br>
                     <ul class="list-inline social-buttons">
