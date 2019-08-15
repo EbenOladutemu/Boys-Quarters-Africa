@@ -553,7 +553,7 @@
                 <div class="col-lg-4 mr-auto text-center">
                   <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
                   <p>
-                    <a href="mailto:info@boysqafrica.com" style="color: #c3ce62!important;">info@boysqafrica.com</a>
+                    <a href="mailto:boysqafrica@gmail.com" style="color: #c3ce62!important;">boysqafrica@gmail.com</a>
                   </p>
                 </div>
               </div>
