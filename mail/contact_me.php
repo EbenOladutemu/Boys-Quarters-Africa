@@ -1,3 +1,4 @@
+Access-Control-Allow-Origin: https://boysqafrica.com
 <?php
 // Check for empty fields
 if(empty($_POST['name'])      ||
