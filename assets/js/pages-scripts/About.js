@@ -13,3 +13,7 @@ Vue.component('header-about',{
       </div>
     </header>`
 });
+
+Vue.component('about',{
+  template: ``
+})
