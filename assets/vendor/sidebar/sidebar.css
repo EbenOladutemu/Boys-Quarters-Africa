@@ -77,7 +77,8 @@ a:hover{
 
 #sidebar ul.components {
     padding: 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #212856;
+    margin-bottom: 0px!important;
 }
 
 #sidebar ul p {
@@ -115,7 +116,10 @@ a[data-toggle="collapse"] {
 }
 
 ul.CTAs {
-    padding: 20px;
+    padding: 20px;    
+    padding-top: 10px;
+    padding-left: 5px;
+
 }
 
 ul.CTAs a {
