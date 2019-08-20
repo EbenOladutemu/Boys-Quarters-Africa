@@ -163,6 +163,10 @@ ul.social-buttons li.bg-linkedin a:active, ul.social-buttons li.bg-linkedin a:fo
 .donate-brd-rad{
   border-radius: 15px;
 }
+.donate-sb{
+  background-color: #bec65d!important;
+  margin-bottom: 50px!important;
+}
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
     color: #fff;

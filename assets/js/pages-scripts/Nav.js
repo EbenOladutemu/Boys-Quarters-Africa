@@ -99,7 +99,7 @@ Vue.component('sidebar',{
 
       <ul class="list-unstyled CTAs">
         <li>
-          <a href="donate" class="nav-link js-scroll-trigger btn btn-primary donate" style="background-color: #bec65d">DONATE</a>
+          <a href="donate" class="nav-link js-scroll-trigger btn btn-primary donate donate-sb">DONATE</a>
         </li>
       </ul>
     </nav>`
