@@ -109,7 +109,7 @@ Vue.component('nav-home',{
 	template:`<nav class="navbar navbar-expand-lg navbar-dark fixed-top py-1 px-2">
       <div class="container-fluid">
         <a class="navbar-brand js-scroll-trigger" href=""><img src="./../assets/img/bqafrica3.png" width="108" height="40px"></a>
-        <button class="btn btn-primary d-inline-block d-lg-none ml-auto" type="button" id="sidebarCollapse" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-align-right"></i>
+        <button class="btn btn-primary d-inline-block d-lg-none ml-auto" type="button" id="sidebarCollapse" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-align-center"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
@@ -171,12 +171,9 @@ Vue.component('nav-home',{
                 <a class="dropdown-item" href="./../contact/share-a-story">Share A Story</a>
               </div>
             </li>
-
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad" href="./../donate">DONATE</a>
-            </li>
           </ul>
         </div>
+        <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad" href="./../donate">DONATE</a>
       </div>
     </nav>`
 });

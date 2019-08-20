@@ -160,8 +160,10 @@ ul.social-buttons li.bg-linkedin a:active, ul.social-buttons li.bg-linkedin a:fo
   margin-left: 20px;
   box-shadow: 0px 0px 3px 3px #76777d;
 }
-.donate-brd-rad{
+.donate-brd-rad-pad{
   border-radius: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .donate-sb{
   background-color: #bec65d!important;
