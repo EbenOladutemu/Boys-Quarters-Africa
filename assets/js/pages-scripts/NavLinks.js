@@ -13,22 +13,22 @@ Vue.component('sidebar',{
           <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true">Who We Are <i class="fa fa-chevron-down pull-right"></i></a>
           <ul class="collapse list-unstyled" id="homeSubmenu">
             <li>
-              <a href="who-we-are/about-us">About Us</a>
+              <a href="./../who-we-are/about-us">About Us</a>
             </li>
             <li>
-              <a href="who-we-are/birthing-story">Birthing Story</a>
+              <a href="./../who-we-are/birthing-story">Birthing Story</a>
             </li>
             <li>
-              <a href="who-we-are/vision-and-mission">Vision & Mission</a>
+              <a href="./../who-we-are/vision-and-mission">Vision & Mission</a>
             </li>
             <li>
-              <a href="who-we-are/core-values">Core Values</a>
+              <a href="./../who-we-are/core-values">Core Values</a>
             </li>
             <li>
-              <a href="who-we-are/board-members">Board Members</a>
+              <a href="./../who-we-are/board-members">Board Members</a>
             </li>
             <li>
-              <a href="who-we-are/execution-team">Execution Team</a>
+              <a href="./../who-we-are/execution-team">Execution Team</a>
             </li>
           </ul>
         </li>
@@ -36,22 +36,22 @@ Vue.component('sidebar',{
           <a href="#programsSubmenu" data-toggle="collapse" aria-expanded="true">Our Programs <i class="fa fa-chevron-down pull-right"></i></a>
           <ul class="collapse list-unstyled" id="programsSubmenu">
             <li>
-              <a href="our-programs/the-boys-too">The #BoysToo</a>
+              <a href="./../our-programs/the-boys-too">The #BoysToo</a>
             </li>
             <li>
-              <a href="our-programs/yahoo-project">YAHOO Project</a>
+              <a href="./../our-programs/yahoo-project">YAHOO Project</a>
             </li>
             <li>
-              <a href="our-programs/the-boys-talk">The Boys Talk</a>
+              <a href="./../our-programs/the-boys-talk">The Boys Talk</a>
             </li>
             <li>
-              <a href="our-programs/campus-mentour">Campus MENtour</a>
+              <a href="./../our-programs/campus-mentour">Campus MENtour</a>
             </li>
             <li>
-              <a href="our-programs/boy-lead-academy">Boy-Lead Academy</a>
+              <a href="./../our-programs/boy-lead-academy">Boy-Lead Academy</a>
             </li>
             <li>
-              <a href="our-programs/one-boy-project">One Boy Project</a>
+              <a href="./../our-programs/one-boy-project">One Boy Project</a>
             </li>
             <li>
               <a data-toggle="modal" href="#boysCreed">Download <b>THE BOYS CREED</b></a>
@@ -62,16 +62,16 @@ Vue.component('sidebar',{
           <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true">Pillars of Impact <i class="fa fa-chevron-down pull-right"></i></a>
           <ul class="collapse list-unstyled" id="pageSubmenu">
             <li>
-              <a href="pillars-of-impact/leadership"><b>L</b>eadership</a>
+              <a href="./../pillars-of-impact/leadership"><b>L</b>eadership</a>
             </li>
             <li>
-              <a href="pillars-of-impact/education"><b>E</b>ducation</a>
+              <a href="./../pillars-of-impact/education"><b>E</b>ducation</a>
             </li>
             <li>
-              <a href="pillars-of-impact/empowerment"><b>E</b>powerment</a>
+              <a href="./../pillars-of-impact/empowerment"><b>E</b>powerment</a>
             </li>
             <li>
-              <a href="pillars-of-impact/advocacy"><b>Ad</b>vocacy</a>
+              <a href="./../pillars-of-impact/advocacy"><b>Ad</b>vocacy</a>
             </li>
           </ul>
         </li>
@@ -79,19 +79,19 @@ Vue.component('sidebar',{
           <a href="#">Blog</a>
         </li>
         <li>
-          <a href="#">VOLUNTEER</a>
+          <a href="./../volunteer">VOLUNTEER</a>
         </li>
         <li class="">
           <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="true">Contact Us <i class="fa fa-chevron-down pull-right"></i></a>
           <ul class="collapse list-unstyled" id="contactSubmenu">
             <li>
-              <a href="contact/send-a-message">Send A Message</a>
+              <a href="./../contact/send-a-message">Send A Message</a>
             </li>
             <li>
-              <a href="contact/invite-a-speaker">Invite A Speaker</a>
+              <a href="./../contact/invite-a-speaker">Invite A Speaker</a>
             </li>
             <li>
-              <a href="contact/share-a-story">Share A Story</a>
+              <a href="./../contact/share-a-story">Share A Story</a>
             </li>
           </ul>
         </li>
@@ -99,7 +99,7 @@ Vue.component('sidebar',{
 
       <ul class="list-unstyled CTAs">
         <li>
-          <a href="donate" class="nav-link js-scroll-trigger btn btn-primary donate" style="background-color: #bec65d">DONATE</a>
+          <a href="./../donate" class="nav-link js-scroll-trigger btn btn-primary donate" style="background-color: #bec65d">DONATE</a>
         </li>
       </ul>
     </nav>`

@@ -8,10 +8,10 @@ Vue.component('sidebar',{
         <h3>Menu</h3>
       </div>
 
-      <ul class="list-unstyled components">
+      <ul class="list-unstyled components accordion" id="projects">
         <li class="">
           <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true">Who We Are <i class="fa fa-chevron-down pull-right"></i></a>
-          <ul class="collapse list-unstyled" id="homeSubmenu">
+          <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#projects">
             <li>
               <a href="who-we-are/about-us">About Us</a>
             </li>
@@ -34,7 +34,7 @@ Vue.component('sidebar',{
         </li>
         <li class="">
           <a href="#programsSubmenu" data-toggle="collapse" aria-expanded="true">Our Programs <i class="fa fa-chevron-down pull-right"></i></a>
-          <ul class="collapse list-unstyled" id="programsSubmenu">
+          <ul class="collapse list-unstyled" id="programsSubmenu" data-parent="#projects">
             <li>
               <a href="our-programs/the-boys-too">The #BoysToo</a>
             </li>
@@ -60,7 +60,7 @@ Vue.component('sidebar',{
         </li>
         <li>
           <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true">Pillars of Impact <i class="fa fa-chevron-down pull-right"></i></a>
-          <ul class="collapse list-unstyled" id="pageSubmenu">
+          <ul class="collapse list-unstyled" id="pageSubmenu" data-parent="#projects">
             <li>
               <a href="pillars-of-impact/leadership"><b>L</b>eadership</a>
             </li>
@@ -83,7 +83,7 @@ Vue.component('sidebar',{
         </li>
         <li class="">
           <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="true">Contact Us <i class="fa fa-chevron-down pull-right"></i></a>
-          <ul class="collapse list-unstyled" id="contactSubmenu">
+          <ul class="collapse list-unstyled" id="contactSubmenu" data-parent="#projects">
             <li>
               <a href="contact/send-a-message">Send A Message</a>
             </li>
