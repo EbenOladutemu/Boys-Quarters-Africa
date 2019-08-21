@@ -8,21 +8,26 @@ Vue.component('the-footer',{
               <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="blank" style="color: #c3ce62!important; text-decoration: none;">Eben. </a>All Rights Reserved.
           </span>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4"> Follow Us:
           <ul class="list-inline social-buttons">
             <li class="list-inline-item bg-facebook">
-              <a href="https://facebook.com/boysqafrica" target="blank">
+              <a href="https://facebook.com/boysqafrica" target="_blank">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/boysqafrica" class="bg-instagram" target="blank">
+              <a href="https://www.instagram.com/boysqafrica" class="bg-instagram" target="_blank">
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
             <li class="list-inline-item bg-twitter">
-              <a href="https://twitter.com/boysqafrica" target="blank">
+              <a href="https://twitter.com/boysqafrica" target="_blank">
                 <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item bg-youtube">
+              <a href="https://youtube.com/boysqafrica" target="_blank">
+                <i class="fab fa-youtube"></i>
               </a>
             </li>
           </ul>   
