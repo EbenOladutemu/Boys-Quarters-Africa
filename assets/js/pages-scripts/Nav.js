@@ -24,9 +24,9 @@ Vue.component('sidebar',{
             <li>
               <a href="who-we-are/vision-and-mission">Vision & Mission</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="who-we-are/core-values">Core Values</a>
-            </li>
+            </li> -->
             <li>
               <a href="who-we-are/board-members">Board Members</a>
             </li>
@@ -108,10 +108,10 @@ Vue.component('sidebar',{
     </nav>`
 });
 
-Vue.component('nav-home',{
+Vue.component('nav-all',{
 	template:`<nav class="navbar navbar-expand-lg navbar-dark fixed-top py-1 px-2">
       <div class="container-fluid">
-        <slot><a class="navbar-brand js-scroll-trigger" href="home"><img src="assets/img/bqafrica3.png" width="108" height="40px"></a></slot>
+        <a class="navbar-brand js-scroll-trigger" href="home"><img src="assets/img/bqafrica3.png" width="108" height="40px" title="HOME"></a>
         <button class="btn btn-primary d-inline-block d-lg-none ml-auto" type="button" id="sidebarCollapse" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-align-center"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -124,7 +124,7 @@ Vue.component('nav-home',{
                 <a class="dropdown-item" href="who-we-are/about-us">About Us</a>
                 <a class="dropdown-item" href="who-we-are/birthing-story">Birthing Story</a>
                 <a class="dropdown-item" href="who-we-are/vision-and-mission">Vision & Mission</a>
-                <a class="dropdown-item" href="who-we-are/core-values">Core Values</a>
+                <!-- <a class="dropdown-item" href="who-we-are/core-values">Core Values</a> -->
                 <a class="dropdown-item" href="who-we-are/board-members">Board Members</a>
                 <a class="dropdown-item" href="who-we-are/execution-team">Execution Team</a>
               </div>

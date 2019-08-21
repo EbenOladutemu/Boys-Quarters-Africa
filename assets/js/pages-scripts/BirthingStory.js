@@ -1,4 +1,4 @@
-Vue.component('header-about',{
+Vue.component('header-birthing',{
   template: `<header class="masthead masthead-birthing-story article overlay-header" style="height: 535px">
       <div class="container">
         <div class="intro-text">
@@ -15,7 +15,7 @@ Vue.component('header-about',{
 });
 
 Vue.component('birthing-story',{
-	template: `<section style="padding: 50px 0 0;">
+	template: `<section>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">

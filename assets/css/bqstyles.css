@@ -7,6 +7,12 @@ header.masthead-about {
 header.masthead-birthing-story {
   background-image: url("../img/boystoo/ibadan/IMGM2944.jpeg");
 }
+header.masthead-vision {
+  background-image: url("../img/theexchange/lagos/IMG_3521.jpg");
+}
+header.masthead-board {
+  background-image: url("../img/boystoo/ile-ife/IMG_5167.jpg");
+}
 header.masthead-projects {
   background-image: url("../img/boystoo/ile-ife/IMG_5257.jpg");
 }
@@ -18,6 +24,9 @@ header.masthead-ondo {
 }
 header.masthead-osun {
   background-image: url("../img/boystoo/ile-ife/IMG_5294.jpg");
+}
+section{
+  padding: 10px 0 0;
 }
 section#contact {
     background-color: #000;

@@ -15,7 +15,7 @@ Vue.component('header-about',{
 });
 
 Vue.component('about',{
-  template: `<section style="padding: 50px 0">
+  template: `<section>
     <div class="container">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">About US</h2><br>

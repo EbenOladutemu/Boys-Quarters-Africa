@@ -1,5 +1,5 @@
-Vue.component('header-about',{
-  template: `<header class="masthead masthead-birthing-story article overlay-header" style="height: 535px">
+Vue.component('header-vision',{
+  template: `<header class="masthead masthead-vision article overlay-header" style="height: 535px">
       <div class="container">
         <div class="intro-text">
           <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
@@ -15,11 +15,11 @@ Vue.component('header-about',{
 });
 
 Vue.component('vision-mission',{
-	template: `<section style="padding: 50px 0 0">
+	template: `<section>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">THE BIRTHING STORY</h2><br>
+          <h2 class="section-heading text-uppercase">VISION, MISSION & CORE VALUES</h2><br>
           <!-- <h3 class="section-subheading text-muted"></h3> -->
         </div>
       </div>
