@@ -9,6 +9,9 @@ Vue.component('sidebar',{
       </div>
 
       <ul class="list-unstyled components" id="sidebar-nav">
+        <li>
+          <a href="./../home">Home</a>
+        </li>
         <li class="">
           <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true">Who We Are <i class="fa fa-chevron-down pull-right"></i></a>
           <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#sidebar-nav">
@@ -108,7 +111,7 @@ Vue.component('sidebar',{
 Vue.component('nav-home',{
 	template:`<nav class="navbar navbar-expand-lg navbar-dark fixed-top py-1 px-2">
       <div class="container-fluid">
-        <a class="navbar-brand js-scroll-trigger" href=""><img src="./../assets/img/bqafrica3.png" width="108" height="40px"></a>
+        <a class="navbar-brand js-scroll-trigger" href="./../home"><img src="./../assets/img/bqafrica3.png" width="108" height="40px"></a>
         <button class="btn btn-primary d-inline-block d-lg-none ml-auto" type="button" id="sidebarCollapse" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-align-center"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">

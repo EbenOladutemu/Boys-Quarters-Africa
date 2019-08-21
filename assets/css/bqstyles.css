@@ -184,12 +184,6 @@ ul.social-buttons li.bg-linkedin a:active, ul.social-buttons li.bg-linkedin a:fo
 .card-header .collapsed .fa {
   transform: rotate(90deg);
 }
-/*.something-else .fa {
-  transition: .3s transform ease-in-out;
-}
-.something-else .collapsed .fa {
-  transform: rotate(-90deg);
-}*/
 .list .fa {
   transition: .3s transform ease-in-out;
 }
@@ -273,6 +267,18 @@ ul.social-buttons li.bg-linkedin a:active, ul.social-buttons li.bg-linkedin a:fo
 
 a > li > ul > div > nav{
   background: transparent!important;
+}
+
+/* ABOUT US */
+.about-style{
+  font-size: 20px;
+  text-align: left;
+}
+.poi-color{
+  color: #212856
+}
+.poi-color:hover{
+  color: #c3ce62;
 }
 
 .article .intro-lead-in {
