@@ -1,9 +1,25 @@
+Vue.component('header-about',{
+  template: `<header class="masthead masthead-birthing-story article overlay-header" style="height: 535px">
+      <div class="container">
+        <div class="intro-text">
+          <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
+          <div class="intro-lead-in d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block pad-lg text-uppercase text-bold " style="font-size: 25px">We’ve been commissioned to educate, empower & advocate for a new tribe of Boys
+            who will deliberately & purposefully transition from Boyhood to Manhood.</div>
+          <!-- Visible only on xs, Visible only on sm -->
+          <div class="intro-lead-in d-block d-sm-none d-none d-sm-block d-md-none pad-sm text-uppercase text-bold" style="font-size: 17px">We’ve been commissioned to educate, empower & advocate for a new tribe of Boys who will deliberately & purposefully transition from Boyhood to Manhood.</div>
+          <!-- <div class="intro-heading text-uppercase"></div> -->
+          <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger learn-mg" href="about-us">Learn More</a> -->
+        </div>
+      </div>
+    </header>`
+});
+
 Vue.component('birthing-story',{
-	template: `<section id="about" style="padding-top: 50px; padding-bottom:0px">
+	template: `<section style="padding: 50px 0 0;">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About US</h2><br>
+          <h2 class="section-heading text-uppercase">THE BIRTHING STORY</h2><br>
           <!-- <h3 class="section-subheading text-muted"></h3> -->
         </div>
       </div>
@@ -12,43 +28,9 @@ Vue.component('birthing-story',{
           <ul class="timeline">
             <li>
               <div class="timeline-image img-1">
-                <img class="rounded-circle img-fluid" src="assets/img/about/about-1.jpeg" alt="Boys Quarter Africa">
+                <img class="rounded-circle img-fluid" src="./../assets/img/about/about-1.jpeg" alt="Boys Quarter Africa">
               </div>
               <div class="timeline-panel about-1">
-                <div class="timeline-heading">
-                  <!-- <h4>2009-2011</h4> -->
-                  <h4 class="subheading text-uppercase">Boys Need Attention Too</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>From the boy with an absent Father in Kampala, to the boy who has just been sexually molested in Abuja, the life trajectory of the African boy is filled with valleys, mountains and divergent experiences they may not be able to share until they become Fathers. Hence, this destructive weight is passed on from generation to generations and from Fathers to their Sons.</p><br>
-
-                  <p>Africa as a continent is encumbered by divergent warring darkness and the need to salvage the boy race must be an important focus, if we must deliver the future we desire for Africa & humanity. It would fatal to assume the movement toward the redemption of the boy-child race is another cross fire in the feminism & anti-feminism war. The Future is of both gender – Male & Female.
-                  </p><br>
-                    <p>There are countless<span id="dots">...</span><span id="more"> courageous falsehood about Manhood and it is quite difficult especially in Africa. How do you explain the calamity of Men who have accidentally found themselves in a society that demands from them what hasn’t been invested, the emotional trauma they undergo being tagged as the less emotional being and the burden of living a lie all through their short life?<br><br>
-
-                    The assumptions that Men don’t cry, men handle challenges better, they are macho and powerful are part of the underlying root of the Men Crisis in Africa and beyond. It is even said by several studies that Men don’t want love, judging by the masculine craving for respect and honour. Therefore, we have emotionally broken, psychologically battered and mentally inconsistent men who raise men of their kinds.<br><br>
-
-                    The race to rescue the Male Gender isn’t a hundred-meter dash but marathon.<br><br>
-                    If we spend all of time raising the feminism and gender equality flags, boosting the esteems of our girls and they end up in the unsecured arms of irresponsible young men, either as husbands, fathers, neighbour, bosses or colleagues, then all the efforts may end up wasted.<br><br>
-
-                    While the world is busy helping, grooming and challenging young African girls to be independent, godly, strong, responsible and accountable, we have left the young boys in the hands of friends, musical videos and the already-endangered society.<br><br>
-
-                    The Boys Quarters Africa movement isn’t another gender inequality argument but gone are the days when we had responsible boys in our schools, mosques, churches and the society at large. The depth of their state of mind is shown in the speedy quest for money without any legal cum productive activity and it is sad to say we may be grooming and raising a group of Showbiz set of Men, whose hearts are far from God, sold out to mammon and lacks usefulness on every front.<br><br> 
-
-                    We believe Africa is our home and we must deliver her.</span></p>
-                    <button class="btn btn-primary" onclick="myFunction()" id="myBtn">Read More</button>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image img-1">
-                <img class="rounded-circle img-fluid" src="assets/img/about/about-2.jpg" alt="Boys Quarter Africa">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="subheading text-uppercase">THE BIRTHING EXPERIENCE</h4>
-                  <h6 class="subheading"><i>Solomon O. Ayodele – Lead Execution Officer, Boys Quarters Africa</i></h6>
-                </div>
                 <div class="timeline-body">
                   <p>After reading the Dignity of Manhood by Gbile Akanni for the second time in 2014, the passion to see young boys live out the fullness of destiny became a tingling and subtle burden. The book re-opened my heart to the gap in the boy-child space and need for MEN to stand in their place in Destiny. However, I have in my personal space reached out to a couple of young boys, encouraged them and challenged them on divergent front through one-on-one mentorship and other religious platforms.
                   </p><br>
@@ -61,9 +43,39 @@ Vue.component('birthing-story',{
                 </div>
               </div>
             </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image img-1">
+                <img class="rounded-circle img-fluid" src="./../assets/img/about/about-2.jpg" alt="Boys Quarter Africa">
+              </div>
+              <div class="timeline-panel">
+                <!-- <div class="timeline-heading">
+                  <h4 class="subheading text-uppercase"></h4>
+                  <h6 class="subheading"><i>Solomon O. Ayodele – Lead Execution Officer, Boys Quarters Africa</i></h6>
+                </div> -->
+                <div class="timeline-body">
+                  <p>From the boy with an absent Father in Kampala, to the boy who has just been sexually molested in Abuja, the life trajectory of the African boy is filled with valleys, mountains and divergent experiences they may not be able to share until they become Fathers. Hence, this destructive weight is passed on from generation to generations and from Fathers to their Sons.</p><br>
+
+                  <p>Africa as a continent is encumbered by divergent warring darkness and the need to salvage the boy race must be an important focus, if we must deliver the future we desire for Africa & humanity. It would fatal to assume the movement toward the redemption of the boy-child race is another cross fire in the feminism & anti-feminism war. The Future is of both gender – Male & Female.
+                  </p><br>
+                    <p>There are countless<span id="dots">...</span><span id="more"> courageous falsehood about Manhood and it is quite difficult especially in Africa. How do you explain the calamity of Men who have accidentally found themselves in a society that demands from them what hasn’t been invested, the emotional trauma they undergo being tagged as the less emotional being and the burden of living a lie all through their short life?<br><br>
+
+                    <!-- The assumptions that Men don’t cry, men handle challenges better, they are macho and powerful are part of the underlying root of the Men Crisis in Africa and beyond. It is even said by several studies that Men don’t want love, judging by the masculine craving for respect and honour. Therefore, we have emotionally broken, psychologically battered and mentally inconsistent men who raise men of their kinds.<br><br>
+
+                    The race to rescue the Male Gender isn’t a hundred-meter dash but marathon.<br><br>
+                    If we spend all of time raising the feminism and gender equality flags, boosting the esteems of our girls and they end up in the unsecured arms of irresponsible young men, either as husbands, fathers, neighbour, bosses or colleagues, then all the efforts may end up wasted.<br><br>
+
+                    While the world is busy helping, grooming and challenging young African girls to be independent, godly, strong, responsible and accountable, we have left the young boys in the hands of friends, musical videos and the already-endangered society.<br><br>
+
+                    The Boys Quarters Africa movement isn’t another gender inequality argument but gone are the days when we had responsible boys in our schools, mosques, churches and the society at large. The depth of their state of mind is shown in the speedy quest for money without any legal cum productive activity and it is sad to say we may be grooming and raising a group of Showbiz set of Men, whose hearts are far from God, sold out to mammon and lacks usefulness on every front.<br><br>-->
+
+                    Men can do more, it starts with our Boys.</span></p>
+                    <button class="btn btn-primary" onclick="myFunction()" id="myBtn">Read More</button>
+                </div>
+              </div>
+            </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="assets/img/about/about-3.jpeg" alt="Boys Quarter Africa">
+                <img class="rounded-circle img-fluid" src="./../assets/img/about/about-3.jpeg" alt="Boys Quarter Africa">
               </div>
               <div class="timeline-panel about-1">
                 <div class="timeline-heading">
@@ -82,7 +94,7 @@ Vue.component('birthing-story',{
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="assets/img/about/about-4.png" alt="Boys Quarter Africa">
+                <img class="rounded-circle img-fluid" src="./../assets/img/about/about-4.png" alt="Boys Quarter Africa">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -111,7 +123,7 @@ Vue.component('birthing-story',{
             </li>
             <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="assets/img/about/bqafrica2.jpg" alt="Boys Quarter Africa">
+                <img class="rounded-circle img-fluid" src="./../assets/img/about/bqafrica2.jpg" alt="Boys Quarter Africa">
               </div>
               <div class="timeline-panel about-1">
                 <div class="timeline-heading">
@@ -144,7 +156,7 @@ Vue.component('birthing-story',{
               <div class="timeline-image creed-lg">
                 <a class="no-line" data-toggle="modal" href="#boysCreed">
                   <div class="">
-                    <h3 class="text-white" style="padding-top:  35px">The<br>Boys<br>Creed</h3> 
+                    <h3 class="text-white" style="padding-top: 35px">The<br>Boys<br>Creed</h3> 
                 </div>
               </a>
               </div>
