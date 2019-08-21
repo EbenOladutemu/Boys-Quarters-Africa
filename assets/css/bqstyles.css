@@ -271,11 +271,16 @@ ul.social-buttons li.bg-linkedin a:active, ul.social-buttons li.bg-linkedin a:fo
 a > li > ul > div > nav{
   background: transparent!important;
 }
+p{
+  font-size: 20px;
+}
 
 /* ABOUT US */
 .about-style{
-  font-size: 20px;
   text-align: left;
+}
+.font-20{
+  font-size: 20px;
 }
 .poi-color{
   color: #212856

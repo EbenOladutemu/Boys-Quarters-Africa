@@ -28,7 +28,7 @@ Vue.component('birthing-story',{
           <ul class="timeline">
             <li>
               <div class="timeline-image img-1">
-                <img class="rounded-circle img-fluid" src="./../assets/img/about/about-1.jpeg" alt="Boys Quarter Africa">
+                <img class="rounded-circle img-fluid" src="./../assets/img/about/about-2.jpg" alt="Boys Quarter Africa">
               </div>
               <div class="timeline-panel about-1">
                 <div class="timeline-body">
@@ -45,7 +45,7 @@ Vue.component('birthing-story',{
             </li>
             <li class="timeline-inverted">
               <div class="timeline-image img-1">
-                <img class="rounded-circle img-fluid" src="./../assets/img/about/about-2.jpg" alt="Boys Quarter Africa">
+                <img class="rounded-circle img-fluid" src="./../assets/img/about/bqafrica2.jpg" alt="Boys Quarter Africa">
               </div>
               <div class="timeline-panel">
                 <!-- <div class="timeline-heading">
@@ -70,104 +70,6 @@ Vue.component('birthing-story',{
 
                     Men can do more, it starts with our Boys.</span></p>
                     <button class="btn btn-primary" onclick="myFunction()" id="myBtn">Read More</button>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="./../assets/img/about/about-3.jpeg" alt="Boys Quarter Africa">
-              </div>
-              <div class="timeline-panel about-1">
-                <div class="timeline-heading">
-                  <!-- <h4>December 2012</h4> -->
-                  <h4 class="subheading">THE VISION</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>To raise, challenge, encourage and inspire Boys who will be strong enough to submit to godliness, fierce enough to be fearless in the face of the usual challenges, humble enough to be responsible; culminating into responsible fathers, reliable husbands, accountable Sons and great citizens.
-                  </p><br>
-                  <div class="timeline-heading">
-                    <h4 class="subheading">The Vision Tagline</h4>
-                    <p>Intentional and deliberate transition from Boyhood to Manhood.</p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="./../assets/img/about/about-4.png" alt="Boys Quarter Africa">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <!-- <h4>July 2014</h4> -->
-                  <h4 class="subheading text-uppercase">The Mission Statement</h4>
-                </div>
-                <div class="timeline-body">
-                  <p>Be an inspiring bridge from boyhood to manhood, by redefining the essence of masculinity through godly mentorship, exposure to role models, mental cum emotional build-ups and connections that will birth destiny fulfilment.
-                  </p>
-                    <ul><span id="dots3"></span><span id="more3">
-                      <li class="disc">The vision is to reach out to 2,000 young African boys by 11:59pm on the 31st of December 2028, leveraging on other existing platforms, NGOs and other structured bodies who may be able to take Boys in, into corrective facilities.</li>
-
-                      <li class="disc">The vision is to reach out to 2,000 young African boys by 11:59pm on the 31st of December 2028, leveraging on other existing platforms, NGOs and other structured bodies who may be able to take Boys in, into corrective facilities.</li>
-
-                      <li class="disc">Build correctional facilities across the major cities in Africa, where young boys are withdrawn from the street and exposed to well-grounded counselling and psychological mop-ups</li>
-
-                      <li class="disc">Build a Boys-Only Innovation Hub across 40 cities in Africa
-                      Young boys across Africa will be granted scholarships, depending on the prevailing challenges. Which could range from deceased parents, single parents etc.</li><br>
-
-                      <p>Young boys across Africa will be granted scholarships, depending on the prevailing challenges. Which could range from deceased parents, single parents, etc.</p></span>
-                    </ul>
-
-                    <button class="btn btn-primary" onclick="myFunction3()" id="myBtn3">Read More</button>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="./../assets/img/about/bqafrica2.jpg" alt="Boys Quarter Africa">
-              </div>
-              <div class="timeline-panel about-1">
-                <div class="timeline-heading">
-                  <!-- <h4>July 2014</h4> -->
-                  <h4 class="subheading text-uppercase">The Platforms and Reach-out Modalities</h4>
-                </div>
-                <div class="timeline-body">
-                    <ul>
-                      <li class="disc"><b>Annual BQa boot camp</b> - A 3 to 5 day mental emersion and psychological reboot. A camp that will have young boys learn people skills, group-study the scripture, explore purpose discovery, engage in skill development, learn the art of prayer, awareness on nation-building and many more</li>
-
-                      <li class="disc" id="theBoysCreed"><b>Secondary School Outreach and Mentorship Session</b> - A timely reach out to secondary school students, focusing on sexuality and academics</li>
-                      <span id="dots4"></span><span id="more4">
-                      <li class="disc"><b>BQa Campus Idea den</b> - The idea of a young African boy is supported and funded. This decision will be made in an Idea Den, where several ideas will be presented to a Murder board of other boys.</li>
-
-                      <li class="disc"><b>The BQ Tabloid </b>- Newsletters for young African boys.</li>
-
-                      <li class="disc"><b>The BQer Daily Confession hand-book</b> – A quarterly publication that embodies daily confession that reflects Leadership, sound mind and godliness</li>
-
-                      <li class="disc"><b>BQ Street Carnivals</b> - Open Games, Raffle Draws and Music on the street. Attracting the participation of young boys for engagements.</li>
-
-                      <li class="disc"><b>Boys, Bags and Tags (Back to School Outreach)</b> - Distribution of books and academics materials at the beginning of each session. This will be done at selected suburbs and local government across Africa</li><br></span>
-
-                      <button class="btn btn-primary" onclick="myFunction4()" id="myBtn4">Read More</button>
-                    </ul>     
-                </div>
-              </div>
-            </li>
-            <!-- Hidden only on xs, Hidden only on sm, Hidden only on md  (would show on large screens)-->
-            <li class="timeline-inverted d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
-              <div class="timeline-image creed-lg">
-                <a class="no-line" data-toggle="modal" href="#boysCreed">
-                  <div class="">
-                    <h3 class="text-white" style="padding-top: 35px">The<br>Boys<br>Creed</h3> 
-                </div>
-              </a>
-              </div>
-            </li>
-            <!-- Visible only on xs, Visible only on sm, Visible only on md (would show on small and medium screens)-->
-            <li class="timeline-inverted d-block d-sm-none d-none d-sm-block d-md-none">
-              <div class="timeline-image creed-sm">
-                <div class="col-md-4 col-sm-6">
-                  <a class="no-line" data-toggle="modal" href="#boysCreed">
-                    <h4 class="text-white" style="padding-top: 5px">The<br>Boys<br>Creed</h4>
-                  </a>
                 </div>
               </div>
             </li>
