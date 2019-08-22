@@ -28,6 +28,9 @@ header.masthead-ondo {
 header.masthead-osun {
   background-image: url("../img/boystoo/ile-ife/IMG_5294.jpg");
 }
+.masthead{
+  height: 535px;
+}
 section{
   padding: 10px 0 0;
 }
@@ -126,12 +129,14 @@ ul.social-buttons li.bg-youtube a:active, ul.social-buttons li.bg-youtube a:focu
   background-image:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
   /*background-color: rgba(198, 62, 239, 1);*/
 }
-.pad-sm{
+.pad-sm-font-sm{
   padding-top: 245px;
+  font-size: 17px!important;
   /*color: #e0f523;*/
 }
-.pad-lg{
+.pad-lg-font-lg{
   padding-top: 75px;
+  font-size: 25px!important;
   /*color:#e9f71d;*/
 }
 .contact-pad{
@@ -322,8 +327,3 @@ p{
   z-index:0;
   background-color: rgba(0,0,0,0.5);
 }
-
-#more  {display: none;}
-#more2 {display: none;}
-#more3 {display: none;}
-#more4 {display: none;}

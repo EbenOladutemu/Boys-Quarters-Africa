@@ -98,5 +98,5 @@ Vue.component('creed',{
   </section>`
 });
 new Vue ({
-  el: '#home'
+  el: '#app'
 })
