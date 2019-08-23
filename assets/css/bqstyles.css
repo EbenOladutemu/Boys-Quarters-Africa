@@ -16,17 +16,23 @@ header.masthead-board {
 header.masthead-team {
   background-image: url("../img/theexchange/lagos/IMG_3902.jpg");
 }
-header.masthead-projects {
+header.masthead-boys-too {
   background-image: url("../img/boystoo/ile-ife/IMG_5257.jpg");
+}
+header.masthead-yahoo {
+  background-image: url("../img/boystoo/akure/IMG_2234.jpg");
+}
+header.masthead-boys-talk {
+  background-image: url("../img/");
+}
+header.masthead-campus {
+  background-image: url("../");
+}
+header.masthead-boy-lead {
+  background-image: url("../img/boystoo/ile-ife/IMG_5294.jpg");
 }
 header.masthead-volunteer {
   background-image: url("../img/boystoo/ile-ife/IMG_5257.jpg");
-}
-header.masthead-ondo {
-  background-image: url("../img/boystoo/akure/IMG_2234.jpg");
-}
-header.masthead-osun {
-  background-image: url("../img/boystoo/ile-ife/IMG_5294.jpg");
 }
 .masthead{
   height: 535px;
