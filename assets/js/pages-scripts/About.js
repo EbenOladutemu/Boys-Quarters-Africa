@@ -47,7 +47,7 @@ Vue.component('about',{
         <div class="row">
           <div class="col-lg-3 mx-auto text-center">
             <a href="./../pillars-of-impact/leadership" class="poi-color">
-              <i class="fas fa-user fa-4x"></i>
+              <i class="fas fa-user-tie fa-4x"></i>
               <h3>Leadership</h3>
             </a>   
           </div>
@@ -59,13 +59,13 @@ Vue.component('about',{
           </div>
           <div class="col-lg-3 mx-auto text-center">
             <a href="./../pillars-of-impact/empowerment" class="poi-color">
-              <i class="fas fa-power fa-4x"></i>
+              <i class="fas fa-hand-rock fa-4x"></i>
               <h3>Empowerment</h3>
             </a>
           </div>
           <div class="col-lg-3 mx-auto text-center">
             <a href="./../pillars-of-impact/leadership" class="poi-color">
-              <i class="fas fa-law fa-4x"></i>
+              <i class="fas fa-balance-scale fa-4x"></i>
               <h3>Advocacy</h3>
             </a>
           </div>
