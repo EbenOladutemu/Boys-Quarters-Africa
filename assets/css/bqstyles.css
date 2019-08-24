@@ -1,6 +1,8 @@
 header.masthead {
 	background-image: url("../img/theexchange/lagos/IMG_3540.jpg");
 }
+
+/* Who we Are */
 header.masthead-about {
   background-image: url("../img/boystoo/akure/IMG_2215.jpg");
 }
@@ -16,6 +18,8 @@ header.masthead-board {
 header.masthead-team {
   background-image: url("../img/theexchange/lagos/IMG_3902.jpg");
 }
+
+/* Our Programs */
 header.masthead-boys-too {
   background-image: url("../img/boystoo/ile-ife/IMG_5257.jpg");
 }
@@ -31,6 +35,15 @@ header.masthead-campus {
 header.masthead-boy-lead {
   background-image: url("../img/boystoo/ile-ife/IMG_5294.jpg");
 }
+header.masthead-one-boy {
+  background-image: url("../img/boystoo/ile-ife/");
+}
+
+/* Pillars of Impact */
+header.masthead-leadership {
+  background-image: url("../img/boystoo/ibadan/IMGM2945.jpeg");
+}
+
 header.masthead-volunteer {
   background-image: url("../img/boystoo/ile-ife/IMG_5257.jpg");
 }

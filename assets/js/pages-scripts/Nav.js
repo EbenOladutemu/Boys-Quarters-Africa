@@ -51,10 +51,10 @@ Vue.component('sidebar',{
               <a href="our-programs/campus-mentour">Campus MENtour</a>
             </li>
             <li>
-              <a href="our-programs/boy-lead-academy">Boy-Lead Academy</a>
+              <a href="#">Boy-Lead Academy</a>
             </li>
             <li>
-              <a href="our-programs/one-boy-project">One Boy Project</a>
+              <a href="#">One Boy Project</a>
             </li>
             <li>
               <a data-toggle="modal" href="#boysCreed">Download <b>THE BOYS CREED</b></a>
@@ -139,8 +139,8 @@ Vue.component('nav-all',{
                 <a class="dropdown-item" href="our-programs/yahoo-project">YAHOO Project</a>
                 <a class="dropdown-item" href="our-programs/the-boys-talk">The Boys Talk</a>
                 <a class="dropdown-item" href="our-programs/campus-mentour" style="text-transform: none!important;">CAMPUS MENtour</a>
-                <a class="dropdown-item" href="our-programs/boy-lead-academy">Boy-Lead Academy</a>
-                <a class="dropdown-item" href="our-programs/one-boy-project">One Boy Project</a>
+                <a class="dropdown-item" href="#">Boy-Lead Academy</a>
+                <a class="dropdown-item" href="#">One Boy Project</a>
                 <a class="dropdown-item" href="#boysCreed" data-toggle="modal">Download <b>THE BOYS CREED</b></a>
               </div>
             </li>

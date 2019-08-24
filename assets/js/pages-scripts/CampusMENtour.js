@@ -18,7 +18,7 @@ Vue.component('campus-mentour',{
   template: `<section>
     <div class="container">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Campus MENtour</h2><br>
+        <h2 class="section-heading">CAMPUS MENtour</h2><br>
       </div>
       <div class="about-style">
         <p> 
