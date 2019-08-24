@@ -42,7 +42,7 @@ Vue.component('leadership',{
           <li>
             <b>Leadership 101 for Boys</b> – This is an unpublished book. The goal is to have this book in the hand of
             every Boy-Child by the end of 2030. This transformational book will help Boys see Leadership as
-            influence from every little action and inaction they take
+            influence from every little action and inaction they take.
           </li>
           <li>
             <b>Men.Start.Action Project</b>- On this Project, Boys are rallied to raise funds for the procurement of
@@ -53,7 +53,7 @@ Vue.component('leadership',{
           <li>
             <b>The Boys Talk</b> – This is billed to be the largest Boys-Only conference in world. The goal is to have
             Men share their Success stories, struggles stories and experiences with the Boys. This ted-like session
-            exposes the mind of the Boys what leading oneself can do
+            exposes the mind of the Boys what leading oneself can do.
           </li>
         </ul>
       </div>
