@@ -8,6 +8,16 @@ Vue.component('the-footer',{
               <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="blank" style="color: #c3ce62!important; text-decoration: none;">Eben. </a>All Rights Reserved.
           </span>
         </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#boysCreed" data-toggle="modal" class="nav-link js-scroll-trigger" style="color: #c3ce62!important;">The Boys Creed</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="" style="color: #c3ce62!important;">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
         <div class="col-md-4"> Follow Us:
           <ul class="list-inline social-buttons">
             <li class="list-inline-item bg-facebook">
@@ -32,16 +42,13 @@ Vue.component('the-footer',{
             </li>
           </ul>   
         </div>
-        <div class="col-md-4">
+        <!-- <div class="col-md-3">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#boysCreed" data-toggle="modal" class="nav-link js-scroll-trigger" style="color: #c3ce62!important;">The Boys Creed</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="" style="color: #c3ce62!important;">Terms of Use</a>
+              <a href="https://twitter.com/intent/tweet?button_hashtag=boysqafrica&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #boysqafrica</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>`
