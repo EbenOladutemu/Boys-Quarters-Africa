@@ -82,7 +82,7 @@ Vue.component('sidebar',{
           <a href="#">Blog</a>
         </li>
         <li>
-          <a href="./../volunteer">VOLUNTEER</a>
+          <a href="#">VOLUNTEER</a>
         </li>
         <li class="">
           <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="true">Contact Us <i class="fa fa-chevron-down pull-right"></i></a>
@@ -102,7 +102,7 @@ Vue.component('sidebar',{
 
       <ul class="list-unstyled CTAs">
         <li>
-          <a href="./../donate" class="nav-link js-scroll-trigger btn btn-primary donate" style="background-color: #bec65d">DONATE</a>
+          <a href="#" class="nav-link js-scroll-trigger btn btn-primary donate" style="background-color: #bec65d">DONATE</a>
         </li>
       </ul>
     </nav>`
@@ -176,7 +176,7 @@ Vue.component('nav-all',{
             </li>
           </ul>
         </div>
-        <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad" href="./../donate">DONATE</a>
+        <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad" href="#">DONATE</a>
       </div>
     </nav>`
 });
