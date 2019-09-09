@@ -368,3 +368,10 @@ p{
   z-index:0;
   background-color: rgba(0,0,0,0.5);
 }
+
+/*Volunteer Form*/
+.freebirdSolidBackground {
+  background-color: rgb(33, 40, 86)!important;
+  color: rgb(33, 40, 86)!important
+  ;
+}
