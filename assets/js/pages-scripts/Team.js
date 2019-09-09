@@ -26,7 +26,7 @@ Vue.component('team',{
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Solomon-Ayodele.JPG" alt="Solomon Ayodele">
+              <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
               <h4>Solomon Oluwatobi Ayodele</h4>
               <p class="text-muted">Lead Execution Officer</p>
               <ul class="list-inline social-buttons">
@@ -79,17 +79,17 @@ Vue.component('team',{
               <p class="text-muted">Lead, Finance</p><br>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
-                <a href="#">
+                <a href="https://facebook.com/hewaorluwa.priscillia">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/ohweskid/" class="bg-instagram">
+                <a href="https://www.instagram.com/fowe_tomi" class="bg-instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li class="list-inline-item bg-twitter">
-                <a href="#">
+                <a href="https://twitter.com/fowe_tomi">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
@@ -127,17 +127,17 @@ Vue.component('team',{
               <p class="text-muted">Lead, Communications</p><br>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
-                <a href="https://www.facebook.com/sunday.louis.7">
+                <a href="https://www.facebook.com/tommyholts">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/okoh_louis" class="bg-instagram">
+                <a href="https://www.instagram.com/a_detomiwa" class="bg-instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li class="list-inline-item bg-twitter">
-                <a href="https://twitter.com/okoh_louis">
+                <a href="https://twitter.com/a_detomiwa">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
@@ -148,20 +148,20 @@ Vue.component('team',{
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="./../assets/img/team/Ebenezer-Oladutemu.JPG" alt="Ebenezer Oladutemu">
               <h4>Ebenezer Oladutemu</h4>
-              <p class="text-muted">Lead, Community and Civic Engagement</p><br>
+              <p class="text-muted" :style="{marginBottom: '0'}">Lead, Community and Civic Engagement</p>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
-                <a href="https://www.facebook.com/oladutemuebenezer">
+                <a href="https://www.facebook.com/OladutemuEben">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/oladutemu_ebenezer" class="bg-instagram">
+                <a href="https://www.instagram.com/OladutemuEben" class="bg-instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li class="list-inline-item bg-twitter">
-                <a href="https://twitter.com/oladutemueben">
+                <a href="https://twitter.com/OladutemuEben">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
@@ -177,17 +177,17 @@ Vue.component('team',{
               <p class="text-muted">Lead, Research and Data Intelligence</p><br>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
-                <a href="https://www.facebook.com/Emmkolade">
+                <a href="https://www.facebook.com/kanu.isaac.1">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/emmakolade" class="bg-instagram">
+                <a href="https://www.instagram.com/kanuoluwa" class="bg-instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li class="list-inline-item bg-twitter">
-                <a href="https://twitter.com/emmakolade">
+                <a href="#">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>

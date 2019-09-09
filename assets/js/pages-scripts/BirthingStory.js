@@ -43,7 +43,10 @@ Vue.component('birthing-story',{
 
                     The Book, the several lamentations and the current realties has resonated to a call to action.</span><br>
                   </p>
-                    <button class="btn btn-primary" @click="readMore1 = !readMore1">Read More</button>
+                    <button class="btn btn-primary" @click="readMore1 = !readMore1">
+                      <span v-if="readMore1">Read Less</span>
+                      <span v-else>Read More</span>
+                    </button>
                 </div>
               </div>
             </li>
@@ -75,7 +78,10 @@ Vue.component('birthing-story',{
 
                       Men can do more, it starts with our Boys.</span>
                     </p>
-                    <button class="btn btn-primary" @click="readMore2 = !readMore2">Read More</button>
+                    <button class="btn btn-primary" @click="readMore2 =! readMore2">
+                      <span v-if="readMore2">Read Less</span>
+                      <span v-else>Read More</span>
+                    </button>
                 </div>
               </div>
             </li>

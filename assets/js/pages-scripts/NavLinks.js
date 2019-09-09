@@ -161,7 +161,7 @@ Vue.component('nav-all',{
               <a class="nav-link js-scroll-trigger text-bold" href="#" style="">BLOG</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-bold" href="#" style="">VOLUNTEER</a>
+              <a class="nav-link js-scroll-trigger text-bold" href="./../volunteer" style="">VOLUNTEER</a>
             </li>
 
             <li class="dropdown show nav-item">
