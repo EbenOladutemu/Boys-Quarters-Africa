@@ -14,7 +14,7 @@ Vue.component('the-footer',{
               <a href="#boysCreed" data-toggle="modal" class="nav-link js-scroll-trigger" style="color: #c3ce62!important;">The Boys Creed</a>
             </li>
             <li class="list-inline-item">
-              <a href="" style="color: #c3ce62!important;">Terms of Use</a>
+              <a href="#" style="color: #c3ce62!important;">Terms of Use</a>
             </li>
           </ul>
         </div>
@@ -23,6 +23,11 @@ Vue.component('the-footer',{
             <li class="list-inline-item bg-facebook">
               <a href="https://facebook.com/boysqafrica" target="_blank">
                 <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item bg-linkedin">
+              <a href="https://facebook.com/boysqafrica" target="_blank">
+                <i class="fab fa-linkedin"></i>
               </a>
             </li>
             <li class="list-inline-item">
