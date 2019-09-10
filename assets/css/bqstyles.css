@@ -122,7 +122,8 @@ section#contact {
   }
 }
 /*LEARN MORE*/
-@media(min-width: 403px) and (max-width: 473px){
+
+@media(min-width: 377px) and (max-width: 473px){
   .learn-mg{
     margin-top: 30px!important;
   }
