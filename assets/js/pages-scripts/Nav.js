@@ -82,7 +82,7 @@ Vue.component('sidebar',{
           <a href="#">Blog</a>
         </li>
         <li>
-          <a href="#">VOLUNTEER</a>
+          <a href="volunteer">Volunteer</a>
         </li>
         <li class="">
           <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="true">Contact Us <i class="fa fa-chevron-down pull-right"></i></a>
@@ -161,7 +161,7 @@ Vue.component('nav-all',{
               <a class="nav-link js-scroll-trigger text-bold" href="#" style="">BLOG</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-bold" href="#" style="">VOLUNTEER</a>
+              <a class="nav-link js-scroll-trigger text-bold" href="volunteer" style="">VOLUNTEER</a>
             </li>
 
             <li class="dropdown show nav-item">

@@ -82,7 +82,7 @@ Vue.component('sidebar',{
           <a href="#">Blog</a>
         </li>
         <li>
-          <a href="#">VOLUNTEER</a>
+          <a href="./../volunteer">Volunteer</a>
         </li>
         <li class="">
           <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="true">Contact Us <i class="fa fa-chevron-down pull-right"></i></a>
