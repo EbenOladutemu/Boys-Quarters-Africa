@@ -24,7 +24,7 @@ a:hover{
     left: -250px;
     height: 100vh;
     z-index: 999;
-    background: #212856;
+    background: #181a1d;
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -71,8 +71,8 @@ a:hover{
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
-    background: #212856;
+    padding: 10px;
+    background: #181a1d;
 }
 
 #sidebar ul.components {

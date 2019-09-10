@@ -5,7 +5,7 @@ Vue.component('sidebar',{
       </div>
 
       <div class="sidebar-header">
-        <h3>Menu</h3>
+        <!-- <h3>Menu</h3> -->
       </div>
 
       <ul class="list-unstyled components accordion" id="sidebar-nav">
@@ -100,11 +100,11 @@ Vue.component('sidebar',{
         </li>
       </ul>
 
-      <ul class="list-unstyled CTAs">
+      <!-- <ul class="list-unstyled CTAs">
         <li>
           <a href="#" class="nav-link js-scroll-trigger btn btn-primary donate donate-sb">DONATE</a>
         </li>
-      </ul>
+      </ul> -->
     </nav>`
 });
 
