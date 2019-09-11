@@ -127,5 +127,6 @@ new Vue ({
   el: '#app'
 });
 
+//Momentjs for date and time
 date = document.getElementById('year');
 date.innerHTML = moment().format("YYYY");
