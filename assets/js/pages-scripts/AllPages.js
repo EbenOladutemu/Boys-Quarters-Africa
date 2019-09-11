@@ -1,18 +1,18 @@
 
 Vue.component('the-footer',{
-  template:`<footer :style="{backgroundColor:'#fbfbfb'}">
+  template:`<footer :style="footerStyle">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list">
-              <i class="fas fa-map-marker-alt" style="color: #212856"></i> Lagos, Nigeria
+              <i class="fas fa-map-marker-alt" :style="bqaColor"></i> Lagos, Nigeria
             </li>
             <li class="list">
-              <i class="fas fa-phone" style="color: #212856"></i><a href="tel:+2348137367389" style="color: #000!important;"> 0813 736 7389</a>
+              <i class="fas fa-phone" :style="bqaColor"></i><a href="tel:+2348137367389" style="color: #000!important;"> 0813 736 7389</a>
             </li>
             <li class="list">
-              <i class="fas fa-envelope" style="color: #212856"></i><a href="mailto:boysqafrica@gmail.com" style="color: #c3ce62!important;"> boysqafrica@gmail.com</a>
+              <i class="fas fa-envelope" :style="bqaColor"></i><a href="mailto:boysqafrica@gmail.com" style="color: #c3ce62!important;"> boysqafrica@gmail.com</a>
             </li>
           </ul>
         </div>
@@ -54,14 +54,24 @@ Vue.component('the-footer',{
         </div>
         
         <div class="col-md-12"><hr class="footer-hr">
-          <span class="copyright">Copyright &copy; Boys Quarters Africa 2019. Developed by 
+          <span class="copyright">Copyright &copy; <span id="year"></span>. Boys Quarters Africa. Developed by 
             <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="_blank" style="color: #c3ce62!important; text-decoration: none;">Eben. </a>All Rights Reserved.
           </span>
         </div>
       </div>
     </div>
-  </footer>`
-})
+  </footer>`,
+  data(){
+     return {
+      footerStyle: {
+        backgroundColor:'#e6e6e6'
+      },
+      bqaColor:{
+        color:'#212856'
+      },  
+   }
+ }
+});
 
 Vue.component('creed',{
   template: `<section style="padding: 0">
@@ -111,8 +121,11 @@ Vue.component('creed',{
         </div>
       </div>
     </div>
-  </section>`
+  </section>`,
 });
 new Vue ({
   el: '#app'
-})
+});
+
+date = document.getElementById('year');
+date.innerHTML = moment().format("YYYY");

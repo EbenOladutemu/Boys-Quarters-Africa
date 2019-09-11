@@ -209,6 +209,9 @@ ul.social-buttons li.bg-youtube a:active, ul.social-buttons li.bg-youtube a:focu
 .footer-links a:hover a:focus{
   color: #a2a75d!important;
 }
+.copyright{
+  font-weight: 500;
+}
 .img-1{
   /*margin-left: -546px!important;*/
 }
