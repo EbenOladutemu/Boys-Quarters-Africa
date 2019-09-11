@@ -22,10 +22,9 @@ Vue.component('the-boys-talk',{
       </div>
       <div class="about-style">
         <p> 
-          This is an annual Boy Only Conference and billed to be the largest across Africa and
-          billed to be the largest Boys-Only conference in world. The goal is to have Men
-          share their Success stories, struggles stories and experiences with the Boys. This
-          TED-like session exposes the mind of the Boys what leading oneself can do.
+          This is an annual Boys Only Conference and billed to be the largest across Africa and the largest Boys-Only conference in world. The goal is to have Men
+          share their success stories, struggles, and experiences with the Boys. This
+          TED-like session exposes the minds of the Boys to what leading oneself can do.
         </p>
       </div>
     </div>
