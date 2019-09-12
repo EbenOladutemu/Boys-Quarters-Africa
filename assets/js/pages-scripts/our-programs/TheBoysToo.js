@@ -19,232 +19,100 @@ Vue.component('boys-too',{
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h3 class="section-subheading text-muted">The #BoysToo project maiden edition, held at Christ the Redeemer International Secondary School, Akure on the 6th of July, 2018.</h3>
+            <h1>THE #BoysToo</h1>
+            <p class="section-subheading">The BoysToo Campaign is one of our Flagship Project and this falls under the pillar of ‘Advocacy’. The principal intent is to bring to
+            fore the menace of Sexual Abuse of the Boy Child. We believe Abuse is Abuse, irrespective of the Gender.
+            Our goal is to <b>take Sexual Education to the Boys, sensitize them on the Menace Of Sexual Abuse on their minds and reiterate the
+            Power Of SPEAKING UP.</b>
+            We take this crusade to schools, in other bridge the gap of societal background and religious inclination.
+            This project afford us the opportunity of gathering data on this cancerous act of Sexual abuse of the Boy Child.</p>
+          </div>
+
+          <div class="col-lg-12 cd-hero">
+
+            <ul class="cd-hero-slider">
+              <!-- Page 1 Gallery One -->
+              <li class="selected">                    
+                <div class="cd-full-width">
+                  <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
+                    <div class="tm-img-gallery-container">
+                      <div class="tm-img-gallery gallery-one">
+                      <!-- Gallery One pop up connected with JS code below -->
+                        <div class="grid-item">
+                          <figure class="effect-sadie">
+                            <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <figcaption>
+                              <h2 class="tm-figure-title">Image <span><strong>One</strong></span></h2>
+                              <p class="tm-figure-description">Set true or false in HTML script tag for this page black and white.</p>
+                              <a href="img/tm-img-01.jpg">View more</a>
+                            </figcaption>           
+                          </figure>
+                        </div>
+                        <div class="grid-item">
+                          <figure class="effect-sadie">
+                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <figcaption>
+                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
+                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
+                              <a href="img/tm-img-02.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="grid-item">
+                          <figure class="effect-sadie">
+                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <figcaption>
+                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
+                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
+                              <a href="img/tm-img-02.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="grid-item">
+                          <figure class="effect-sadie">
+                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <figcaption>
+                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
+                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
+                              <a href="img/tm-img-02.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="grid-item">
+                          <figure class="effect-sadie">
+                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <figcaption>
+                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
+                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
+                              <a href="img/tm-img-02.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="grid-item">
+                          <figure class="effect-sadie">
+                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <figcaption>
+                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
+                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
+                              <a href="img/tm-img-02.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        
+                                                                              
+                      </div>                                 
+                    </div>
+                  </div>                                                    
+                </div>                    
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="row">
-          <!-- IMAGE 1 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2230.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2230.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 2 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2185.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2185.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 3 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2186.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2186.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-
-          <!-- IMAGE 4 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2115.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2115.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 5 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2147.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2147.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 6 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2163.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2163.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-
-          <!-- IMAGE 7 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2184.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2184.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 8 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2187.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2187.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 9 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2197.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2197.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-
-          <!-- IMAGE 10 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2129.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2129.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 11 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2226.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2226.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 12 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2206.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2206.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-
-          <!-- IMAGE 13 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2223.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2223.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 14 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2215.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2215.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 15 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2200.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2200.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-
-          <!-- IMAGE 16 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2217.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2217.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 17 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2146.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2146.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 18 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2210.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2210.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-
-          <!-- IMAGE 19 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2231.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2231.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 20 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2236.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2236.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-          <!-- IMAGE 21 -->
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <figure class="imghvr-shutter-in-out-diag-2">
-              <img src="./../../assets/img/boystoo/akure/IMG_2245.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-              <figcaption>
-                <i class="fas fa-search-plus fa-3x i-search"></i>
-              </figcaption>
-              <a href="./../../assets/img/boystoo/akure/IMG_2245.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-            </figure>
-          </div>
-        </div><br>
-        <div class="row">
-          <div class="col-md-6 text-center mx-auto">
-            <a href="" class="btn btn-primary text-uppercase">Back</a>
-          </div>
-        </div>
+      </div>
+      <div id="loader-wrapper"> 
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
       </div>
     </section>`
 })
