@@ -24,7 +24,7 @@ Vue.component('the-footer',{
               </a>
             </li>
             <li class="list-inline-item bg-linkedin">
-              <a href="https://facebook.com/boysqafrica" target="_blank">
+              <a href="https://linkedin.com/company/boysqafrica" target="_blank">
                 <i class="fab fa-linkedin"></i>
               </a>
             </li>

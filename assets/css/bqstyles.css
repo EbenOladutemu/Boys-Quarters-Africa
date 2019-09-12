@@ -26,7 +26,7 @@ header.masthead-team {
 
 /* Our Programs */
 header.masthead-boys-too {
-  background-image: url("../img/boystoo/ile-ife/IMG_5257.jpg");
+  background-image: url("../img/boystoo/ibadan/IMGM2952.jpeg");
 }
 header.masthead-yahoo {
   background-image: url("../img/boystoo/akure/IMG_2234.jpg");
@@ -286,9 +286,10 @@ ul.social-buttons li.bg-youtube a:active, ul.social-buttons li.bg-youtube a:focu
   border-bottom: solid 1px #d8d8d8;
 }
 .i-search{
-  width: 290px;
+  width: 290px!important;
   line-height: 3.5;
   text-align: center;
+  margin-top: 60px;
 }
 .footer-hr{
   margin-bottom: 0px;
