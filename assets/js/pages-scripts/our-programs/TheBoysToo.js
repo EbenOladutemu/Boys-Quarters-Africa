@@ -28,78 +28,78 @@ Vue.component('boys-too',{
             This project afford us the opportunity of gathering data on this cancerous act of Sexual abuse of the Boy Child.</p>
           </div>
 
-          <div class="col-lg-12 cd-hero">
-
+          <div class="col-lg-12 cd-hero pt-5">
             <ul class="cd-hero-slider">
               <!-- Page 1 Gallery One -->
-              <li class="selected">                    
+              <li class="selected" style="min-height: 810px!important">                    
                 <div class="cd-full-width">
-                  <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
+                  <div class="js-tm-page-content" data-page-no="1" data-page-type="gallery">
                     <div class="tm-img-gallery-container">
                       <div class="tm-img-gallery gallery-one">
                       <!-- Gallery One pop up connected with JS code below -->
                         <div class="grid-item">
                           <figure class="effect-sadie">
-                            <img src="img/tm-img-01-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <img src="./../../assets/img/boystoo/akure/IMG_2185.jpg" alt="#BoysToo" class="img-fluid tm-img">
                             <figcaption>
-                              <h2 class="tm-figure-title">Image <span><strong>One</strong></span></h2>
-                              <p class="tm-figure-description">Set true or false in HTML script tag for this page black and white.</p>
-                              <a href="img/tm-img-01.jpg">View more</a>
+                              <h2 class="tm-figure-title">#BoysToo <span><b>Akure</b></span></h2>
+                              <p class="tm-figure-description">Ondo</p>
+                              <a href="akure">Akure</a>
                             </figcaption>           
                           </figure>
                         </div>
                         <div class="grid-item">
                           <figure class="effect-sadie">
-                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <img src="./../../assets/img/boystoo/ile-ife/IMG_5221.jpg" alt="#BoysToo" class="img-fluid tm-img">
                             <figcaption>
-                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
-                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
-                              <a href="img/tm-img-02.jpg">View more</a>
-                            </figcaption>
+                              <h2 class="tm-figure-title">#BoysToo <span><b>Ife</b></span></h2>
+                              <p class="tm-figure-description">Osun</p>
+                              <a href="#">Ife</a>
+                            </figcaption>           
                           </figure>
                         </div>
                         <div class="grid-item">
                           <figure class="effect-sadie">
-                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <img src="./../../assets/img/boystoo/ibadan/IMGM2948.jpeg" alt="#BoysToo" class="img-fluid tm-img">
                             <figcaption>
-                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
-                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
-                              <a href="img/tm-img-02.jpg">View more</a>
-                            </figcaption>
+                              <h2 class="tm-figure-title">#BoysToo <span><b>Ibadan</b></span></h2>
+                              <p class="tm-figure-description">Oyo</p>
+                              <a href="#">Ibadan</a>
+                            </figcaption>           
+                          </figure>
+                        </div>
+                      </div>
+
+                      <div class="tm-img-gallery gallery-one">
+                        <div class="grid-item">
+                          <figure class="effect-sadie">
+                            <img src="./../../assets/img/boystoo/akure/IMG_2185.jpg" alt="#BoysToo" class="img-fluid tm-img">
+                            <figcaption>
+                              <h2 class="tm-figure-title">#BoysToo <span><b>Ilorin</b></span></h2>
+                              <p class="tm-figure-description">Kwara</p>
+                              <a href="#">Ilorin</a>
+                            </figcaption>           
                           </figure>
                         </div>
                         <div class="grid-item">
                           <figure class="effect-sadie">
-                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <img src="./../../assets/img/boystoo/ile-ife/IMG_5221.jpg" alt="#BoysToo" class="img-fluid tm-img">
                             <figcaption>
-                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
-                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
-                              <a href="img/tm-img-02.jpg">View more</a>
-                            </figcaption>
+                              <h2 class="tm-figure-title">#BoysToo <span><b>Lokoja</b></span></h2>
+                              <p class="tm-figure-description">Kogi</p>
+                              <a href="#">Lokoja</a>
+                            </figcaption>           
                           </figure>
                         </div>
                         <div class="grid-item">
                           <figure class="effect-sadie">
-                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
+                            <img src="./../../assets/img/boystoo/akure/IMG_2185.jpg" alt="#BoysToo" class="img-fluid tm-img">
                             <figcaption>
-                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
-                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
-                              <a href="img/tm-img-02.jpg">View more</a>
-                            </figcaption>
+                              <h2 class="tm-figure-title">#BoysToo <span><b>Minna</b></span></h2>
+                              <p class="tm-figure-description">Niger</p>
+                              <a href="#">Minna</a>
+                            </figcaption>           
                           </figure>
-                        </div>
-                        <div class="grid-item">
-                          <figure class="effect-sadie">
-                            <img src="img/tm-img-02-tn.jpg" alt="Image" class="img-fluid tm-img">
-                            <figcaption>
-                              <h2 class="tm-figure-title">Image <span><strong>Two</strong></span></h2>
-                              <p class="tm-figure-description">Set true or false in HTML page line number 40 to turn on off page color.</p>
-                              <a href="img/tm-img-02.jpg">View more</a>
-                            </figcaption>
-                          </figure>
-                        </div>
-                        
-                                                                              
+                        </div>                                                      
                       </div>                                 
                     </div>
                   </div>                                                    

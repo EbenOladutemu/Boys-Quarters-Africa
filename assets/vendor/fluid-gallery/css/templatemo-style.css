@@ -285,13 +285,13 @@ textarea { height: 168px; }
    Author's custom styles
    ========================================================================== */
    #loader-wrapper { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 2000; }
-   #loader { display: block; position: relative; left: 50%; top: 50%; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%; border: 3px solid transparent; border-top-color: #3498db; /* Chrome, Opera 15+, Safari 5+ */
+   #loader { display: block; position: relative; left: 50%; top: 50%; width: 150px; height: 150px; margin: -75px 0 0 -75px; border-radius: 50%; border: 3px solid transparent; border-top-color: #fff; /* Chrome, Opera 15+, Safari 5+ */
    	animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */ z-index: 2001; }
    #loader:before { content: ""; position: absolute; top: 5px; left: 5px; right: 5px; bottom: 5px; border-radius: 50%; border: 3px solid transparent;
-   	border-top-color: #e74c3c; /* Chrome, Opera 15+, Safari 5+ */
+   	border-top-color: #c3ce62; /* Chrome, Opera 15+, Safari 5+ */
    animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */ }
    #loader:after { content: ""; position: absolute; top: 15px; left: 15px; right: 15px; bottom: 15px; border-radius: 50%; border: 3px solid transparent;
-border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */ }
+border-top-color: #212856; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */ }
 @keyframes spin {
 	0%   {  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
 		transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
@@ -345,7 +345,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 .cd-slider-nav a, 
 .navbar-nav .nav-link { height: 50px; }
 
-.cd-hero-slider .cd-full-width { padding-top: 50px; }
+.cd-hero-slider .cd-full-width { /*padding-top: 50px;*/ }
 
 .tm-brand-icon { 
 	font-size: 3rem;
@@ -369,6 +369,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 .grid-item {
 	float: left;
 	width: 100%;
+	margin: 10px 0;
 }
 
 .grid-item:last-child { margin-bottom: 0; }
@@ -630,7 +631,7 @@ figure.effect-sadie:hover p {
 		/*height: 80px;*/
 	}
 
-	.cd-hero-slider .cd-full-width { padding-top: 80px; }
+	.cd-hero-slider .cd-full-width { /*padding-top: 80px;*/ }
 
 	.tm-social-icons-container { margin-bottom: 20px; }
 
@@ -649,7 +650,7 @@ figure.effect-sadie:hover p {
 		max-width: 1200px;
 	}
 
-	.grid-item { width: 30%; margin: 10px }	
+	.grid-item { width: 31.5%; margin: 10px }	
 	.grid-item figure figcaption { padding: 1em; }	
 }
 
@@ -682,7 +683,7 @@ figure.effect-sadie:hover p {
 		/*width: 160px;
 		height: 110px;*/
 	}
-	.cd-hero-slider .cd-full-width { padding-top: 110px; }
+	.cd-hero-slider .cd-full-width { /*padding-top: 110px;*/ }
 	.cd-slider-nav a.navbar-brand { font-size: 3.5rem; }
 
 	.cd-full-width .container-fluid {
