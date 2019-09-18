@@ -1,4 +1,3 @@
-
 Vue.component('header-home',{
 	template: `<header class="masthead article overlay-header">
       <div class="container">

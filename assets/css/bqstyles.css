@@ -261,7 +261,11 @@ ul.social-buttons li.bg-youtube a:active, ul.social-buttons li.bg-youtube a:focu
     background-color: #212856;
     border-color: #212856;
 }
-
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #141b46!important;
+    border-color: #0f233a!important;
+}
 
 /* CARD +/- */
 .card-header .fa {

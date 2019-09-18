@@ -1,4 +1,20 @@
-Vue.component('contact'{
+Vue.component('header-message',{
+  template: `<header class="masthead masthead-message article overlay-header">
+      <div class="container">
+        <div class="intro-text">
+          <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
+          <div class="intro-lead-in d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block pad-lg-font-lg text-uppercase text-bold">We’ve been commissioned to educate, empower & advocate for a new tribe of Boys
+            who will deliberately & purposefully transition from Boyhood to Manhood.</div>
+          <!-- Visible only on xs, Visible only on sm -->
+          <div class="intro-lead-in d-block d-sm-none d-none d-sm-block d-md-none pad-sm-font-sm text-uppercase text-bold hide-second">We’ve been commissioned to educate, empower & advocate for a new tribe of Boys who will deliberately & purposefully transition from Boyhood to Manhood.</div>
+          <!-- <div class="intro-heading text-uppercase"></div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger learn-mg learn-mg-2 learn-mg-3 learn-mg-4" href="who-we-are/about-us">Learn More</a> -->
+        </div>
+      </div>
+    </header>`
+});
+
+Vue.component('message',{
 	template: `<section id="contact" class="contact-pad">
       <div class="container">
         <div class="row">
@@ -40,7 +56,7 @@ Vue.component('contact'{
             </form>
           </div>
         </div> <br>
-        <div class="row text-white">
+        <!-- <div class="row text-white">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
             <p><a href="tel:0703-737-3284" style="color: #c3ce62!important;">0703-737-3284</a></p>
@@ -51,10 +67,7 @@ Vue.component('contact'{
               <a href="mailto:boysqafrica@gmail.com" style="color: #c3ce62!important;">boysqafrica@gmail.com</a>
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>`
-})
-new Vue({
-	el: '#home'
-})
+});
