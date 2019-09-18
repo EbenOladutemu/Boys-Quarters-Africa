@@ -29,7 +29,7 @@ Vue.component('message',{
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="hidden" name="_subject" value="New Message form BQA Contact Form">
+                    <input type="hidden" name="_subject" value="New submission!">
                     <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
                     <p class="help-block text-danger"></p>
                   </div>
