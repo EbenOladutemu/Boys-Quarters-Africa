@@ -239,8 +239,14 @@ ul.social-buttons li.bg-youtube a:active, ul.social-buttons li.bg-youtube a:focu
 .text-bold{
   font-weight: bold;
 }
+.text-white{
+  color: white!important;
+}
 .no-resize{
   resize: none
+}
+section#contact .form-group textarea.form-control {
+  height: 158px;
 }
 .donate{
   margin-left: 20px;
