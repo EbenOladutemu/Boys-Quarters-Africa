@@ -73,7 +73,7 @@
         <!-- Boys Creed [Modal] -->
         <creed></creed>
 
-        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>  
 
         <!-- Footer -->
         <hr class="footer-hr">
@@ -81,7 +81,25 @@
 
       </div> 
     </div>
+    
+    <!-- <section id="demo">
+      <select @change="(showFood = !showFood)">What to consume
+        <option></option>
+          <option value="1">{{value}}</option>
+          <option value="2">{{value2}}</option>
+      </select>
+      <select v-if="showFood">
+          <option>Eba</option>
+          <option>Rice</option>
+      </select>
+      <select v-if="showDrink">
+          <option>Coke</option>
+          <option>Fanta</option>
+      </select>
+    </section> -->
     <div class="overlay"></div>
+
+    
     
     <!-- Bootstrap core JavaScript -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -105,12 +123,25 @@
     <script src="assets/js/pages-scripts/all/AllPages.js"></script>
 
     <!-- Scripts added -->
-    <script src="assets/js/bqscripts.js"></script>
+    <!-- <script src="assets/js/bqscripts.js"></script> -->
     <script src="assets/vendor/sidebar/concat.min.js"></script>
     <script src="assets/vendor/sidebar/fontawesome.js"></script>
     <script src="assets/vendor/sidebar/popper.min.js"></script>
     <script src="assets/vendor/sidebar/solid.js"></script>
     <script src="assets/vendor/sidebar/sidebar.js"></script>
+
+    <!-- <script>
+      new Vue({
+        el: '#demo',
+        data:{
+          showFood: false,
+          showDrink: false,
+          value: 'Food',
+          value2: 'Drink'
+        }
+      });
+    </script> -->
+
 
   </body>
 

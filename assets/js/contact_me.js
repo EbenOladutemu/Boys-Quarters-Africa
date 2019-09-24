@@ -8,6 +8,7 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
+      var _subject = $("input#_subject").val();
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
@@ -23,6 +24,7 @@ $(function() {
         url: "https://formsubmit.co/ajax/info@boysqafrica.com",
         type: "POST",
         data: {
+          _subject: _subject,
           name: name,
           phone: phone,
           email: email,
