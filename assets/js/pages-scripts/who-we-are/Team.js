@@ -151,17 +151,17 @@ Vue.component('team',{
               <p class="text-muted" :style="{marginBottom: '0'}">Lead, Community and Civic Engagement</p>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
-                <a href="https://www.facebook.com/OladutemuEben">
+                <a href="https://www.facebook.com/EbenOladutemu">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/OladutemuEben" class="bg-instagram">
+                <a href="https://www.instagram.com/EbenOladutemu" class="bg-instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li class="list-inline-item bg-twitter">
-                <a href="https://twitter.com/OladutemuEben">
+                <a href="https://twitter.com/EbenOladutemu">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
