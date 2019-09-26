@@ -53,6 +53,19 @@
     <link rel="stylesheet" href="assets/vendor/sidebar/sidebar.css">
     <link rel="stylesheet" href="assets/vendor/sidebar/scrollbar.css">
 
+    <!-- LightBox -->
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+    <!-- Image Hover Effects -->
+    <link rel="stylesheet" href="assets/css/imagehover.min.css">
+
+    <!-- Fluid Gallery -->
+    <link rel="stylesheet" href="assets/vendor/fluid-gallery/css/hero-slider-style.css">
+    <link rel="stylesheet" href="assets/vendor/fluid-gallery/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/vendor/fluid-gallery/css/templatemo-style.css"> 
+
+    <script src="assets/vendor/fluid-gallery/js/jquery-1.11.3.min.js"></script>
+
   </head>
 
   <body>
@@ -77,7 +90,15 @@
 
         <!-- Footer -->
         <hr class="footer-hr">
-        
+        <input class="col-sm-6 form-control" id="range-move" type="range" min="0" max="100" step="5" value="20"> <span id="value-move">20</span>
+        <datalist id="cars">
+          <option>Kia</option>
+          <option>Toyota</option>
+          <option>Honda</option>
+          <option>Chevrolet</option>
+          <option>Ford</option>
+          <option>Mazda</option>
+        </datalist>
         <the-footer></the-footer>
 
       </div> 
@@ -99,11 +120,9 @@
       </select>
     </section> -->
     <div class="overlay"></div>
-
-    
     
     <!-- Bootstrap core JavaScript -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <!-- <script src="assets/vendor/jquery/jquery.min.js"></script> -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
@@ -118,17 +137,34 @@
     <script src="assets/js/moment.js"></script>
 
     <!-- Vue.js scripts -->
-    <script src="assets/js/vue.min.js"></script>
+    <script src="assets/js/vue.js"></script>
     <script src="assets/js/pages-scripts/navs/Nav.js"></script>
     <script src="assets/js/pages-scripts/all/HeaderHome.js"></script>
     <script src="assets/js/pages-scripts/all/AllPages.js"></script>
 
     <!-- Scripts added -->
+    <script src="assets/js/bqscripts.js"></script>
     <script src="assets/vendor/sidebar/concat.min.js"></script>
     <script src="assets/vendor/sidebar/fontawesome.js"></script>
     <script src="assets/vendor/sidebar/popper.min.js"></script>
     <script src="assets/vendor/sidebar/solid.js"></script>
     <script src="assets/vendor/sidebar/sidebar.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+
+    <!-- Fluid Gallery -->
+    <script src="assets/vendor/fluid-gallery/js/tether.min.js"></script>
+    <script src="assets/vendor/fluid-gallery/js/hero-slider-main.js"></script>
+    <script src="assets/vendor/fluid-gallery/js/jquery.magnific-popup.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+  var rangeMove = document.getElementById('value-move');
+  
+  document.getElementById('range-move').addEventListener('change', function() {
+    rangeMove.innerText = this.value;
+  }, false);
+});
+    </script>
 
     <!-- <script>
       new Vue({

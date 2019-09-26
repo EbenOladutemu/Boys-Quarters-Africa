@@ -12,7 +12,7 @@ Vue.component('the-footer',{
               <i class="fas fa-phone" :style="bqaColor"></i><a href="tel:+2348137367389" style="color: #000!important;"> 0813 736 7389</a>
             </li>
             <li class="list">
-              <i class="fas fa-envelope" :style="bqaColor"></i><a href="mailto:boysqafrica@gmail.com" style="color: #c3ce62!important;"> boysqafrica@gmail.com</a>
+              <i class="fas fa-envelope" :style="bqaColor"></i><a href="mailto:boysqafrica@gmail.com" :style="bqaLinkStyle"> boysqafrica@gmail.com</a>
             </li>
           </ul>
         </div>
@@ -48,14 +48,14 @@ Vue.component('the-footer',{
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/boysqafrica?ref_src=twsrc%5Etfw">Tweets by boysqafrica</a> <script async src="https://platform.twitter.com/widgets.js" type="application/javascript" charset="utf-8"></script>
+              <a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/boysqafrica?ref_src=twsrc%5Etfw" :style="bqaLinkStyle">Tweets by boysqafrica</a> <script async src="https://platform.twitter.com/widgets.js" type="application/javascript" charset="utf-8"></script>
             </li>
           </ul>
         </div>
         
         <div class="col-md-12"><hr class="footer-hr">
           <span class="copyright">Copyright &copy; <span id="year"></span>. Boys Quarters Africa. Developed by 
-            <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="_blank" style="color: #c3ce62!important; text-decoration: none;">Eben. </a>All Rights Reserved.
+            <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="_blank" :style="bqaLinkStyle">Eben. </a>All Rights Reserved.
           </span>
         </div>
       </div>
@@ -73,6 +73,10 @@ Vue.component('the-footer',{
       },
       bqaColor:{
         color:'#212856'
+      },
+      bqaLinkStyle:{
+        color:'#c3ce62!important',
+        textDecoration: 'none'
       },  
    }
  }
