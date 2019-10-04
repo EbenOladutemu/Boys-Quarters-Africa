@@ -52,7 +52,7 @@ Vue.component('team',{
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="./../assets/img/team/Glory-Odikagbue.JPG" alt="Glory Odikagbue">
               <h4>Glory Odikagbue</h4>
-              <p class="text-muted">Lead, Operations</p><br>
+              <p class="text-muted">Lead, Operations</p>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
                 <a href="https://www.facebook.com/odikagbue.funayaglory">
@@ -76,7 +76,7 @@ Vue.component('team',{
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="./../assets/img/team/Tomi-Fowe.JPEG" alt="Tomi Fowe">
               <h4>Oluwatomidimu Fowe</h4>
-              <p class="text-muted">Lead, Finance</p><br>
+              <p class="text-muted">Lead, Finance</p>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
                 <a href="https://facebook.com/hewaorluwa.priscillia">
@@ -100,7 +100,7 @@ Vue.component('team',{
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="./../assets/img/team/Kolade-Emmanuel.JPG" alt="Kolade Emmanuel">
               <h4>Kolade Emmanuel</h4>
-              <p class="text-muted">Lead, Programmes Management</p><br>
+              <p class="text-muted">Lead, Programmes</p><br>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
                 <a href="https://www.facebook.com/Emmkolade">
@@ -148,7 +148,7 @@ Vue.component('team',{
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="./../assets/img/team/Ebenezer-Oladutemu.JPG" alt="Ebenezer Oladutemu">
               <h4>Ebenezer Oladutemu</h4>
-              <p class="text-muted" :style="{marginBottom: '0'}">Lead, Community and Civic Engagement</p>
+              <p class="text-muted" :style="{marginBottom: '0'}">Co-Lead, Community and Civic Engagement</p>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
                 <a href="https://www.facebook.com/EbenOladutemu">
@@ -168,13 +168,38 @@ Vue.component('team',{
             </ul> 
             </div>
           </div>
-          
-          
-          <div class="col-sm-12">
+
+          <div class="col-sm-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Isaac-Kanu.JPEG" alt="Isaac Kanu" style="width: 250px">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/1.JPG" alt="Busayo Fache">
+              <h4>Busayo Fache</h4>
+              <p class="text-muted" :style="{marginBottom: '0'}">Co-Lead, Community and Civic Engagement</p><br>
+              <ul class="list-inline social-buttons" style="margin-top: -10px">
+              <li class="list-inline-item bg-facebook">
+                <a href="https://www.facebook.com/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/" class="bg-instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item bg-twitter">
+                <a href="https://twitter.com/">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+            </ul> 
+            </div>
+          </div>
+          
+          
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/Isaac-Kanu.JPEG" alt="Isaac Kanu" style="width:">
               <h4>Isaac Kanu</h4>
-              <p class="text-muted">Lead, Research and Data Intelligence</p><br>
+              <p class="text-muted">Lead, Research and Data Intelligence</p>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
                 <a href="https://www.facebook.com/kanu.isaac.1">

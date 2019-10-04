@@ -90,15 +90,7 @@
 
         <!-- Footer -->
         <hr class="footer-hr">
-        <input class="col-sm-6 form-control" id="range-move" type="range" min="0" max="100" step="5" value="20"> <span id="value-move">20</span>
-        <datalist id="cars">
-          <option>Kia</option>
-          <option>Toyota</option>
-          <option>Honda</option>
-          <option>Chevrolet</option>
-          <option>Ford</option>
-          <option>Mazda</option>
-        </datalist>
+        
         <the-footer></the-footer>
 
       </div> 
@@ -158,12 +150,12 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function(event) {
-  var rangeMove = document.getElementById('value-move');
-  
-  document.getElementById('range-move').addEventListener('change', function() {
-    rangeMove.innerText = this.value;
-  }, false);
-});
+      var rangeMove = document.getElementById('value-move');
+      
+      document.getElementById('range-move').addEventListener('change', function() {
+        rangeMove.innerText = this.value;
+      }, false);
+    });
     </script>
 
     <!-- <script>
