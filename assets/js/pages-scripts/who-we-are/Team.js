@@ -176,17 +176,17 @@ Vue.component('team',{
               <p class="text-muted" :style="{marginBottom: '0'}">Co-Lead, Community and Civic Engagement</p><br>
               <ul class="list-inline social-buttons" style="margin-top: -10px">
               <li class="list-inline-item bg-facebook">
-                <a href="https://www.facebook.com/">
+                <a href="https://www.facebook.com/busayo.fache">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/" class="bg-instagram">
+                <a href="https://www.instagram.com/Fache_busayomi" class="bg-instagram">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li class="list-inline-item bg-twitter">
-                <a href="https://twitter.com/">
+                <a href="#">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
