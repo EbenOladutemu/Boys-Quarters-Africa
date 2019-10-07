@@ -18,7 +18,7 @@ Vue.component('message',{
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase" style="margin-bottom: 50px">Contact Us</h2>
-            <h3 class="section-subheading text-muted text-white" style="margin-bottom: 20px">Please kindly fill the form below for your enquiries, We love to hear from you.</h3>
+            <h3 class="section-subheading text-muted text-white" style="margin-bottom: 20px">Please kindly fill the form below for your enquiries. We love to hear from you.</h3>
           </div>
         </div>
         <div class="row">
