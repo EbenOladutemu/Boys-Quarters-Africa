@@ -74,7 +74,7 @@ Vue.component('team',{
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Tomi-Fowe.JPEG" alt="Tomi Fowe">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/Tomi-Fowe.png" alt="Tomi Fowe">
               <h4>Oluwatomidimu Fowe</h4>
               <p class="text-muted">Lead, Finance</p>
               <ul class="list-inline social-buttons">
@@ -171,7 +171,7 @@ Vue.component('team',{
 
           <div class="col-sm-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/1.JPG" alt="Busayo Fache">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/Busayo-Fache.JPG" alt="Busayo Fache">
               <h4>Busayo Fache</h4>
               <p class="text-muted" :style="{marginBottom: '0'}">Co-Lead, Community and Civic Engagement</p><br>
               <ul class="list-inline social-buttons" style="margin-top: -10px">
