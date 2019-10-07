@@ -100,7 +100,7 @@ Vue.component('team',{
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="./../assets/img/team/Kolade-Emmanuel.JPG" alt="Kolade Emmanuel">
               <h4>Kolade Emmanuel</h4>
-              <p class="text-muted">Lead, Programmes</p><br>
+              <p class="text-muted">Lead, Programmes</p>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
                 <a href="https://www.facebook.com/Emmkolade">
@@ -124,7 +124,7 @@ Vue.component('team',{
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="./../assets/img/team/Adetomiwa-Badewole-2.JPEG" alt="Adetomiwa Badewole">
               <h4>Adetomiwa Badewole</h4>
-              <p class="text-muted">Lead, Communications</p><br>
+              <p class="text-muted">Lead, Communications</p>
               <ul class="list-inline social-buttons">
               <li class="list-inline-item bg-facebook">
                 <a href="https://www.facebook.com/tommyholts">
@@ -144,58 +144,8 @@ Vue.component('team',{
             </ul> 
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Ebenezer-Oladutemu.JPG" alt="Ebenezer Oladutemu">
-              <h4>Ebenezer Oladutemu</h4>
-              <p class="text-muted" :style="{marginBottom: '0'}">Co-Lead, Community and Civic Engagement</p>
-              <ul class="list-inline social-buttons">
-              <li class="list-inline-item bg-facebook">
-                <a href="https://www.facebook.com/EbenOladutemu">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/EbenOladutemu" class="bg-instagram">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li class="list-inline-item bg-twitter">
-                <a href="https://twitter.com/EbenOladutemu">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-            </ul> 
-            </div>
-          </div>
 
-          <div class="col-sm-6">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Busayo-Fache.JPG" alt="Busayo Fache">
-              <h4>Busayo Fache</h4>
-              <p class="text-muted" :style="{marginBottom: '0'}">Co-Lead, Community and Civic Engagement</p><br>
-              <ul class="list-inline social-buttons" style="margin-top: -10px">
-              <li class="list-inline-item bg-facebook">
-                <a href="https://www.facebook.com/busayo.fache">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/Fache_busayomi" class="bg-instagram">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li class="list-inline-item bg-twitter">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-            </ul> 
-            </div>
-          </div>
-          
-          
-          <div class="col-sm-6">
+          <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="./../assets/img/team/Isaac-Kanu.JPEG" alt="Isaac Kanu" style="width:">
               <h4>Isaac Kanu</h4>
@@ -219,6 +169,57 @@ Vue.component('team',{
             </ul> 
             </div>
           </div>
+          
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/Busayo-Fache.JPG" alt="Busayo Fache">
+              <h4>Busayo Fache</h4>
+              <p class="text-muted" :style="{marginBottom: '0'}">Co-Lead, Community and Civic Engagement</p>
+              <ul class="list-inline social-buttons">
+              <li class="list-inline-item bg-facebook">
+                <a href="https://www.facebook.com/busayo.fache">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/Fache_busayomi" class="bg-instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item bg-twitter">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+            </ul> 
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/Ebenezer-Oladutemu.JPG" alt="Ebenezer Oladutemu">
+              <h4>Ebenezer Oladutemu</h4>
+              <p class="text-muted" :style="{marginBottom: '0'}">Co-Lead, Community and Civic Engagement</p>
+              <ul class="list-inline social-buttons">
+              <li class="list-inline-item bg-facebook">
+                <a href="https://www.facebook.com/EbenOladutemu">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/EbenOladutemu" class="bg-instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item bg-twitter">
+                <a href="https://twitter.com/EbenOladutemu">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+            </ul> 
+            </div>
+          </div>
+    
         </div>
       </div>
     </section>`
