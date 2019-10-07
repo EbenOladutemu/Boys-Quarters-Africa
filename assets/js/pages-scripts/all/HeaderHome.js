@@ -3,7 +3,7 @@ Vue.component('header-home',{
       <div class="container">
         <div class="intro-text">
           <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
-          <div class="intro-lead-in d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block pad-lg-font-lg text-uppercase text-bold">We’ve been commissioned to educate, empower & advocate for a new tribe of Boys
+          <div class="intro-lead-in d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block pad-lg-font-lg intro-mg text-uppercase text-bold">We’ve been commissioned to educate, empower & advocate for a new tribe of Boys
             who will deliberately & purposefully transition from Boyhood to Manhood.</div>
           <!-- Visible only on xs, Visible only on sm -->
           <div class="intro-lead-in d-block d-sm-none d-none d-sm-block d-md-none pad-sm-font-sm text-uppercase text-bold hide-second">We’ve been commissioned to educate, empower & advocate for a new tribe of Boys who will deliberately & purposefully transition from Boyhood to Manhood.</div>

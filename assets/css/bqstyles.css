@@ -140,11 +140,16 @@ section#contact {
 }
 @media(min-width: 576px) and (max-width: 767px){
   .learn-mg-4{
-    margin-top: 75px!important;
-    /*margin-top: 170px!important;*/
+    margin-top: 0!important;
   }
   .hide-second{
     display: none!important;
+  }
+}
+@media(min-width: 576px) and (max-width: 767px){
+  .intro-mg{
+    margin-top: 10px!important;
+    line-height: 35px!important;
   }
 }
 .timeline:before{
@@ -196,7 +201,7 @@ ul.social-buttons li.bg-youtube a:active, ul.social-buttons li.bg-youtube a:focu
   /*color: #e0f523;*/
 }
 .pad-lg-font-lg{
-  margin-top: -90px;
+  margin-top: -110px;
   font-size: 25px!important;
   /*color:#e9f71d;*/
 }
