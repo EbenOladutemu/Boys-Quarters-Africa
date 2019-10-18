@@ -96,8 +96,8 @@ Vue.component('creed',{
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Boys Creed</h2>
+                  <!-- <h4 class="text-uppercase">(MAN ON A MISSION)</h4> -->
                   <p>I am a deliberate product of God’s intentional action. My birth isn’t by mistake. I am a Child of God and I am loved unconditionally.</p> 
                   <p>I am not a result of wrong decisions or accidental mating. My Destiny was carefully crafted before the foundation of the world. I am not an Error, I am a Solution sent to the World now, for a Specific reason.</p>
                   <p>I am not my past! I am not my mistake! I take full responsibility for my life and I live for my better tomorrow and not my yesterday.</p>
