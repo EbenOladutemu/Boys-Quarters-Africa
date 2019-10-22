@@ -122,7 +122,7 @@ Vue.component('creed',{
                   <p class="text-uppercase"><b>I am a Warrior and this is my Creed!</b></p>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-download"></i>
-                    <a href="http://boysqafrica.com/docs/Boys Creed.pdf" style="color: white">Download Creed</a></button>
+                    <a href="http://boysqafrica.com/assets/docs/Boys Creed.pdf" style="color: white">Download Creed</a></button>
                 </div>
               </div>
             </div>
