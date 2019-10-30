@@ -39,7 +39,7 @@ Vue.component('the-footer',{
               </a>
             </li>
             <li class="list-inline-item bg-youtube">
-              <a href="https://www.youtube.com/channel/UCaBeR23-clqf9OHslve5pCA" target="_blank">
+              <a href="https://www.youtube.com/channel/UCvJ2ImQmvhKP-XPNgGe6utw" target="_blank">
                 <i class="fab fa-youtube"></i>
               </a>
             </li>
