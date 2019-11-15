@@ -64,7 +64,7 @@ Vue.component('about',{
             </a>
           </div>
           <div class="col-lg-3 mx-auto text-center">
-            <a href="./../pillars-of-impact/leadership" class="poi-color">
+            <a href="./../pillars-of-impact/advocacy" class="poi-color">
               <i class="fas fa-balance-scale fa-4x"></i>
               <h3>Advocacy</h3>
             </a>
