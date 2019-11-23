@@ -58,18 +58,19 @@ Vue.component('message',{
             </form>
           </div>
         </div> <br>
-        <!-- <div class="row text-white">
+        <div class="row text-white">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p><a href="tel:0703-737-3284" style="color: #c3ce62!important;">0703-737-3284</a></p>
+            <p><a href="tel:+2348137367389" style="color: #c3ce62!important;">0813 736 7389</a></p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
             <p>
-              <a href="mailto:boysqafrica@gmail.com" style="color: #c3ce62!important;">boysqafrica@gmail.com</a>
+              <!-- <a href="mailto:boysqafrica@gmail.com" style="color: #c3ce62!important;">boysqafrica@gmail.com</a> -->
+              <a href="mailto:info@boysqafrica.com" style="color: #c3ce62!important;">info@boysqafrica.com</a>
             </p>
           </div>
-        </div> -->
+        </div>
       </div>
     </section>`
 });

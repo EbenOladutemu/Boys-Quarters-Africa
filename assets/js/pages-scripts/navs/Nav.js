@@ -176,7 +176,7 @@ Vue.component('nav-all',{
             </li>
           </ul>
         </div>
-        <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad" href="#">DONATE</a>
+        <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad" href="donate">DONATE</a>
       </div>
     </nav>`
 });

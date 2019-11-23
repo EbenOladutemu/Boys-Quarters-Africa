@@ -12,7 +12,7 @@ Vue.component('the-footer',{
               <i class="fas fa-phone" :style="bqaColor"></i><a href="tel:+2348137367389" style="color: #000!important;"> 0813 736 7389</a>
             </li>
             <li class="list">
-              <i class="fas fa-envelope" :style="bqaColor"></i><a href="mailto:boysqafrica@gmail.com" :style="bqaLinkStyle"> boysqafrica@gmail.com</a>
+              <i class="fas fa-envelope" :style="bqaColor"></i><a href="mailto:info@boysqafrica.com" :style="bqaLinkStyle"> info@boysqafrica.com</a>
             </li>
           </ul>
         </div>
