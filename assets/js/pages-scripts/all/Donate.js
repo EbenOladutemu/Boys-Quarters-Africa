@@ -36,7 +36,7 @@ Vue.component('donate',{
         </h3>
       </div>
       <div class="text-center" :style="aboutStyle">
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger learn-mg" href="./../volunteer">Donate NOW!</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger learn-mg" href="https://paystack.com/pay/theexchange">Donate NOW!</a>
       </div>
     </div>
   </section>`,
