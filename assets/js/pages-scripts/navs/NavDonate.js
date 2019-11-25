@@ -176,21 +176,7 @@ Vue.component('nav-all',{
             </li>
           </ul>
         </div>
-        <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad donate-animate" :class="donateCount" @click="removeClass" href="donate">DONATE</a>
-        <!-- <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad" href="donate">DONATE</a> -->
+        <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad"href="donate">DONATE</a>
       </div>
-    </nav>`,
-    data(){
-      return{
-        donateCount: 'donate-count'
-      }
-    },
-    methods:{
-      removeClass(){
-        this.donateCount = ''
-      }
-    },
-    destroyed(){
-      this.donateCount
-    }
+    </nav>`
 });

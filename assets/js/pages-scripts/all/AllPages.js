@@ -60,11 +60,11 @@ Vue.component('the-footer',{
         </div>
       </div>
     </div>
-    <div id="loader-wrapper"> 
+    <!-- <div id="loader-wrapper"> 
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
-    </div>
+    </div> -->
   </footer>`,
   data(){
      return {
@@ -134,7 +134,10 @@ Vue.component('creed',{
   </section>`,
 });
 new Vue ({
-  el: '#app'
+  el: '#app',
+  data:{
+    donate: 'donate'
+  }
 });
 
 //Momentjs for date and time

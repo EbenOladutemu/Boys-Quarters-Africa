@@ -28,14 +28,14 @@ Vue.component('donate',{
     <div class="container">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase"><em>...Towards the Exhange</em></h2><br>
-        <h3 class="section-subheading text-muted" :style="aboutStyle">
+        <h3 class="section-subheading text-muted">
           <i>‘It is believed that if a Boy is neglected or fed a diet of hate and violence it is obvious he will develop into
             a teenage who is misguided and confused. And the next crucial transition into manhood will be even
             more difficult.’
           </i>
         </h3>
       </div>
-      <div class="text-center" :style="aboutStyle">
+      <div class="text-center">
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger learn-mg" href="https://paystack.com/pay/theexchange">Donate NOW!</a>
       </div>
     </div>
