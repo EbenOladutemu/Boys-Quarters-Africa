@@ -142,4 +142,4 @@ new Vue ({
 
 //Momentjs for date and time
 date = document.getElementById('year');
-date.innerHTML = moment().format("YYYY");
+date.innerHTML = new Date().getFullYear();
