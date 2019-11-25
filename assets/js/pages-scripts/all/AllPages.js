@@ -54,7 +54,7 @@ Vue.component('the-footer',{
         </div>
         
         <div class="col-md-12"><hr class="footer-hr">
-          <span class="copyright">Copyright &copy; <span id="year"></span>. Boys Quarters Africa. Developed by 
+          <span class="copyright">Copyright &copy; <span id="year"></span>. Boys Quarters Africa. Crafted by 
             <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="_blank" :style="bqaLinkStyle">Eben. </a>All Rights Reserved.
           </span>
         </div>
