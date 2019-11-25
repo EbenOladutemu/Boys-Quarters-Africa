@@ -9,10 +9,10 @@ Vue.component('the-footer',{
               <i class="fas fa-map-marker-alt" :style="bqaColor"></i> Lagos, Nigeria
             </li>
             <li class="list">
-              <i class="fas fa-phone" :style="bqaColor"></i><a href="tel:+2348137367389" style="color: #000!important;"> 0813 736 7389</a>
+              <i class="fas fa-phone" :style="bqaColor"></i><a href="tel:+2348137367389" :style="bqaColor"> 0813 736 7389</a>
             </li>
             <li class="list">
-              <i class="fas fa-envelope" :style="bqaColor"></i><a href="mailto:info@boysqafrica.com" :style="bqaLinkStyle"> info@boysqafrica.com</a>
+              <i class="fas fa-envelope" :style="bqaColor"></i><a href="mailto:info@boysqafrica.com" :style="bqaColor"> info@boysqafrica.com</a>
             </li>
           </ul>
         </div>
@@ -54,8 +54,10 @@ Vue.component('the-footer',{
         </div>
         
         <div class="col-md-12"><hr class="footer-hr">
-          <span class="copyright">Copyright &copy; <span id="year"></span>. Boys Quarters Africa. Crafted by 
-            <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="_blank" :style="bqaLinkStyle">Eben. </a>All Rights Reserved.
+          <span class="copyright">Boys Quarters Africa &copy;<span id="year"></span>. Crafted by 
+            <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="_blank" :style="bqaColor">
+              <strong>Eben</strong>. 
+            </a>All Rights Reserved.
           </span>
         </div>
       </div>
