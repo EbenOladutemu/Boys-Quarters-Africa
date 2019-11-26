@@ -1,5 +1,5 @@
 Vue.component('header-campus',{
-	template: `<header class="masthead masthead-campus article overlay-header">
+	template: `<header class="masthead masthead-campus article overlay-header" style="background-position: top">
       <div class="container">
         <div class="intro-text">
           <!-- Hidden only on xs, Hidden only on sm, Hidden only on md -->
