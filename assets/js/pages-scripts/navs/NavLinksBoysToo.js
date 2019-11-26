@@ -170,8 +170,8 @@ Vue.component('nav-all',{
               </a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <a class="dropdown-item" href="./../../contact/send-a-message">Send A Message</a>
-                <a class="dropdown-item" href="./../../contact/invite-a-speaker">Invite A Speaker</a>
-                <a class="dropdown-item" href="./../../contact/share-a-story">Share A Story</a>
+                <a class="dropdown-item" href="#">Invite A Speaker</a>
+                <a class="dropdown-item" href="#">Share A Story</a>
               </div>
             </li>
           </ul>
