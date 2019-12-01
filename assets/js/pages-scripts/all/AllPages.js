@@ -1,12 +1,12 @@
 
 Vue.component('the-footer',{
   template:`<footer :style="footerStyle">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list">
-              <p :style="contactDetails"><i class="fas fa-map-marker-alt" :style="bqaColor"></i> Lagos, Nigeria</p>
+              <p :style="contactDetails"><i class="fas fa-map-marker-alt" :style="bqaColor"></i> 2, Adenekan Street, Fadeyi, Lagos, Nigeria</p>
             </li>
             <li class="list">
               <p :style="contactDetails"><i class="fas fa-phone" :style="bqaColor"></i>
@@ -17,7 +17,9 @@ Vue.component('the-footer',{
               <p :style="contactDetails"><i class="fas fa-envelope" :style="bqaColor"></i>
                 <a href="mailto:info@boysqafrica.com" :style="bqaColor"> info@boysqafrica.com</a>
               </p>
-              <p :style="contactDetails"><a href="mailto:boysqafrica@gmail.com" :style="bqaColor"> boysqafrica@gmail.com</a></p>
+              <p :style="contactDetails"><i class="fas fa-envelope-open" :style="bqaColor"></i>
+                <a href="mailto:boysqafrica@gmail.com" :style="bqaColor"> boysqafrica@gmail.com</a>
+              </p>
             </li>
           </ul>
         </div>
@@ -86,7 +88,8 @@ Vue.component('the-footer',{
         textDecoration: 'none'
       },
       contactDetails:{
-        marginBottom: '0.5rem'
+        marginBottom: '0.5rem',
+        fontSize: '18px'
       }
    }
  },
