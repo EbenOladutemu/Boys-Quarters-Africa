@@ -6,13 +6,18 @@ Vue.component('the-footer',{
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list">
-              <i class="fas fa-map-marker-alt" :style="bqaColor"></i> Lagos, Nigeria
+              <p :style="contactDetails"><i class="fas fa-map-marker-alt" :style="bqaColor"></i> Lagos, Nigeria</p>
             </li>
             <li class="list">
-              <i class="fas fa-phone" :style="bqaColor"></i><a href="tel:+2348137367389" :style="bqaColor"> 0813 736 7389</a>
+              <p :style="contactDetails"><i class="fas fa-phone" :style="bqaColor"></i>
+                <a href="tel:+2348137367389" :style="bqaColor"> 0813 736 7389</a>
+              </p>
             </li>
             <li class="list">
-              <i class="fas fa-envelope" :style="bqaColor"></i><a href="mailto:info@boysqafrica.com" :style="bqaColor"> info@boysqafrica.com</a>
+              <p :style="contactDetails"><i class="fas fa-envelope" :style="bqaColor"></i>
+                <a href="mailto:info@boysqafrica.com" :style="bqaColor"> info@boysqafrica.com</a>
+              </p>
+              <p :style="contactDetails"><a href="mailto:boysqafrica@gmail.com" :style="bqaColor"> boysqafrica@gmail.com</a></p>
             </li>
           </ul>
         </div>
@@ -79,9 +84,12 @@ Vue.component('the-footer',{
       bqaLinkStyle:{
         color:'#c3ce62!important',
         textDecoration: 'none'
-      },  
+      },
+      contactDetails:{
+        marginBottom: '0.5rem'
+      }
    }
- }
+ },
 });
 
 Vue.component('creed',{
@@ -142,6 +150,6 @@ new Vue ({
   }
 });
 
-//Momentjs for date and time
+//Date and time
 date = document.getElementById('year');
 date.innerHTML = new Date().getFullYear();
