@@ -17,12 +17,67 @@ Vue.component('header-board',{
 Vue.component('board-members',{
   template: `<section>
     <div class="container">
-      <h2 class="section-heading text-uppercase text-center">BOARD MEMBERS</h2>
-      <p>Solomon O. Ayodele</p>
-      <p>Ruby Onwudiwe</p>
-      <p>Victor Adewusi</p>
-      <p>Ayodele Kenneth</p>
-      <p>Busayo Morakinyo</p>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Board of Trustees</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <h4>Solomon Oluwatobi Ayodele</h4>
+            <!-- <p class="text-muted">Lead Execution Officer</p>  -->
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <h4>Ruby Onwudiwe</h4>
+            <!-- <p class="text-muted">Lead Execution Officer</p>  -->
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <h4>Victor Adewusi</h4>
+            <!-- <p class="text-muted">Lead Execution Officer</p>  -->
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <h4>Ayodele Kenneth</h4>
+            <!-- <p class="text-muted">Lead Execution Officer</p>  -->
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <h4>Busayo Morakinyo</h4>
+            <!-- <p class="text-muted">Lead Execution Officer</p>  -->
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <h4>Oyindamola Ohwesi</h4>
+            <!-- <p class="text-muted">Lead Execution Officer</p>  -->
+          </div>
+        </div>
+        
+        <div class="col-sm-12">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <h4>Segun Alade</h4>
+            <!-- <p class="text-muted">Lead Execution Officer</p>  -->
+          </div>
+        </div>
+      </div>
+      <p></p>
+      <p></p>
+      <p></p>
     </div>
   </section>`
 })

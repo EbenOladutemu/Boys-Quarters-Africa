@@ -219,7 +219,6 @@ Vue.component('team',{
             </ul> 
             </div>
           </div>
-    
         </div>
       </div>
     </section>`
