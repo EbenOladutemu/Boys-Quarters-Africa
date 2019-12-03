@@ -55,14 +55,14 @@ Vue.component('the-footer',{
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/boysqafrica?ref_src=twsrc%5Etfw" :style="bqaLinkStyle">Tweets by boysqafrica</a> <script async src="https://platform.twitter.com/widgets.js" type="application/javascript" charset="utf-8"></script>
+              <a class="twitter-timeline" data-width="300" data-height="300" href="https://twitter.com/boysqafrica?ref_src=twsrc%5Etfw" :style="bqaColor">Tweets by boysqafrica</a> <script async src="https://platform.twitter.com/widgets.js" type="application/javascript" charset="utf-8"></script>
             </li>
           </ul>
         </div>
         
         <div class="col-md-12"><hr class="footer-hr">
           <span class="copyright">Boys Quarters Africa &copy;<span id="year"></span>. Crafted by 
-            <a href="https://eben.com.ng" title="Ebenezer Oladutemu" target="_blank" :style="bqaColor">
+            <a href="https://eben.com.ng" title="Eben Web Krafts" target="_blank" :style="bqaColor">
               <strong>Eben</strong>. 
             </a>All Rights Reserved.
           </span>

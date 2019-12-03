@@ -25,52 +25,50 @@ Vue.component('board-members',{
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <img class="mx-auto" :style="imgBorder" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
             <h4>Solomon Oluwatobi Ayodele</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <img class="mx-auto" :style="imgBorder" src="./../assets/img/bot/Ruby Onwudiwe.JPG" alt="Ruby Onwudiwe">
             <h4>Ruby Onwudiwe</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
-            <h4>Victor Adewusi</h4>
+            <img class="mx-auto" :style="imgBorder" src="./../assets/img/bot/Segun Alade" alt="Segun Alade">
+            <h4>Segun Alade</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <img class="mx-auto" :style="imgBorder" src="./../assets/img/bot/Ayodele Kenneth.JPG" alt="Ayodele Kenneth">
             <h4>Ayodele Kenneth</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
-            <h4>Busayo Morakinyo</h4>
-            <!-- <p class="text-muted">Lead Execution Officer</p>  -->
-          </div>
-        </div>
-
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
+            <img class="mx-auto" :style="imgBorder" src="./../assets/img/bot/Oyindamola Ohwesi.JPG" alt="Oyindamola Ohwesi">
             <h4>Oyindamola Ohwesi</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
-        
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto" :style="imgBorder" src="./../assets/img/bot/Victor Adewusi.JPG" alt="Victor Adewusi">
+            <h4>Victor Adewusi</h4>
+            <!-- <p class="text-muted">Lead Execution Officer</p>  -->
+          </div>
+        </div>
         <div class="col-sm-12">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="./../assets/img/bot/Solomon O. Ayodele.JPG" alt="Solomon Ayodele">
-            <h4>Segun Alade</h4>
+            <img class="mx-auto" :style="imgBorder" src="./../assets/img/bot/Busayo Morakinyo.JPG" alt="Busayo Morakinyo">
+            <h4>Busayo Morakinyo </h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
@@ -79,5 +77,12 @@ Vue.component('board-members',{
       <p></p>
       <p></p>
     </div>
-  </section>`
-})
+  </section>`,
+  data(){
+    return{
+      imgBorder:{
+        border: '7px solid #e6e6e6'
+      }
+    }
+  }
+});
