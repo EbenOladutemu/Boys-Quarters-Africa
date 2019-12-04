@@ -39,7 +39,7 @@ Vue.component('board-members',{
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto" :style="imgBorder" src="./../assets/img/bot/Segun Alade" alt="Segun Alade">
+            <img class="mx-auto" :style="imgBorder" src="./../assets/img/bot/Segun Alade.jpg" alt="Segun Alade">
             <h4>Segun Alade</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
