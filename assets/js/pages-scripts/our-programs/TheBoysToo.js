@@ -49,7 +49,7 @@ Vue.component('boys-too',{
                         </div>
                         <div class="grid-item">
                           <figure class="effect-sadie">
-                            <img src="./../../assets/img/boystoo/ile-ife/IMG_5221.jpg" alt="#BoysToo" class="img-fluid tm-img">
+                            <img src="./../../assets/img/boystoo/ile-ife/IMG_5221.webp" alt="#BoysToo" class="img-fluid tm-img">
                             <figcaption>
                               <h2 class="tm-figure-title">#BoysToo <span><b>Ife</b></span></h2>
                               <p class="tm-figure-description">Osun</p>
@@ -59,7 +59,7 @@ Vue.component('boys-too',{
                         </div>
                         <div class="grid-item">
                           <figure class="effect-sadie">
-                            <img src="./../../assets/img/boystoo/ibadan/IMGM2948.jpeg" alt="#BoysToo" class="img-fluid tm-img">
+                            <img src="./../../assets/img/boystoo/ibadan/IMGM2948.jpg" alt="#BoysToo" class="img-fluid tm-img">
                             <figcaption>
                               <h2 class="tm-figure-title">#BoysToo <span><b>Ibadan</b></span></h2>
                               <p class="tm-figure-description">Oyo</p>
@@ -82,7 +82,7 @@ Vue.component('boys-too',{
                         </div>
                         <div class="grid-item">
                           <figure class="effect-sadie">
-                            <img src="./../../assets/img/boystoo/ile-ife/IMG_5221.jpg" alt="#BoysToo" class="img-fluid tm-img">
+                            <img src="./../../assets/img/boystoo/ile-ife/IMG_5221.webp" alt="#BoysToo" class="img-fluid tm-img">
                             <figcaption>
                               <h2 class="tm-figure-title">#BoysToo <span><b>Lokoja</b></span></h2>
                               <p class="tm-figure-description">Kogi</p>
