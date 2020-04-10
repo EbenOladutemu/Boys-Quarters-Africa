@@ -70,7 +70,7 @@ header.masthead-story {
 }
 
 .masthead{
-  height: 350px;
+  height: 800px;
 }
 section{
   padding: 10px 0 0;
@@ -121,23 +121,38 @@ section#contact {
     display: block!important;
   }
 }
-/*LEARN MORE*/
 
-@media(min-width: 377px) and (max-width: 473px){
+/*LEARN MORE*/
+@media(min-device-width: 320px) and (min-device-height: 500px){ /* Samsung S5 */
   .learn-mg{
-    margin-top: 40px!important;
+    margin-top: 343px!important;
   }
 }
-@media(min-width: 474px) and (max-width: 558px){
-  .learn-mg-2{
-    margin-top: 40px!important;
+
+@media(min-device-width: 411px) and (min-device-height: 731px){ /* Pixel 2 */
+  .learn-mg{
+    margin-top: 364px!important;
   }
 }
-@media(min-width: 559px) and (max-width: 575px){
-  .learn-mg-3{
-    margin-top: 63px!important;
+
+@media(min-device-width: 768px) and (min-device-height: 1024px){ /* iPad */
+  .learn-mg{
+    margin-top: 280px!important;
   }
 }
+
+@media(min-device-width: 1024px) and (min-device-height: 1366px){ /* iPad Pro */
+  .learn-mg{
+    margin-top: 320px!important;
+  }
+}
+
+@media(min-device-width: 1024px){ /* iPad Pro */
+  .learn-mg{
+    margin-top: 320px!important;
+  }
+}
+
 @media(min-width: 576px) and (max-width: 767px){
   .learn-mg-4{
     margin-top: 0!important;
@@ -152,6 +167,7 @@ section#contact {
     line-height: 35px!important;
   }
 }
+
 .timeline:before{
   background-color: #d3d4d6;
 }
@@ -196,12 +212,12 @@ ul.social-buttons li.bg-youtube a:active, ul.social-buttons li.bg-youtube a:focu
   /*background-color: rgba(198, 62, 239, 1);*/
 }
 .pad-sm-font-sm{
-  margin-top: 55px;
+  margin-top: 190px;
   font-size: 17px!important;
   /*color: #e0f523;*/
 }
 .pad-lg-font-lg{
-  margin-top: -110px;
+  margin-top: 50px;
   font-size: 25px!important;
   /*color:#e9f71d;*/
 }
@@ -402,7 +418,7 @@ p {
   top:0;
   left:0;
   width:100%;
-  height:21.9em;
+  height:50em;
   display: block;
   z-index:0;
   background-color: rgba(0,0,0,0.5);
