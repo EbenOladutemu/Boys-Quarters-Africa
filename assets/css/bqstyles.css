@@ -7,6 +7,10 @@ header.masthead-volunteer {
 header.masthead-donate {
   background-image: url("../img/theexchange/lagos/IMG_3449.webp");
 }
+header.masthead-boyfessions {
+  background-image: url("../img/boysq/boyfessions.jpeg");
+}
+
 /* Who we Are */
 header.masthead-about {
   background-image: url("../img/boystoo/akure/IMG_2215.jpg");

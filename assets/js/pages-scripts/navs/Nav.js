@@ -79,7 +79,7 @@ Vue.component('sidebar',{
           </ul>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <a href="boyfessions">Boyfessions</a>
         </li>
         <li>
           <a href="volunteer">Volunteer</a>
@@ -158,7 +158,7 @@ Vue.component('nav-all',{
             </li>
 
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger text-bold" href="#" style="">BLOG</a>
+              <a class="nav-link js-scroll-trigger text-bold" href="boyfessions" style="">Boyfessions</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger text-bold" href="volunteer" style="">VOLUNTEER</a>
