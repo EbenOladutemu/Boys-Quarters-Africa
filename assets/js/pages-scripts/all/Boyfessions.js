@@ -38,9 +38,49 @@ Vue.component('boyfessions',{
           Download and Enjoy the read!
         </p>
       </div>
-      <div class="text-center">
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://boysqafrica.com/assets/docs/BOYFESSIONS.pdf"> <i class="fas fa-download"></i> Download</a>
-      </div>
     </div>
   </section>`,
 })
+
+Vue.component('subscribe-form',{
+	template: `<section id="contact" class="contact-pad" style="background-image: none; background-color: white;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <!-- <h2 class="section-heading text-uppercase" style="margin-bottom: 50px">Contact Us</h2> -->
+            <h3 class="section-subheading text-muted" style="margin-bottom: 20px">Please enter your email address and first name to get the download link.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate="novalidate" method="POST">
+              <div class="row">
+                <div class="col-md-6 offset-md-3">
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">  
+                    <input class="form-control" id="name" type="text" placeholder="Your First Name *" required="required" data-validation-required-message="Please enter your first name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group form-check form-check-inline">
+                    <input class="form-check-input" id="agree" type="checkbox">
+                    <label for="agree" class="form-check-label"> Send me BQA's newsletters and programme updates. </label>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <button id="sendMessageButton" class="btn btn-primary btn-l text-uppercase" type="submit">Submit</button>
+                </div>
+                <div class="col-lg-12">
+                  <div id="success" class="mt-2"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>`
+});
