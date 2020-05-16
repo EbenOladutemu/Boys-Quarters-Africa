@@ -29,11 +29,13 @@ Vue.component('boyfessions',{
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase"><em>Boyfessions</em></h2><br>
         <p>
-          
+          The Boyfessions is a compendium of healthy confessions for Boys and everyone who loves them.
+
+          This book helps provide clarity on the issue of Sexual abuse of the Boy Child and also profers answers to some teething issues faced by the Boy Child tribe. 
         </p>
-        <p>On Friday 27 December 2019, we will be visiting the Juvenile Correctional Home in Ibadan to INSPIRE & SHARE with
-          them, under our flagship initiative called <strong>‘THE EXCHANGE’</strong>.<br>
-          This is the second of it’s kind and we would be giving Clothing Materials, Food Stuff, Toiletries, donating a library to the school and of course have a full blast Party with the Boys.
+        <p>
+          This mini-book would serve as a crusade mechanism in furthering our Strategic Pillars of impact;<br> <strong>Leadership, Education, Empowerment and Advocacy.</strong><br>
+          Download and Enjoy the read!
         </p>
       </div>
       <div class="text-center">
