@@ -37,7 +37,7 @@ Vue.component('donate',{
         </p>
         <p>
           Let’s make this happen TOGETHER. Let’s bring back hope to the hearts and smile to the faces of these Boys.
-          <p><strong>It’s time to change the world, by touching a life at a time.</strong></p>
+          <p><strong>It’s time to change the world, by touching a life at a time</strong></p>
         </p>
       </div>
       <div class="text-center">
