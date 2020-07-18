@@ -1,0 +1,119 @@
+<template>
+  <nav id="sidebar" class="sb-mg-top">
+    <div id="dismiss">
+      <i class="fas fa-times"></i>
+    </div>
+
+    <div class="sidebar-header">
+      <!-- <h3>Menu</h3> -->
+    </div>
+
+    <ul class="list-unstyled components" id="sidebar-nav">
+      <li>
+        <a href="./../home">Home</a>
+      </li>
+      <li class="">
+        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true">Who We Are <i class="fa fa-chevron-down pull-right"></i></a>
+        <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#sidebar-nav">
+          <li>
+            <a href="./../who-we-are/about-us">About Us</a>
+          </li>
+          <li>
+            <a href="./../who-we-are/birthing-story">Birthing Story</a>
+          </li>
+          <li>
+            <a href="./../who-we-are/vision-and-mission">Vision & Mission</a>
+          </li>
+          <!-- <li>
+            <a href="./../who-we-are/core-values">Core Values</a>
+          </li> -->
+          <li>
+            <a href="./../who-we-are/board-members">Board Members</a>
+          </li>
+          <li>
+            <a href="./../who-we-are/execution-team">Execution Team</a>
+          </li>
+        </ul>
+      </li>
+      <li class="">
+        <a href="#programsSubmenu" data-toggle="collapse" aria-expanded="true">Our Programs <i class="fa fa-chevron-down pull-right"></i></a>
+        <ul class="collapse list-unstyled" id="programsSubmenu" data-parent="#sidebar-nav">
+          <li>
+            <a href="./../our-programs/the-boys-too">The #BoysToo</a>
+          </li>
+          <li>
+            <a href="./../our-programs/yahoo-project">YAHOO Project</a>
+          </li>
+          <li>
+            <a href="./../our-programs/the-boys-talk">The Boys Talk</a>
+          </li>
+          <li>
+            <a href="./../our-programs/campus-mentour">Campus MENtour</a>
+          </li>
+          <li>
+            <a href="#">Boy-Lead Academy</a>
+          </li>
+          <li>
+            <a href="#">One Boy Project</a>
+          </li>
+          <li>
+            <a data-toggle="modal" href="#boysCreed">Download <b>THE BOYS CREED</b></a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true">Pillars of Impact <i class="fa fa-chevron-down pull-right"></i></a>
+        <ul class="collapse list-unstyled" id="pageSubmenu" data-parent="#sidebar-nav">
+          <li>
+            <a href="./../pillars-of-impact/leadership"><b>L</b>eadership</a>
+          </li>
+          <li>
+            <a href="./../pillars-of-impact/education"><b>E</b>ducation</a>
+          </li>
+          <li>
+            <a href="./../pillars-of-impact/empowerment"><b>E</b>powerment</a>
+          </li>
+          <li>
+            <a href="./../pillars-of-impact/advocacy"><b>Ad</b>vocacy</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="./../boyfessions">Boyfessions</a>
+      </li>
+      <li>
+        <a href="./../volunteer">Volunteer</a>
+      </li>
+      <li class="">
+        <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="true">Contact Us <i class="fa fa-chevron-down pull-right"></i></a>
+        <ul class="collapse list-unstyled" id="contactSubmenu" data-parent="#sidebar-nav">
+          <li>
+            <a href="./../contact/send-a-message">Send A Message</a>
+          </li>
+          <li>
+            <a href="#">Invite A Speaker</a>
+          </li>
+          <li>
+            <a href="#">Share A Story</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- <ul class="list-unstyled CTAs">
+      <li>
+        <a href="#" class="nav-link js-scroll-trigger btn btn-primary donate" style="background-color: #bec65d">DONATE</a>
+      </li>
+    </ul> -->
+  </nav>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
