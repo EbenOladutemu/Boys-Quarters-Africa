@@ -74,44 +74,44 @@ header.masthead-story {
 }
 
 .masthead{
-  height: 800px;
+  height: 100vh;
 }
 section{
   padding: 10px 0 0;
 }
 section#contact {
-    background-color: #000;
-    background-image: url("/src/assets/img/bqafrica4.png");
-    background-size: 1470px 1200px;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-color: #000;
+  background-image: url("/src/assets/img/bqafrica4.png");
+  background-size: 1470px 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    opacity: .8;
-    background: #1C1D21;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .8;
+  background: #1C1D21;
 }
 @media (min-width: 768px){
-.timeline:before {
-  left: 50%;
+  .timeline:before {
+    left: 50%;
   }
 }
 @media(min-width:576px) and (max-width:767px){
   .form-sm{
-      width:360px;
-      height:1277px;
-      display:none!important;
+    width:360px;
+    height:1277px;
+    display:none!important;
   }
   
 }
 @media(min-width:768px){
   .form-lg{
-      width:750px!important;
-      height:1277px!important;
+    width:750px!important;
+    height:1277px!important;
   }
   
 }
@@ -128,39 +128,26 @@ section#contact {
 
 /*LEARN MORE*/
 @media(min-device-width: 320px) and (min-device-height: 500px){ /* Samsung S5 */
-  .learn-mg{
-    margin-top: 343px!important;
-  }
+  
 }
 
 @media(min-device-width: 411px) and (min-device-height: 731px){ /* Pixel 2 */
-  .learn-mg{
-    margin-top: 364px!important;
-  }
+  
 }
 
 @media(min-device-width: 768px) and (min-device-height: 1024px){ /* iPad */
-  .learn-mg{
-    margin-top: 280px!important;
-  }
+  
 }
 
 @media(min-device-width: 1024px) and (min-device-height: 1366px){ /* iPad Pro */
-  .learn-mg{
-    margin-top: 320px!important;
-  }
+ 
 }
 
 @media(min-device-width: 1024px){ /* iPad Pro */
-  .learn-mg{
-    margin-top: 320px!important;
-  }
+  
 }
 
 @media(min-width: 576px) and (max-width: 767px){
-  .learn-mg-4{
-    margin-top: 0!important;
-  }
   .hide-second{
     display: none!important;
   }
@@ -196,7 +183,7 @@ section#contact {
   color: white;
 }
 ::selection {
-  background: #212856;
+  background: #bbb;
   text-shadow: none;
 }
 ul.social-buttons li.bg-twitter a:active, ul.social-buttons li.bg-twitter a:focus, ul.social-buttons li.bg-twitter a:hover {
@@ -422,7 +409,7 @@ p {
   top:0;
   left:0;
   width:100%;
-  height:50em;
+  height:100vh;
   display: block;
   z-index:0;
   background-color: rgba(0,0,0,0.5);

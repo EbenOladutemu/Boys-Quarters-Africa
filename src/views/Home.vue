@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <Sidebar></Sidebar>
-    <Header style="margin-bottom:150px"></Header>
+    <Header></Header>
+      <router-link slot="learn-more" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mb-4" to="who-we-are/about-us">Learn More</router-link>
     <Creed/>
     <Footer></Footer>
     <div class="overlay"></div>

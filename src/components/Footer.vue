@@ -60,7 +60,7 @@
         </div>
         
         <div class="col-md-12"><hr class="footer-hr">
-          <span class="copyright">Boys Quarters Africa &copy;{{year}} Crafted by 
+          <span class="copyright">Boys Quarters Africa &copy;{{ year }} Crafted by 
             <a href="https://eben.com.ng" title="Eben Web Krafts" target="_blank" :style="bqaColor">
               <strong>Eben</strong>. 
             </a>All Rights Reserved.

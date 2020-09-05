@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-1 px-2">
     <div class="container-fluid">
-      <a class="navbar-brand js-scroll-trigger" href="./../home"><img src="./../assets/img/bqafrica3.png" width="108" height="40px" title="HOME"></a>
+      <router-link class="navbar-brand js-scroll-trigger" to="/home"><img src="./../assets/img/bqafrica3.png" width="108" height="40px" title="HOME"></router-link>
       <button class="btn btn-primary d-inline-block d-lg-none mx-auto" type="button" id="sidebarCollapse" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-align-center"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -12,12 +12,17 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
-                <router-link to="" active-class="active">About Us</router-link>
+                <router-link class="dropdown-item" :to="routes.about" active-class="">About Us</router-link>
               </li>
-              <a class="dropdown-item" href="./../who-we-are/about-us">About Us</a>
-              <a class="dropdown-item" href="./../who-we-are/vision-and-mission">Vision & Mission</a>
-              <a class="dropdown-item" href="./../who-we-are/board-members">Board Members</a>
-              <a class="dropdown-item" href="./../who-we-are/execution-team">Execution Team</a>
+              <li>
+                <router-link class="dropdown-item" :to="routes.vision" active-class="">Vision & Mission</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.board" active-class="">Our Board</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.people" active-class="">Our People</router-link>
+              </li>
             </div>
           </li>
 
@@ -49,7 +54,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger text-bold" href="./../boyfessions" style="">BOYFESSIONS</a>
+            <a class="nav-link js-scroll-trigger text-bold" href="./../boyfessions" style="">Boyfessions</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger text-bold" href="./../volunteer" style="">Get Involved</a>
@@ -66,26 +71,22 @@
           </li>
         </ul>
       </div>
-      <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad donate-animat" :class="donateCount" @click="removeClass" href="donate">DONATE</a>
+      <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad donate-animate" :class="donateCount" @click="removeClass" href="donate">DONATE</a>
     </div>
   </nav>
 </template>
 
 <script>
 export default {
-
-}
-</script>
-
-<style>
-
-</style>
-
-<script>
-export default {
   data(){
     return{
-      donateCount: 'donate-count'
+      donateCount: 'donate-count',
+      routes:{
+        about:{ name: 'About' },
+        vision:{ name: 'Vision' },
+        board:{ name: 'Board' },
+        people:{ name: 'People' }
+      }
     }
   },
   methods:{
@@ -107,5 +108,8 @@ export default {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
   }
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  border-radius: 0;
 }
 </style>
