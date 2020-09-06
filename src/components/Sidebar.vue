@@ -1,6 +1,6 @@
 <template>
-  <nav id="sidebar" class="sb-mg-top">
-    <div id="dismiss">
+  <nav id="sidebar">
+    <div id="dismiss" @click="closeSidebar">
       <i class="fas fa-times"></i>
     </div>
 
@@ -10,28 +10,25 @@
 
     <ul class="list-unstyled components" id="sidebar-nav">
       <li>
-        <a href="./../home">Home</a>
+        <router-link to="/home">Home</router-link>
       </li>
       <li class="">
         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true">Who We Are <i class="fa fa-chevron-down pull-right"></i></a>
         <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#sidebar-nav">
           <li>
-            <a href="./../who-we-are/about-us">About Us</a>
+            <router-link :to="routes.about">About Us</router-link>
           </li>
           <li>
-            <a href="./../who-we-are/birthing-story">Birthing Story</a>
-          </li>
-          <li>
-            <a href="./../who-we-are/vision-and-mission">Vision & Mission</a>
+            <router-link :to="routes.vision">Vision & Mission</router-link>
           </li>
           <!-- <li>
             <a href="./../who-we-are/core-values">Core Values</a>
           </li> -->
           <li>
-            <a href="./../who-we-are/board-members">Board Members</a>
+            <router-link :to="routes.board">Our Board</router-link>
           </li>
           <li>
-            <a href="./../who-we-are/execution-team">Execution Team</a>
+            <router-link :to="routes.people">Our People</router-link>
           </li>
         </ul>
       </li>
@@ -109,8 +106,21 @@
 </template>
 
 <script>
-export default {
+import { sidebar } from '../mixins'
 
+export default {
+  data(){
+    return{
+      donateCount: 'donate-count',
+      routes:{
+        about:{ name: 'About' },
+        vision:{ name: 'Vision' },
+        board:{ name: 'Board' },
+        people:{ name: 'People' }
+      }
+    }
+  },
+  mixins: [ sidebar ]
 }
 </script>
 

@@ -11,6 +11,9 @@ import './assets/vendor/sidebar/sidebar.css'
 import './assets/vendor/sidebar/scrollbar.css'
 import './assets/css/lightbox.css'
 import './assets/css/imagehover.min.css'
+// import './assets/vendor/fluid-gallery/css/hero-slider-style.css'
+// import './assets/vendor/fluid-gallery/css/magnific-popup.css'
+// import './assets/vendor/fluid-gallery/css/templatemo-style.css'
 
 Vue.config.productionTip = false
 

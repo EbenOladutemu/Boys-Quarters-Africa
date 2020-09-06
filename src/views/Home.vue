@@ -2,10 +2,11 @@
   <div class="home">
     <Sidebar></Sidebar>
     <Header></Header>
-      <router-link slot="learn-more" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mb-4" to="who-we-are/about-us">Learn More</router-link>
+      <div class="text-center">
+        <router-link slot="learn-more" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mb-4" to="who-we-are/about-us">Learn More</router-link>
+      </div>
     <Creed/>
     <Footer></Footer>
-    <div class="overlay"></div>
   </div>
 </template>
 
@@ -22,3 +23,6 @@ export default {
   }
 }
 </script>
+
+<style>
+</style>

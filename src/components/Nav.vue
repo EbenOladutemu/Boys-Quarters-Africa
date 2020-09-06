@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-1 px-2">
+  <nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top py-1 px-2">
     <div class="container-fluid">
       <router-link class="navbar-brand js-scroll-trigger" to="/home"><img src="./../assets/img/bqafrica3.png" width="108" height="40px" title="HOME"></router-link>
       <button class="btn btn-primary d-inline-block d-lg-none mx-auto" type="button" id="sidebarCollapse" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-align-center"></i>
@@ -94,6 +94,16 @@ export default {
       this.donateCount = ''
     }
   },
+  mounted(){
+    var navbar = document.getElementById('nav');
+    window.onscroll = () => {
+      if (window.pageYOffset > 100) {
+        navbar.classList.add('nav-class');  
+      } else {
+        navbar.classList.remove('nav-class');
+      }
+    } 
+  },
   destroyed(){
     this.donateCount
   }
@@ -102,7 +112,7 @@ export default {
 
 <style scoped lang="scss">
 .nav-link{
-  font-size: 17px;
+  font-size: 20px;
 }
 @media (min-width: 992px){
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -111,5 +121,10 @@ export default {
 }
 .dropdown-item:focus, .dropdown-item:hover{
   border-radius: 0;
+}
+.nav-class{
+  background: #212529;
+  padding: 10px!important;
+  transition: .4s;
 }
 </style>

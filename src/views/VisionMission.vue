@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <Sidebar></Sidebar>
     <Header style="margin-bottom:150px"></Header>
     <section>
