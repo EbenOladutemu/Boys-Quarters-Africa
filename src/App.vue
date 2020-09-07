@@ -84,4 +84,8 @@ html{
   transition: opacity .2s;
   opacity: 0;
 }
+
+.dropdown{
+  margin-right: 5px;
+}
 </style>
