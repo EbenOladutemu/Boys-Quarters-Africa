@@ -1,5 +1,5 @@
 header.masthead {
-	background-image: url("../img/TheExchange/Lagos/IMG_3540.webp");
+	background-image: url("../img/TheExchange/Lagos/IMG_3540.jpg");
 }
 header.masthead-volunteer {
   background-image: url("/src/assets/img/boystoo/ile-ife/IMG_5257.webp");
@@ -12,20 +12,8 @@ header.masthead-boyfessions {
 }
 
 /* Who we Are */
-header.masthead-about {
-  background-image: url("/src/assets/img/boystoo/akure/IMG_2215.jpg");
-}
 header.masthead-birthing-story {
   background-image: url("/src/assets/img/boystoo/ibadan/IMGM2944.jpg");
-}
-header.masthead-vision {
-  background-image: url("/src/assets/img/theexchange/lagos/IMG_3521.webp");
-}
-header.masthead-board {
-  background-image: url("/src/assets/img/boystoo/ile-ife/IMG_5167.webp");
-}
-header.masthead-team {
-  background-image: url("/src/assets/img/theexchange/lagos/IMG_3902.webp");
 }
 
 /* Our Programs */

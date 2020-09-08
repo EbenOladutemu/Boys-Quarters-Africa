@@ -61,7 +61,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Tomi-Fowe.png" alt="Tomi Fowe">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/Tomi-Fowe.jpg" alt="Tomi Fowe">
               <h4>Oluwatomidimu Fowe</h4>
               <p class="text-muted">Finance</p>
               <ul class="list-inline social-buttons">
@@ -233,6 +233,6 @@ export default {
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url("../assets/img/TheExchange/Lagos/IMG_3902.webp");
+  background-image: url("../assets/img/TheExchange/Lagos/IMG_3902.jpg");
 }
 </style>

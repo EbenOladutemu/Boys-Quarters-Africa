@@ -98,6 +98,6 @@ export default {
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url('../assets/img/TheExchange/Lagos/IMG_3521.webp');
+  background-image: url('../assets/img/TheExchange/Lagos/IMG_3521.jpg');
 }
 </style>

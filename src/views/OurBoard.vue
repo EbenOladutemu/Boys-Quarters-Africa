@@ -94,6 +94,6 @@ export default {
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url("../assets/img/BoysToo/Ile-Ife/IMG_5167.webp");
+  background-image: url("../assets/img/BoysToo/Ile-Ife/IMG_5167.jpg");
 }
 </style>
