@@ -6,7 +6,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Execution Team</h2>
+            <h2 class="section-heading text-uppercase">Our People</h2>
             <!-- <h3 class="section-subheading text-muted">Meet the BQA Team!</h3> -->
           </div>
         </div>
@@ -37,7 +37,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Glory-Odikagbue.jpg" alt="Glory Odikagbue">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/Glory-Odikagbue.png" alt="Glory Odikagbue">
               <h4>Glory Odikagbue</h4>
               <p class="text-muted">Operations</p>
               <ul class="list-inline social-buttons">
@@ -85,7 +85,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Kolade-Emmanuel.jpg" alt="Kolade Emmanuel">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/Kolade-Emmanuel.png" alt="Kolade Emmanuel">
               <h4>Kolade Emmanuel</h4>
               <p class="text-muted">Programmes Manager</p>
               <ul class="list-inline social-buttons">
@@ -186,7 +186,7 @@
 
           <div class="col-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Ebenezer-Oladutemu.jpg" alt="Ebenezer Oladutemu">
+              <img class="mx-auto rounded-circle" src="./../assets/img/team/Ebenezer-Oladutemu.png" alt="Ebenezer Oladutemu">
               <h4>Ebenezer Oladutemu</h4>
               <p class="text-muted" :style="{marginBottom: '15px'}">Strategy and Innovation</p>
               <ul class="list-inline social-buttons">
