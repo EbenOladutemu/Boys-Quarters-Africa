@@ -12,49 +12,49 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto" :style="imgBorder" src="./../assets/img/BOT/Solomon O. Ayodele.jpg" alt="Solomon Ayodele">
+            <img class="mx-auto" :style="imgBorder" src="@/assets/img/BOT/Solomon O. Ayodele.jpg" alt="Solomon Ayodele">
             <h4>Solomon Oluwatobi Ayodele</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto" :style="imgBorder" src="./../assets/img/BOT/Ruby Onwudiwe.jpg" alt="Ruby Onwudiwe">
+            <img class="mx-auto" :style="imgBorder" src="@/assets/img/BOT/Ruby Onwudiwe.jpg" alt="Ruby Onwudiwe">
             <h4>Ruby Onwudiwe</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto" :style="imgBorder" src="./../assets/img/BOT/Segun Alade.jpg" alt="Segun Alade">
+            <img class="mx-auto" :style="imgBorder" src="@/assets/img/BOT/Segun Alade.jpg" alt="Segun Alade">
             <h4>Segun Alade</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto" :style="imgBorder" src="./../assets/img/BOT/Ayodele Kenneth.jpg" alt="Ayodele Kenneth">
+            <img class="mx-auto" :style="imgBorder" src="@/assets/img/BOT/Ayodele Kenneth.jpg" alt="Ayodele Kenneth">
             <h4>Ayodele Kenneth</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto" :style="imgBorder" src="./../assets/img/BOT/Oyindamola Ohwesi.jpg" alt="Oyindamola Ohwesi">
+            <img class="mx-auto" :style="imgBorder" src="@/assets/img/BOT/Oyindamola Ohwesi.jpg" alt="Oyindamola Ohwesi">
             <h4>Oyindamola Ohwesi</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto" :style="imgBorder" src="./../assets/img/BOT/Victor Adewusi.jpg" alt="Victor Adewusi">
+            <img class="mx-auto" :style="imgBorder" src="@/assets/img/BOT/Victor Adewusi.jpg" alt="Victor Adewusi">
             <h4>Victor Adewusi</h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
         </div>
         <div class="col-sm-12">
           <div class="team-member">
-            <img class="mx-auto" :style="imgBorder" src="./../assets/img/BOT/Busayo Morakinyo.jpg" alt="Busayo Morakinyo">
+            <img class="mx-auto" :style="imgBorder" src="@/assets/img/BOT/Busayo Morakinyo.jpg" alt="Busayo Morakinyo">
             <h4>Busayo Morakinyo </h4>
             <!-- <p class="text-muted">Lead Execution Officer</p>  -->
           </div>
@@ -94,6 +94,6 @@ export default {
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url("../assets/img/BoysToo/Ile-Ife/IMG_5167.jpg");
+  background-image: url("../../assets/img/BoysToo/Ile-Ife/IMG_5167.jpg");
 }
 </style>

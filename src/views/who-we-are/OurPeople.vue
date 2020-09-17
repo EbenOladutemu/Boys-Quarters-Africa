@@ -13,7 +13,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/BOT/Solomon O. Ayodele.jpg" alt="Solomon Ayodele">
+              <img class="mx-auto rounded-circle" src="@/assets/img/BOT/Solomon O. Ayodele.jpg" alt="Solomon Ayodele">
               <h4>Solomon O. Ayodele</h4>
               <p class="text-muted">Lead Execution Officer</p>
               <ul class="list-inline social-buttons">
@@ -37,7 +37,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Glory-Odikagbue.png" alt="Glory Odikagbue">
+              <img class="mx-auto rounded-circle" src="@/assets/img/team/Glory-Odikagbue.png" alt="Glory Odikagbue">
               <h4>Glory Odikagbue</h4>
               <p class="text-muted">Operations</p>
               <ul class="list-inline social-buttons">
@@ -61,7 +61,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Tomi-Fowe.jpg" alt="Tomi Fowe">
+              <img class="mx-auto rounded-circle" src="@/assets/img/team/Tomi-Fowe.jpg" alt="Tomi Fowe">
               <h4>Oluwatomidimu Fowe</h4>
               <p class="text-muted">Finance</p>
               <ul class="list-inline social-buttons">
@@ -85,7 +85,7 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Kolade-Emmanuel.png" alt="Kolade Emmanuel">
+              <img class="mx-auto rounded-circle" src="@/assets/img/team/Kolade-Emmanuel.png" alt="Kolade Emmanuel">
               <h4>Kolade Emmanuel</h4>
               <p class="text-muted">Programmes Manager</p>
               <ul class="list-inline social-buttons">
@@ -110,7 +110,7 @@
 
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Isaac-Kanu.jpeg" alt="Isaac Kanu" style="">
+              <img class="mx-auto rounded-circle" src="@/assets/img/team/Isaac-Kanu.jpeg" alt="Isaac Kanu" style="">
               <h4>Isaac Kanu</h4>
               <p class="text-muted">Research and Data Intelligence</p>
               <ul class="list-inline social-buttons">
@@ -135,7 +135,7 @@
           
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Busayo-Fache.jpeg" alt="Busayo Fache">
+              <img class="mx-auto rounded-circle" src="@/assets/img/team/Busayo-Fache.jpeg" alt="Busayo Fache">
               <h4>Busayo Fache</h4>
               <p class="text-muted" :style="{marginBottom: '15px'}">Community and Civic Engagement</p>
               <ul class="list-inline social-buttons">
@@ -161,7 +161,7 @@
 
           <div class="col-sm-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Ama-Akiri.jpg" alt="Ama Akiri">
+              <img class="mx-auto rounded-circle" src="@/assets/img/team/Ama-Akiri.jpg" alt="Ama Akiri">
               <h4>Ama Akiri</h4>
               <p class="text-muted">Volunteer Manager</p>
               <ul class="list-inline social-buttons">
@@ -186,7 +186,7 @@
 
           <div class="col-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="./../assets/img/team/Ebenezer-Oladutemu.png" alt="Ebenezer Oladutemu">
+              <img class="mx-auto rounded-circle" src="@/assets/img/team/Ebenezer-Oladutemu.png" alt="Ebenezer Oladutemu">
               <h4>Ebenezer Oladutemu</h4>
               <p class="text-muted" :style="{marginBottom: '15px'}">Strategy and Innovation</p>
               <ul class="list-inline social-buttons">
@@ -233,6 +233,6 @@ export default {
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url("../assets/img/TheExchange/Lagos/IMG_3902.jpg");
+  background-image: url("../../assets/img/TheExchange/Lagos/IMG_3902.jpg");
 }
 </style>

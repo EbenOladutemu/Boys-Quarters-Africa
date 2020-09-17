@@ -15,7 +15,7 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="./../assets/img/about/about-3.jpeg" alt="Boys Quarter Africa">
+                  <img class="rounded-circle img-fluid" src="@/assets/img/about/about-3.jpeg" alt="Boys Quarter Africa">
                 </div>
                 <div class="timeline-panel about-1">
                   <div class="timeline-heading">
@@ -34,7 +34,7 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="./../assets/img/about/about-4.png" alt="Boys Quarter Africa">
+                  <img class="rounded-circle img-fluid" src="@/assets/img/about/about-4.png" alt="Boys Quarter Africa">
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -51,7 +51,7 @@
               </li>
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="./../assets/img/about/about-1.jpeg" alt="Boys Quarter Africa">
+                  <img class="rounded-circle img-fluid" src="@/assets/img/about/about-1.jpeg" alt="Boys Quarter Africa">
                 </div>
                 <div class="timeline-panel about-1">
                   <div class="timeline-heading">
@@ -98,6 +98,6 @@ export default {
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url('../assets/img/TheExchange/Lagos/IMG_3521.jpg');
+  background-image: url('../../assets/img/TheExchange/Lagos/IMG_3521.jpg');
 }
 </style>

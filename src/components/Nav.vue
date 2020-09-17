@@ -31,12 +31,33 @@
               Our Initiatives
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="./../our-programs/the-boys-too">The #BoysToo</a>
-              <a class="dropdown-item" href="./../our-programs/yahoo-project">YAHOO Project</a>
-              <a class="dropdown-item" href="./../our-programs/the-boys-talk">The Boys Talk</a>
-              <a class="dropdown-item" href="./../our-programs/campus-mentour" style="text-transform: none!important;">CAMPUS MENtour</a>
-              <a class="dropdown-item" href="#">Boy-Lead Academy</a>
-              <a class="dropdown-item" href="#">One Boy Project</a>
+              <li>
+                <router-link class="dropdown-item" :to="routes.boysToo" active-class="">#BoysToo</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.guyversations" active-class="">Guyversations</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.boysSummit" active-class="">International Boys Summit</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.projectSabi" active-class="">Project SABI</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.boysAcademy" active-class="">The Boys Finishing Academy</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.campusMentour" active-class="">The Campus MenTOUR</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.digiStreet" active-class="">The Digi-Street Hub</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.exchange" active-class="">The Exchange</router-link>
+              </li>
+              <li>
+                <router-link class="dropdown-item" :to="routes.oneBoyProject" active-class="">The One Boy Project</router-link>
+              </li>
               <a class="dropdown-item" href="#boysCreed" data-toggle="modal">Download <b>THE BOYS CREED</b></a>
             </div>
           </li>
@@ -82,10 +103,21 @@ export default {
     return{
       donateCount: 'donate-count',
       routes:{
+        // Who We Are
         about:{ name: 'About' },
         vision:{ name: 'Vision' },
         board:{ name: 'Board' },
-        people:{ name: 'People' }
+        people:{ name: 'People' },
+        // Our Initiatives
+        boysToo: { name: 'BoysToo' },
+        guyversations: { name: 'Guyversations' },
+        boysSummit: { name: 'BoysSummit' },
+        projectSabi: { name: 'ProjectSabi' },
+        boysAcademy: { name: 'BoysAcademy' },
+        campusMentour: { name: 'CampusMentour' },
+        digiStreet: { name: 'DigiStreet' },
+        exchange: { name: 'Exchange' },
+        oneBoyProject: { name: 'OneBoyProject' }
       }
     }
   },

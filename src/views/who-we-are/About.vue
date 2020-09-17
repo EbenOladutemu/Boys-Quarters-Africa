@@ -33,28 +33,28 @@
         </p><br>
         <div class="row">
           <div class="col-lg-3 mx-auto text-center">
-            <a href="./../pillars-of-impact/leadership" class="poi-color">
+            <router-link to="#" class="poi-color">
               <i class="fas fa-user-tie fa-4x"></i>
               <h3>Leadership</h3>
-            </a>   
+            </router-link>   
           </div>
           <div class="col-lg-3 mx-auto text-center">
-            <a href="./../pillars-of-impact/education" class="poi-color">
+            <router-link to="#" class="poi-color">
               <i class="fas fa-user-graduate fa-4x"></i>
               <h3>Education</h3>
-            </a>
+            </router-link>
           </div>
           <div class="col-lg-3 mx-auto text-center">
-            <a href="./../pillars-of-impact/empowerment" class="poi-color">
+            <router-link to="#" class="poi-color">
               <i class="fas fa-hand-rock fa-4x"></i>
               <h3>Empowerment</h3>
-            </a>
+            </router-link> <!-- ./../pillars-of-impact/leadership -->
           </div>
           <div class="col-lg-3 mx-auto text-center">
-            <a href="./../pillars-of-impact/advocacy" class="poi-color">
+            <router-link to="#" class="poi-color">
               <i class="fas fa-balance-scale fa-4x"></i>
               <h3>Advocacy</h3>
-            </a>
+            </router-link>
           </div>
         </div><br>
         <p>
@@ -111,6 +111,6 @@ export default {
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url('../assets/img/BoysToo/Akure/IMG_2215.jpg');
+  background-image: url('../../assets/img/BoysToo/Akure/IMG_2215.jpg');
 }
 </style>
