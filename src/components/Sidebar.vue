@@ -16,19 +16,16 @@
         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true">Who We Are <i class="fa fa-chevron-down pull-right"></i></a>
         <ul class="collapse list-unstyled" id="homeSubmenu" data-parent="#sidebar-nav">
           <li>
-            <router-link :to="routes.about">About Us</router-link>
+            <router-link :to="routes.about" active-class="active">About Us</router-link>
           </li>
           <li>
-            <router-link :to="routes.vision">Vision & Mission</router-link>
-          </li>
-          <!-- <li>
-            <a href="./../who-we-are/core-values">Core Values</a>
-          </li> -->
-          <li>
-            <router-link :to="routes.board">Our Board</router-link>
+            <router-link :to="routes.vision" active-class="active">Vision, Mission & Core Values</router-link>
           </li>
           <li>
-            <router-link :to="routes.people">Our People</router-link>
+            <router-link :to="routes.board" active-class="active">Our Board</router-link>
+          </li>
+          <li>
+            <router-link :to="routes.people" active-class="active">Our People</router-link>
           </li>
         </ul>
       </li>
@@ -36,22 +33,31 @@
         <a href="#programsSubmenu" data-toggle="collapse" aria-expanded="true">Our Programs <i class="fa fa-chevron-down pull-right"></i></a>
         <ul class="collapse list-unstyled" id="programsSubmenu" data-parent="#sidebar-nav">
           <li>
-            <a href="./../our-programs/the-boys-too">The #BoysToo</a>
+            <router-link :to="routes.boysToo" active-class="active">#BoysToo</router-link>
           </li>
           <li>
-            <a href="./../our-programs/yahoo-project">YAHOO Project</a>
+            <router-link :to="routes.guyversations" active-class="active">Guyversations</router-link>
           </li>
           <li>
-            <a href="./../our-programs/the-boys-talk">The Boys Talk</a>
+            <router-link :to="routes.boysSummit" active-class="active">International Boys Summit</router-link>
           </li>
           <li>
-            <a href="./../our-programs/campus-mentour">Campus MENtour</a>
+            <router-link :to="routes.projectSabi" active-class="active">Project SABI</router-link>
           </li>
           <li>
-            <a href="#">Boy-Lead Academy</a>
+            <router-link :to="routes.boysAcademy" active-class="active">The Boys Finishing Academy</router-link>
           </li>
           <li>
-            <a href="#">One Boy Project</a>
+            <router-link :to="routes.campusMentour" active-class="active">The Campus MenTOUR</router-link>
+          </li>
+          <li>
+            <router-link :to="routes.digiStreet" active-class="active">The Digi-Street Hub</router-link>
+          </li>
+          <li>
+            <router-link :to="routes.exchange" active-class="active">The Exchange</router-link>
+          </li>
+          <li>
+            <router-link :to="routes.oneBoyProject" active-class="active">The One Boy Project</router-link>
           </li>
           <li>
             <a data-toggle="modal" href="#boysCreed">Download <b>THE BOYS CREED</b></a>
@@ -113,10 +119,21 @@ export default {
     return{
       donateCount: 'donate-count',
       routes:{
+        // Who We Are
         about:{ name: 'About' },
         vision:{ name: 'Vision' },
         board:{ name: 'Board' },
-        people:{ name: 'People' }
+        people:{ name: 'People' },
+        // Our Initiatives
+        boysToo: { name: 'BoysToo' },
+        guyversations: { name: 'Guyversations' },
+        boysSummit: { name: 'BoysSummit' },
+        projectSabi: { name: 'ProjectSabi' },
+        boysAcademy: { name: 'BoysAcademy' },
+        campusMentour: { name: 'CampusMentour' },
+        digiStreet: { name: 'DigiStreet' },
+        exchange: { name: 'Exchange' },
+        oneBoyProject: { name: 'OneBoyProject' }
       }
     }
   },

@@ -15,7 +15,7 @@
                 <router-link class="dropdown-item" :to="routes.about" active-class="">About Us</router-link>
               </li>
               <li>
-                <router-link class="dropdown-item" :to="routes.vision" active-class="">Vision & Mission</router-link>
+                <router-link class="dropdown-item" :to="routes.vision" active-class="">Vision, Mission & Core Values</router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" :to="routes.board" active-class="">Our Board</router-link>
