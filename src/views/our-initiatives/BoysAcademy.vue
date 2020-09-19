@@ -2,9 +2,25 @@
   <div class="home">
     <Sidebar></Sidebar>
     <Header></Header>
-      <div class="text-center">
-        <router-link slot="learn-more" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mb-4" to="who-we-are/about-us">Learn More</router-link>
-      </div>
+      <section class="pb-3">
+        <div class="container">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">The Boys Finishing Academy</h2><br>
+          </div>
+          <div class="about-style">
+            <p> 
+              Boyformation Academy is the organization’s custom-curated boot camp for boys to re-educate them and help them unlearn age-long ideologies or debilitating value system.
+              The academy seeks to address issues around how Boys see leadership, gender roles and their role in ensuring we arrive at the future we earnestly desire.
+            </p>
+            <p>
+              The module of academy encompasses personal development, dressing, gender base violence, sexual abuse of Boys, relationship with girl, being domesticated, fatherhood and husband-hood, personal hygiene and other future-driven materials.
+            </p>
+            <p>
+              A fall off of this Academy is the Men.Start.Action Project- On this Project, Boys are rallied to raise funds for the procurement of Menstrual Pads for Girls in their locality. They raise the funds and go ahead to present these pads to them on a need basis, especially for Girls in rural area. This helps the Boys see a different narrative and instill in them the discipline to protect girls and women.
+            </p>
+          </div>
+        </div>
+      </section>
     <Creed/>
     <Footer></Footer>
   </div>
@@ -27,5 +43,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.masthead {
+  background-image: url('../../assets/img/Immersion-1.0/IMG_1756.jpeg');
+}
 </style>

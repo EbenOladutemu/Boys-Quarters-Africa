@@ -13,132 +13,97 @@
             <!-- IMAGE 1 -->
             <div class="col-md-4 col-sm-6 portfolio-item">
               <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0022.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
+                <img src="@/assets/img/BoysToo/Ikare/Image 2020-02-11.jpeg" class="img-fluid rounded" alt="Boys Quarter Africa">
                 <figcaption>
                   <i class="fas fa-search-plus fa-3x i-search"></i>
                 </figcaption>
-                <a href="/img/IMG-20200131-WA0022.23431dfa.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
+                <a href="/img/Image 2020-02-11.53ccaf29.jpeg" data-toggle="lightbox" data-gallery="gallery"></a>
               </figure>
             </div>
             <!-- IMAGE 2 -->
             <div class="col-md-4 col-sm-6 portfolio-item">
               <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0014.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
+                <img src="@/assets/img/BoysToo/Ikare/Image 2020-02-11-2.jpeg" class="img-fluid rounded" alt="Boys Quarter Africa">
                 <figcaption>
                   <i class="fas fa-search-plus fa-3x i-search"></i>
                 </figcaption>
-                <a href="/img/IMG-20200131-WA0014.58463524.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
+                <a href="/img/Image 2020-02-11-2.3133a3de.jpeg" data-toggle="lightbox" data-gallery="gallery"></a>
               </figure>
             </div>
             <!-- IMAGE 3 -->
             <div class="col-md-4 col-sm-6 portfolio-item">
               <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0020.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
+                <img src="@/assets/img/BoysToo/Ikare/Image 2020-02-11-3.jpeg" class="img-fluid rounded" alt="Boys Quarter Africa">
                 <figcaption>
                   <i class="fas fa-search-plus fa-3x i-search"></i>
                 </figcaption>
-                <a href="/img/IMG-20200131-WA0020.b1bac950.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
+                <a href="/img/Image 2020-02-11-3.a8656e26.jpeg" data-toggle="lightbox" data-gallery="gallery"></a>
               </figure>
             </div>
 
             <!-- IMAGE 4 -->
             <div class="col-md-4 col-sm-6 portfolio-item">
               <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0023.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
+                <img src="@/assets/img/BoysToo/Ikare/Image 2020-02-11-4.jpeg" class="img-fluid rounded" alt="Boys Quarter Africa">
                 <figcaption>
                   <i class="fas fa-search-plus fa-3x i-search"></i>
                 </figcaption>
-                <a href="/img/IMG-20200131-WA0023.ab8647f7.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
+                <a href="/img/Image 2020-02-11-4.db94fdd1.jpeg" data-toggle="lightbox" data-gallery="gallery"></a>
               </figure>
             </div>
             <!-- IMAGE 5 -->
             <div class="col-md-4 col-sm-6 portfolio-item">
               <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0010.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
+                <img src="@/assets/img/BoysToo/Ikare/Image 2020-02-09.jpeg" class="img-fluid rounded" alt="Boys Quarter Africa">
                 <figcaption>
                   <i class="fas fa-search-plus fa-3x i-search"></i>
                 </figcaption>
-                <a href="/img/IMG-20200131-WA0010.12ca39dd.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
+                <a href="/img/Image 2020-02-09.a4bac00a.jpeg" data-toggle="lightbox" data-gallery="gallery"></a>
               </figure>
             </div>
             <!-- IMAGE 6 -->
             <div class="col-md-4 col-sm-6 portfolio-item">
               <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0007.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
+                <img src="@/assets/img/BoysToo/Ikare/Image 2020-02-11-5.jpeg" class="img-fluid rounded" alt="Boys Quarter Africa">
                 <figcaption>
                   <i class="fas fa-search-plus fa-3x i-search"></i>
                 </figcaption>
-                <a href="/img/IMG-20200131-WA0007.a854de4a.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
+                <a href="/img/Image 2020-02-11-5.891b6f02.jpeg" data-toggle="lightbox" data-gallery="gallery"></a>
               </figure>
             </div>
 
             <!-- IMAGE 7 -->
             <div class="col-md-4 col-sm-6 portfolio-item">
               <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0018.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
+                <img src="@/assets/img/BoysToo/Ikare/Image 2020-02-11-6.jpeg" class="img-fluid rounded" alt="Boys Quarter Africa">
                 <figcaption>
                   <i class="fas fa-search-plus fa-3x i-search"></i>
                 </figcaption>
-                <a href="/img/IMG-20200131-WA0018.7f0950d4.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
+                <a href="/img/Image 2020-02-11-6.d520e730.jpeg" data-toggle="lightbox" data-gallery="gallery"></a>
               </figure>
             </div>
             <!-- IMAGE 8 -->
             <div class="col-md-4 col-sm-6 portfolio-item">
               <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0011.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
+                <img src="@/assets/img/BoysToo/Ikare/Image 2020-02-11-7.jpeg" class="img-fluid rounded" alt="Boys Quarter Africa">
                 <figcaption>
                   <i class="fas fa-search-plus fa-3x i-search"></i>
                 </figcaption>
-                <a href="/img/IMG-20200131-WA0011.03437b6f.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
+                <a href="/img/Image 2020-02-11-7.b5b30c31.jpeg" data-toggle="lightbox" data-gallery="gallery"></a>
               </figure>
             </div>
             <!-- IMAGE 9 -->
             <div class="col-md-4 col-sm-6 portfolio-item">
               <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0004.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
+                <img src="@/assets/img/BoysToo/Ikare/Image 2020-02-11-8.jpeg" class="img-fluid rounded" alt="Boys Quarter Africa">
                 <figcaption>
                   <i class="fas fa-search-plus fa-3x i-search"></i>
                 </figcaption>
-                <a href="/img/IMG-20200131-WA0004.b4687472.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-              </figure>
-            </div>
-
-            <!-- IMAGE 10 -->
-            <div class="col-md-4 col-sm-6 portfolio-item">
-              <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0016.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-                <figcaption>
-                  <i class="fas fa-search-plus fa-3x i-search"></i>
-                </figcaption>
-                <a href="/img/IMG-20200131-WA0016.2cbfde49.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-              </figure>
-            </div>
-            <!-- IMAGE 11 -->
-            <div class="col-md-4 col-sm-6 portfolio-item">
-              <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0009.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-                <figcaption>
-                  <i class="fas fa-search-plus fa-3x i-search"></i>
-                </figcaption>
-                <a href="/img/IMG-20200131-WA0009.920966c9.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
-              </figure>
-            </div>
-            <!-- IMAGE 12 -->
-            <div class="col-md-4 col-sm-6 portfolio-item">
-              <figure class="imghvr-shutter-in-out-diag-2">
-                <img src="@/assets/img/BoysToo/Akungba/IMG-20200131-WA0032.jpg" class="img-fluid rounded" alt="Boys Quarter Africa">
-                <figcaption>
-                  <i class="fas fa-search-plus fa-3x i-search"></i>
-                </figcaption>
-                <a href="/img/IMG-20200131-WA0032.4e3ff332.jpg" data-toggle="lightbox" data-gallery="gallery"></a>
+                <a href="/img/Image 2020-02-11-8.aff8fd8f.jpeg" data-toggle="lightbox" data-gallery="gallery"></a>
               </figure>
             </div>
           </div><br>
-          <div class="row">
-            <div class="col-md-6 text-center mx-auto">
-              <router-link to="/our-initiatives/boys-too" class="btn btn-primary text-uppercase">Back</router-link>
-            </div>
-          </div>
+          <GoBack/>
         </div>
       </section>
     <Creed/>
@@ -150,11 +115,12 @@
 // @ is an alias to /src
 import Sidebar from '@/components/Sidebar.vue'
 import Creed from '@/components/Creed.vue'
+import GoBack from '@/components/GoBack.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
-    Sidebar, Creed, Footer
+    Sidebar, Creed, GoBack, Footer
   },
   created() {
     document.title= 'Ikare - #BoysToo | Boys Quarters Africa'

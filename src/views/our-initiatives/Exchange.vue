@@ -3,7 +3,7 @@
     <Sidebar></Sidebar>
     <Header></Header>
       <div class="text-center">
-        <router-link slot="learn-more" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mb-4" to="who-we-are/about-us">Learn More</router-link>
+        
       </div>
     <Creed/>
     <Footer></Footer>
@@ -27,5 +27,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.masthead {
+  background-image: url('../../assets/img/TheExchange/Lagos/IMG_3443.jpg');
+}
 </style>

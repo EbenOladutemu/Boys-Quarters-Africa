@@ -134,11 +134,7 @@
               </figure>
             </div>
           </div><br>
-          <div class="row">
-            <div class="col-md-6 text-center mx-auto">
-              <router-link to="/our-initiatives/boys-too" class="btn btn-primary text-uppercase">Back</router-link>
-            </div>
-          </div>
+          <GoBack/>
         </div>
       </section>
     <Creed/>
@@ -150,11 +146,12 @@
 // @ is an alias to /src
 import Sidebar from '@/components/Sidebar.vue'
 import Creed from '@/components/Creed.vue'
+import GoBack from '@/components/GoBack.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
-    Sidebar, Creed, Footer
+    Sidebar, Creed, GoBack, Footer
   },
   created() {
     document.title= 'Abuja - #BoysToo | Boys Quarters Africa'

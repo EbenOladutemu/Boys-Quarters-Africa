@@ -2,25 +2,23 @@
   <div class="home">
     <Sidebar></Sidebar>
     <Header></Header>
-      <section>
+      <section class="pb-3">
         <div class="container">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">The YAHOO Project</h2><br>
+            <h2 class="section-heading text-uppercase">The Digi-Street Hub</h2><br>
           </div>
           <div class="about-style">
             <p> 
-              The goal of this Project is combat the high rising trend of Internet fraud amongst
-              Boys in Nigeria, through the <i><b>Boys Quarters Mobile Digital Hub</b></i>
+              The heightening rate of Cyber Crime amongst Youth has done tremendous harm to the image and economy of the African Nations, especially nations like Nigeria.
             </p>
             <p>
-              Through this Mobile Hubs, enrolled Boys are taught viable skills like Data
-              Analytics, Software Engineering, Critical Thinking & Problem Solving, Project
-              Management, Artificial Intelligence, BlockChain Technology etc.
+              This project is a proactive measure of enrolling young boys into profitable, engaging and life-defining measures, before they enmeshed in the murky water of internet fraud. This STEM project borders on our objective to skill up 2 Million under-privilege African Boys with skills that are in tandem with their Counterparts across the world.
             </p>
             <p>
-              The goal is to take this transformation to their Door Steps. We believe through
-              this, we can save a boy at a time.
+              The goal of this Project is to combat the high rising trend of Internet fraud amongst Boys in Nigeria, through the Boys Quarters Digi-Street Hub
+              Through this Mobile Hubs, enrolled Boys are taught viable skills like Data Analytics, Software Engineering, Critical Thinking, Machine Learning & Problem Solving, Project Management, Artificial Intelligence, BlockChain Technology etc.      
             </p>
+            <p>This falls under the SDG Goal 4- Quality Education & SDG Goal 9 - Industry, Innovation and Infrastructure.</p> 
           </div>
         </div>
       </section>

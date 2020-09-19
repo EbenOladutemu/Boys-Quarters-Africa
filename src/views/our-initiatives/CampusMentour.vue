@@ -2,8 +2,9 @@
   <div class="home">
     <Sidebar></Sidebar>
     <Header></Header>
-      <div class="text-center">
-        <router-link slot="learn-more" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mb-4" to="who-we-are/about-us">Learn More</router-link>
+      <div class="container text-center pb-4">
+        <img src="@/assets/img/TheExchange/Lagos/IMG_3786.jpg" class="mb-3" alt=""><br>
+        <img src="@/assets/img/TheExchange/Lagos/IMG_3779.jpg" alt="">
       </div>
     <Creed/>
     <Footer></Footer>
@@ -27,5 +28,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.masthead {
+  background-image: url('../../assets/img/BoysToo/Ile-Ife/IMG_5288.jpg');
+}
+img{
+  width: 100%;
+  height: 70%;
+}
 </style>

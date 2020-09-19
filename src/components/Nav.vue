@@ -67,18 +67,18 @@
               Pillars of Impact
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="./../pillars-of-impact/leadership"><b>L</b>eadership</a>
-              <a class="dropdown-item" href="./../pillars-of-impact/education"><b>E</b>ducation</a>
-              <a class="dropdown-item" href="./../pillars-of-impact/empowerment"><b>E</b>mpowerment</a>
-              <a class="dropdown-item" href="./../pillars-of-impact/advocacy"><b>Ad</b>vocacy</a>
+              <a class="dropdown-item" href="#"><b>L</b>eadership</a>
+              <a class="dropdown-item" href="#"><b>E</b>ducation</a>
+              <a class="dropdown-item" href="#"><b>E</b>mpowerment</a>
+              <a class="dropdown-item" href="#"><b>Ad</b>vocacy</a>
             </div>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger text-bold" href="./../boyfessions" style="">Boyfessions</a>
+            <a class="nav-link js-scroll-trigger text-bold" href="#" style="">Boyfessions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger text-bold" href="./../volunteer" style="">Get Involved</a>
+            <a class="nav-link js-scroll-trigger text-bold" href="#" style="">Get Involved</a>
           </li>
 
           <li class="dropdown show nav-item">
@@ -86,13 +86,13 @@
               Contact
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="./../contact/send-a-message">Send A Message</a>
+              <a class="dropdown-item" href="#">Send A Message</a>
               <a class="dropdown-item" href="#">Share A Story</a>
             </div>
           </li>
         </ul>
       </div>
-      <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad donate-animate" :class="donateCount" @click="removeClass" href="donate">DONATE</a>
+      <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad donate-animate" :class="donateCount" @click="removeClass" href="#">DONATE</a>
     </div>
   </nav>
 </template>

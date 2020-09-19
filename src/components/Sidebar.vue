@@ -68,30 +68,30 @@
         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true">Pillars of Impact <i class="fa fa-chevron-down pull-right"></i></a>
         <ul class="collapse list-unstyled" id="pageSubmenu" data-parent="#sidebar-nav">
           <li>
-            <a href="./../pillars-of-impact/leadership"><b>L</b>eadership</a>
+            <a href="#"><b>L</b>eadership</a>
           </li>
           <li>
-            <a href="./../pillars-of-impact/education"><b>E</b>ducation</a>
+            <a href="#"><b>E</b>ducation</a>
           </li>
           <li>
-            <a href="./../pillars-of-impact/empowerment"><b>E</b>powerment</a>
+            <a href="#"><b>E</b>powerment</a>
           </li>
           <li>
-            <a href="./../pillars-of-impact/advocacy"><b>Ad</b>vocacy</a>
+            <a href="#"><b>Ad</b>vocacy</a>
           </li>
         </ul>
       </li>
       <li>
-        <a href="./../boyfessions">Boyfessions</a>
+        <a href="#">Boyfessions</a>
       </li>
       <li>
-        <a href="./../volunteer">Volunteer</a>
+        <a href="#">Volunteer</a>
       </li>
       <li class="">
         <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="true">Contact Us <i class="fa fa-chevron-down pull-right"></i></a>
         <ul class="collapse list-unstyled" id="contactSubmenu" data-parent="#sidebar-nav">
           <li>
-            <a href="./../contact/send-a-message">Send A Message</a>
+            <a href="#">Send A Message</a>
           </li>
           <li>
             <a href="#">Invite A Speaker</a>

@@ -94,7 +94,7 @@
                           </div>
                           <div class="grid-item">
                             <figure class="effect-sadie">
-                              <img src="./../../assets/img/BoysToo/Ikare/Image 2020-02-11 at 19.30.18.jpeg" alt="#BoysToo" class="img-fluid tm-img">
+                              <img src="./../../assets/img/BoysToo/Ikare/Image 2020-02-11-5.jpeg" alt="#BoysToo" class="img-fluid tm-img">
                               <figcaption>
                                 <h2 class="tm-figure-title">#BoysToo <span><b>Ikare</b></span></h2>
                                 <p class="tm-figure-description">Ondo</p>
