@@ -227,6 +227,9 @@ import Footer from '@/components/Footer.vue'
 export default {
   components: {
     Sidebar, Header, Creed, Footer
+  },
+  created() {
+    document.title = 'Our People | Boys Quarters Africa'
   }
 }
 </script>

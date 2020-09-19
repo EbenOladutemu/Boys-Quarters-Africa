@@ -87,6 +87,38 @@ Vue.use(VueRouter)
   },
 
 
+  // #BoysToo
+  {
+    path: '/our-initiatives/boys-too/abuja',
+    name: 'BoysTooAbuja',
+    component: () => import('../views/our-initiatives/BoysTooProjects/Abuja.vue')
+  },
+  {
+    path: '/our-initiatives/boys-too/akungba',
+    name: 'BoysTooAkungba',
+    component: () => import('../views/our-initiatives/BoysTooProjects/Akungba.vue')
+  },
+  {
+    path: '/our-initiatives/boys-too/akure',
+    name: 'BoysTooAkure',
+    component: () => import('../views/our-initiatives/BoysTooProjects/Akure.vue')
+  },
+  {
+    path: '/our-initiatives/boys-too/ibadan',
+    name: 'BoysTooIbadan',
+    component: () => import('../views/our-initiatives/BoysTooProjects/Ibadan.vue')
+  },
+  {
+    path: '/our-initiatives/boys-too/ife',
+    name: 'BoysTooIfe',
+    component: () => import('../views/our-initiatives/BoysTooProjects/Ife.vue')
+  },
+  {
+    path: '/our-initiatives/boys-too/ikare',
+    name: 'BoysTooIkare',
+    component: () => import('../views/our-initiatives/BoysTooProjects/Ikare.vue')
+  },
+
   {
     path: '/get-involved',
     name: 'GetInvolved',

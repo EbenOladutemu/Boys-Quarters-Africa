@@ -15,21 +15,10 @@
       </div>
       <div class="about-style">
         <p> 
-          Boys Quarters Africa is a volunteer-driven developmental organization and a Boy-child transformation
-          movement missioned with the core objective of educating, empowering and advocating for the BoyChild. Our vision transcends mere social enterprise but a movement to raise a new tribe of Boys who will
-          rise to the demands of life and masculinity in general.
+          Boys Quarters Africa (Registered as Boy-Child Reformation Initiative CAC/IT/NO134867) is a volunteer driven Boy-child transformation movement, missioned with the core objective of Educating, Empowering and Advocating for the Boychild. 
         </p>
         <p>
-          We are of the resolve that Boys should be deliberately raised like their female counterpart.
-        </p>
-        <p>
-          The organization kicked off Operations in 2018 and has since then reached out to over 2,500 Boys
-          across different cities in Nigeria, different background and religious inclinations. With the growing
-          network of over 100 Volunteers across 4 Countries in Africa.
-        </p>
-        <p>
-          At the Centre of the Organization’s objective is the resolve to help Boys transition deliberately, from
-          Boyhood to Manhood. The organization paddles this vision through the <b>Four Pillars of Impact</b> below, which we have named <b>L.E.A.D</b>;
+          Our vision is to be an inspiring bridge of transition for every African Boy Child, by redefining masculinity through Empowering and Educating Projects. This vision transcends mere social enterprise but a movement to raise a new tribe of Boys who will rise to the demands of life and masculinity in general. All our projects are delivered on a structured level of impact, as we operate within our 4 Strategic pillars of Impact, <b>L.E.A.D</b> which are; 
         </p><br>
         <div class="row">
           <div class="col-lg-3 mx-auto text-center">
@@ -58,20 +47,24 @@
           </div>
         </div><br>
         <p>
-          Through our Leadership pillar, we intend to detox the minds of every Boy of the ‘Stereotyped Masculine
-          Leadership’ and the damaging toxic masculinity that is subconsciously passed on from generation to
-          generation. Our flagship project on Sexual Abuse of the Boy Child, offers up the opportunity to bring to
-          fore the damaging reality of how much Boys are left behind in the conversation.
+          We are an operational NGO, meaning, we plan and carry out boots-on-the-ground projects to accomplish our objectives around our pillars of impact. This requires a great deal of careful planning, communication, volunteer’s mobilization, community engagement and many more. Our goal as an organization is to accomplish amongst many, following;
+        </p>
+        <ul>
+          <li>To detox the minds of every boy child that have been immense in the worrisome idea of stereotypical masculine leadership. i.e. a sense that Leadership is Sex & Gender.
+          <li>To advocate for every African Boy-Child who has been subjected to several forms of violence. (Domestic, Emotional and Sexual). </li>
+          <li>To Empower Boys behind bars and those who already lose hope in themselves and their future. By inspiring them to Exchange their Pains for Purpose, guilt for greatness etc. </li>
+          <li>To mobilize Young Men who will contribute toward ending the years of countless biases against Girls and Women.</li>
+          <li>To raise an awareness on the silent but cancerous menace of sexual abuse of the Boy Child. 
+          </li>
+        </ul>
+        <p>
+          Through our Leadership pillar, we intend to detox the minds of every Boy of the ‘Stereotyped Masculine Leadership’ and the damaging toxic masculinity that is subconsciously passed on from generation to generation. Our flagship project on Sexual Abuse of the Boy Child, offers up the opportunity to bring to fore the damaging reality of how much Boys are left behind in the conversation.
         </p>
         <p>
-          Our activities range from providing information on Sexual Education and Sexual Abuse to the Boy-Child,
-          provide psychosocial & legal support for abused boys, create platforms for learning the Skills of the
-          future for disadvantages boys, reach out to the unreached boys in juvenile homes & special correctional
-          centres, advocate for the Boy-Child on varying grounds, host boot-camps and programmes that reorient their minds off the inherited stance of toxic masculinity and teach on the unsaid truth around Leadership.
+          Our activities range from providing information on Sexual Education and Sexual Abuse to the Boy-Child, provide psychosocial & legal support for abused boys, create platforms for learning the Skills of the future for disadvantages boys, reach out to the unreached boys in juvenile homes & special correctional centres, advocate for the Boy-Child on varying grounds, host boot-camps and programmes that reorient their minds off the inherited stance of toxic masculinity and teach on the unsaid truth around Leadership.
         </p>
         <p>
-          Boys Quarters Africa currently operates from Lagos State, Nigeria and has implemented her flagship
-          projeccts across Ibadan, Ife, Akure, Ilorin, Lokoja, Minna, Kaduna, Angola, Ghana & South Africa. 
+          With a growing number of over 100 Volunteers across the 6 Geo-Political Zones in Nigeria and 5 other Africa Countries, we’ve engaged 4,517 Boys, specifically through our Flagship Project called Boys Too (Bringing to fore the menace of Sexual Abuse of the Boy Child).  
         </p>
       </div>
       <div class="text-center" :style="aboutStyle">
@@ -105,12 +98,15 @@ export default {
         marginBottom: '25px'
       }
     }
+  },
+  created() {
+    document.title = 'About Us | Boys Quarters Africa'
   }
 }
 </script>
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url('../../assets/img/BoysToo/Akure/IMG_2215.jpg');
+  background-image: url('../../assets/img/BoysToo/Akure/CRISSA/IMG_2215.jpg');
 }
 </style>

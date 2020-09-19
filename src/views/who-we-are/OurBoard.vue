@@ -88,6 +88,9 @@ export default {
         border: '7px solid #e6e6e6'
       }
     }
+  },
+  created() {
+    document.title = 'Our Board | Boys Quarters Africa'
   }
 }
 </script>

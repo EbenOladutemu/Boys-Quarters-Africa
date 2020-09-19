@@ -23,12 +23,12 @@
                     <h4 class="subheading">OUR VISION</h4>
                   </div>
                   <div class="timeline-body">
-                    <p>Transforming the society by EMPOWERING, EDUCATING & ADVOCATING for one BOY at a time.
+                    <p>To raise better Boys to become better Men.
                     </p><br>
-                    <div class="timeline-heading">
+                    <!-- <div class="timeline-heading">
                       <h4 class="subheading">The Vision Tagline</h4>
                       <p>Intentional and deliberate transition from Boyhood to Manhood.</p>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </li>
@@ -42,9 +42,7 @@
                     <h4 class="subheading text-uppercase">OUR MISSION</h4>
                   </div>
                   <div class="timeline-body">
-                    <p>Be an inspiring bridge from boyhood to manhood, by redefining the essence of masculinity through godly
-                      mentorship, exposure to role models, mental cum emotional build-ups and connections that will birth
-                      destiny fulfilment.
+                    <p>Transforming the society by EMPOWERING, EDUCATING & ADVOCATING for one BOY at a time.
                     </p>
                   </div>
                 </div>
@@ -62,6 +60,7 @@
                     <ul class="font-20">
                       <li>Leadership by Service</li>
                       <li>Empathy</li>
+                      <li>Equality</li>
                       <li>Accountability</li>
                       <li>Integrity</li>
                       <li>Love</li>
@@ -92,6 +91,9 @@ import Footer from '@/components/Footer.vue'
 export default {
   components: {
     Sidebar, Header, Creed, Footer
+  },
+  created() {
+    document.title = 'Vision, Mission and Core Values | Boys Quarters Africa'
   }
 }
 </script>

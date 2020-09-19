@@ -20,6 +20,9 @@ import Footer from '@/components/Footer.vue'
 export default {
   components: {
     Sidebar, Header, Creed, Footer
+  },
+  created() {
+    document.title = 'Guyversations | Boys Quarters Africa'
   }
 }
 </script>

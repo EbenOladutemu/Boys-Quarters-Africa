@@ -30,7 +30,7 @@
         </ul>
       </li>
       <li class="">
-        <a href="#programsSubmenu" data-toggle="collapse" aria-expanded="true">Our Programs <i class="fa fa-chevron-down pull-right"></i></a>
+        <a href="#programsSubmenu" data-toggle="collapse" aria-expanded="true">Our Initiatives <i class="fa fa-chevron-down pull-right"></i></a>
         <ul class="collapse list-unstyled" id="programsSubmenu" data-parent="#sidebar-nav">
           <li>
             <router-link :to="routes.boysToo" active-class="active">#BoysToo</router-link>
