@@ -9,10 +9,18 @@
           </div>
           <div class="about-style">
             <p>
-              The conversation about Boys shouldn’t be one the society whines and complains about alone. In the bid to bring to fore the issues of the Boy Child, we hosted Africa's first International E-Summit on Saturday 16th May 2020, with a cumulative attendee of 5,176 on Instagram Live alone.
+              Boys Quarters Africa hosted Africa’s first virtual International Boy-Child Summit on the 16th of May, 2020. This 5 hours summit was in celebration of the boy child and it was themed Redefining Masculinity.
+            </p>
+            Keynote Speakers included;
+            <ul>
+              <li>CHUDE JIDEONWO; CEO, Joy Inc. & Co-founder RED Media.</li>
+              <li>OLAKUNLE SORIYAN; Futurist & Relevance Strategist.</li>
+              <li>Dr. RUBY ONWUDIWE; Head of Personal Banking, Stanbic IBTC.</li>
+            </ul><br>
+            <p>
+              This novel initiative had a cumulative audience of 1,780 across different cities in Africa and beyond. Key talk points were centred around MASCULINITY, PARENTING THE BOY CHILD and MENTAL HEALTH. The summit also had on board the partnership of Cece Yara Foundation and WARIF (Women At Risk International Foundation), whose representatives extensively spoke about the sexual abuse of boys and the attendant challenges.
             </p>
             <p>
-              We had Olakunle Soriyan, Chude Jideonwo, Dr. Ruby Onwudiwe, Ajele Adeyemi, Dammie Oludare, WARIF & CECE Yara as Key Note Speakers.
               The Event was hosted via our Instagram platform and moderated by the Founder & Lead Execution Officer, Solomon O. Ayodele.
             </p>
             <p>Here are the videos!</p>

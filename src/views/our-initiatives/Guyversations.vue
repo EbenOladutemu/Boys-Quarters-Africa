@@ -9,12 +9,23 @@
           </div>
           <div class="about-style">
             <p>
-              This is the Young Men arm of the organization’s operations. This conversation is positioned to metamorphose into our Podcast and Vlog. It's basically positioned to bring to fore real and deep conversations that affect young men across board.
+              There are basically three elements to these men-themed conversations; Uninhibited Openness, Beautiful Vulnerabilities and of course, garnering a digital safe space for young men. Since the maiden edition on the 12th of April, 2020, we’ve had about 15 Guests, across different walks of life, discussing issues that relate to GUYS! The cumulative digital footprint is about 2,500 audience and traction gained shows the quantum of impact on the minds of young men.
             </p>
             <p>
-              <strong> Past Guests:</strong><br>
-              Jimmy Odukoya, Bisi Alimi, Tolulope Solutions Adejumo, Toju Oluwatoyinbo, Dr. Wilson Joel, GAISE Baba,Kayode Adeniji,Olumide Oworu, Gaffy, PartyJollof
+              <strong>Guests and Topics are highlighted below:</strong><br>
             </p>
+            <ul>
+              <li>UNDERSTANDING THE UNTOLD STRUGGLES OF SEXUALITY by Bisi Alimi</li>
+              <li>I WAN BLOW; UNDERSTANDING THE ESSENCE OF FAME & IMPACT by Dr. Wilson Joel</li>
+              <li>I WAN BLOW II; UNDERSTANDING THE ESSENCE OF FAME & IMPACT by Gaise Baba</li>
+              <li>BOYS WILL BE BOYS; TRACING THE ROOT OF POWER & TOXIC MASCULINITY by Solomon Buchi</li>
+              <li>FACING AFRICA’S GOLIATH; YOUR DESIGNATION ON THE BATTLE FIELD by Kayode Adeniji</li>
+              <li>NECESSARY REBELLION; MASTERING THE ART OF DEFYING THE NORM by Jimi Odukoya</li>
+              <li>W.W.W. (WETIN WOMEN WANT SEF?) by Toju Dami-Oluwatoyinbo</li>
+              <li>W.W.W. II (WETIN WOMEN WANT SEF?) by Tolulope ‘Solutions’ Adejumo</li>
+              <li>FUTUR	NOLOGY; PLUGGING INTO THE FUTURE WE ARE ALREADY LATE FOR by Kitan David.</li>
+              <li>POP CULTURE & THE REDEFINITION OF THE 21ST CENTURY MAN by Olumide Oworu, Gaffy & PartyJollof.</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -43,5 +54,8 @@ export default {
 <style lang="scss" scoped>
 .masthead {
   background-image: url('../../assets/img/BoysToo/Ikare/Image 2020-02-11-8.jpeg');
+}
+li{
+  margin-top: 1rem;
 }
 </style>

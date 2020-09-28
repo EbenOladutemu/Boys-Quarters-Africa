@@ -75,10 +75,12 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger text-bold" href="#" style="">Boyfessions</a>
+            <a class="nav-link js-scroll-trigger" href="#" style="">Boyfessions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger text-bold" href="#" style="">Get Involved</a>
+            <router-link class="nav-link js-scroll-trigger text-white" to="/get-involved" style="">
+              Get Involved
+            </router-link>
           </li>
 
           <li class="dropdown show nav-item">
@@ -92,7 +94,7 @@
           </li>
         </ul>
       </div>
-      <a class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad donate-animate" :class="donateCount" @click="removeClass" href="#">DONATE</a>
+      <router-link class="nav-link js-scroll-trigger btn btn-primary donate donate-brd-rad-pad donate-animate" :class="donateCount" @click="removeClass" to="/donate">Donate</router-link>
     </div>
   </nav>
 </template>

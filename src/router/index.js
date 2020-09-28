@@ -119,10 +119,17 @@ Vue.use(VueRouter)
     component: () => import('../views/our-initiatives/BoysTooProjects/Ikare.vue')
   },
 
+
+
   {
     path: '/get-involved',
     name: 'GetInvolved',
     component: () => import('../views/GetInvolved.vue')
+  },
+  {
+    path: '/donate',
+    name: 'Donate',
+    component: () => import('../views/Donate.vue')
   }
 ]
 

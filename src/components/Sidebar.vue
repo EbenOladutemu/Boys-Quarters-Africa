@@ -85,7 +85,7 @@
         <a href="#">Boyfessions</a>
       </li>
       <li>
-        <a href="#">Volunteer</a>
+        <router-link to="/get-involved">Get Involved</router-link>
       </li>
       <li class="">
         <a href="#contactSubmenu" data-toggle="collapse" aria-expanded="true">Contact Us <i class="fa fa-chevron-down pull-right"></i></a>

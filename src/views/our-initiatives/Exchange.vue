@@ -29,6 +29,6 @@ export default {
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url('../../assets/img/TheExchange/Lagos/IMG_3443.jpg');
+  background-image: url('../../assets/img/TheExchange/Lagos/IMG_3449.jpg');
 }
 </style>
