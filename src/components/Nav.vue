@@ -103,7 +103,7 @@
 export default {
   data(){
     return{
-      donateCount: 'donate-count',
+      donateCount: 'donate-animate',
       routes:{
         // Who We Are
         about:{ name: 'About' },

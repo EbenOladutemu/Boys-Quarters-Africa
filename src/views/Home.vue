@@ -5,7 +5,7 @@
       <div class="text-center">
         <router-link slot="learn-more" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mb-4" to="who-we-are/about-us">Learn More</router-link>
         <p>Boys Engaged</p>
-        <h1>
+        <h1 style="font-size: 70px">
           <ICountUp
             :delay="delay"
             :endVal="endVal"

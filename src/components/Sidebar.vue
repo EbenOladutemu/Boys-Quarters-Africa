@@ -117,7 +117,6 @@ import { sidebar } from '../mixins'
 export default {
   data(){
     return{
-      donateCount: 'donate-count',
       routes:{
         // Who We Are
         about:{ name: 'About' },

@@ -68,9 +68,9 @@
         </p>
       </div>
       <div class="text-center" :style="aboutStyle">
-        <h2 class="intro-heading text-uppercase">BECOME A VOLUdNTEER</h2>
+        <h2 class="intro-heading text-uppercase">BECOME A VOLUNTEER</h2>
         <h5>The Transformation Begins With You</h5>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mt-3" href="./../volunteer">Volunteer NOW!</a>
+        <router-link class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mt-3" to="/get-involved">Volunteer NOW!</router-link>
       </div>
     </div>
   </section>

@@ -5,21 +5,31 @@
       <section>
         <div class="container">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase"><em>...Towards the Exhange</em></h2><br>
+            <h2 class="section-heading text-uppercase"><em>Transform A Boy and Touch The World.</em></h2><br>
             <p>
-              In September 2019, Over 170 Boys were rescued from illegal correctional centers across Ibadan, Oyo State. These Boys are already victims of Sexual and Domestic abuse!
+              We truly believe that the Boy Child Transformation movement isn’t a 100 Metre Dash but a Marathon, and the unflinching support of our amazing donors across the world has been making these things happen. You can make donations and support our initiatives by donating, using your preferred donation platform. We would also appreciate that you fill the form below for us to share an appreciation note and keep you up to speed with the development on every of our projects.
             </p>
-            <p>On Friday 27 December 2019, we will be visiting the Juvenile Correctional Home in Ibadan to INSPIRE & SHARE with
-              them, under our flagship initiative called <strong>‘THE EXCHANGE’</strong>.<br>
-              This is the second of it’s kind and we would be giving Clothing Materials, Food Stuff, Toiletries, donating a library to the school and of course have a full blast Party with the Boys.
-            </p>
+            <h4>WAYS OF DONATING</h4>
             <p>
-              Let’s make this happen TOGETHER. Let’s bring back hope to the hearts and smile to the faces of these Boys.
+              Donations can be made via bank transfer or cheque to the bank detailed outlined below:<br>
+              <strong>Bank Name: Stanbic IBTC Bank Plc</strong><br>
+              <strong>Account Number: </strong>
             </p>
-            <p><strong>It’s time to change the world, by touching a life at a time</strong></p>
+            <p>To donate online, click the button below</p>
           </div>
           <div class="text-center">
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://paystack.com/pay/theexchange">Donate NOW!</a>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mb-3 donate-pd" href="https://paystack.com/pay/bqa-donate">Donate</a>
+          </div>
+          <div class="text-center mt-3">
+            <h4>WE CAN WIN THE WAR AGAINST GENDER-BASED VIOLENCE IN NIGERIA</h4>
+            <p>
+              You can help us reach 1,000 Families in Nigeria, through our PROJECT SABI campaign.
+              Support BOYS QUARTERS AFRICA with your donations as we embark on a street by street awareness and sensitization of Boys/Men, including Women and Girls.
+              We can take the news and information beyond twitter handle and Instagram feeds. 
+            </p>
+            <div class="text-center">
+              <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mb-3 donate-pd" href="https://paystack.com/pay/bqa-donate">Donate</a>
+            </div>
           </div>
         </div>
       </section>
@@ -48,5 +58,8 @@ export default {
 <style lang="scss" scoped>
 .masthead {
   background-image: url('./../assets/img/TheExchange/Lagos/IMG_3443.jpg');
+}
+.donate-pd{
+  padding: 12px
 }
 </style>
