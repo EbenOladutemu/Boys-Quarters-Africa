@@ -213,7 +213,6 @@
     </section>
     <Creed/>
     <Footer></Footer>
-    <div class="overlay"></div>
   </div>
 </template>
 

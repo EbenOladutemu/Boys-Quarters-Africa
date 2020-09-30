@@ -82,7 +82,21 @@
         </ul>
       </li>
       <li>
-        <a href="#">Boyfessions</a>
+        <a href="#newsSubmenu" data-toggle="collapse" aria-expanded="true">News and Materials <i class="fa fa-chevron-down pull-right"></i></a>
+        <ul class="collapse list-unstyled" id="newsSubmenu" data-parent="#sidebar-nav">
+          <li>
+            <router-link :to="routes.boyfessions">Boyfessions</router-link>
+          </li>
+          <li>
+            <router-link :to="routes.blog">Blog</router-link>
+          </li>
+          <li>
+            <router-link :to="routes.newsletters">Newsletters</router-link>
+          </li>
+          <li>
+            <router-link :to="routes.media">Media</router-link>
+          </li>
+        </ul>
       </li>
       <li>
         <router-link to="/get-involved">Get Involved</router-link>
@@ -92,9 +106,6 @@
         <ul class="collapse list-unstyled" id="contactSubmenu" data-parent="#sidebar-nav">
           <li>
             <a href="#">Send A Message</a>
-          </li>
-          <li>
-            <a href="#">Invite A Speaker</a>
           </li>
           <li>
             <a href="#">Share A Story</a>
@@ -137,7 +148,12 @@ export default {
         leadership: { name: 'Leadership' },
         education: { name: 'Education' },
         empowerment: { name: 'Empowerment' },
-        advocacy: { name: 'Advocacy' }
+        advocacy: { name: 'Advocacy' },
+        // News and Media
+        boyfessions: { name: 'Boyfessions' },
+        blog: { name: 'Blog' },
+        newsletters: { name: 'Newsletters' },
+        media: { name: 'Media' }
       }
     }
   },

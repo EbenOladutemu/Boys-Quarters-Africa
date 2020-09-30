@@ -74,8 +74,16 @@
             </div>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#" style="">Boyfessions</a>
+          <li class="dropdown show nav-item">
+            <a class="dropdown-toggle nav-link" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              News and Materials
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <router-link class="dropdown-item" :to="routes.boyfessions">Boyfessions</router-link>
+              <router-link class="dropdown-item" :to="routes.blog">Blog</router-link>
+              <router-link class="dropdown-item" :to="routes.newsletters">Newsletters</router-link>
+              <router-link class="dropdown-item" :to="routes.media">Media</router-link>
+            </div>
           </li>
           <li class="nav-item">
             <router-link class="nav-link js-scroll-trigger text-white" to="/get-involved" style="">
@@ -124,7 +132,12 @@ export default {
         leadership: { name: 'Leadership' },
         education: { name: 'Education' },
         empowerment: { name: 'Empowerment' },
-        advocacy: { name: 'Advocacy' }
+        advocacy: { name: 'Advocacy' },
+        // News and Media
+        boyfessions: { name: 'Boyfessions' },
+        blog: { name: 'Blog' },
+        newsletters: { name: 'Newsletters' },
+        media: { name: 'Media' }
       }
     }
   },

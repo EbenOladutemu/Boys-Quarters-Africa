@@ -77,7 +77,6 @@
     <Creed/>
     <!-- <hr class="footer-hr"> -->
     <Footer></Footer>
-    <div class="overlay"></div>
   </div>
 </template>
 

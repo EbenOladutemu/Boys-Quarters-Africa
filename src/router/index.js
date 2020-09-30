@@ -14,6 +14,7 @@ Vue.use(VueRouter)
     path: '/home',
     component: Home
   },
+
   // Who We Are
   {
     path: '/who-we-are/about-us',
@@ -107,6 +108,29 @@ Vue.use(VueRouter)
     name: 'Advocacy',
     component: () => import('../views/pillars-of-impact/Advocacy.vue')
   },
+
+  // News and Materials
+  {
+    path: '/news-and-materials/boyfessions',
+    name: 'Boyfessions',
+    component: () => import('../views/news-and-materials/Boyfessions.vue')
+  },
+  {
+    path: '/news-and-materials/blog',
+    name: 'Blog',
+    component: () => import('../views/news-and-materials/Blog.vue')
+  },
+  {
+    path: '/news-and-materials/newsletters',
+    name: 'Newsletters',
+    component: () => import('../views/news-and-materials/Newsletters.vue')
+  },
+  {
+    path: '/news-and-materials/media',
+    name: 'Media',
+    component: () => import('../views/news-and-materials/Media.vue')
+  },
+
 
 
   // #BoysToo
