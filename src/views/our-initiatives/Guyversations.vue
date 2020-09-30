@@ -16,14 +16,23 @@
             </p>
             <ul>
               <li>UNDERSTANDING THE UNTOLD STRUGGLES OF SEXUALITY by Bisi Alimi</li>
+
               <li>I WAN BLOW; UNDERSTANDING THE ESSENCE OF FAME & IMPACT by Dr. Wilson Joel</li>
+
               <li>I WAN BLOW II; UNDERSTANDING THE ESSENCE OF FAME & IMPACT by Gaise Baba</li>
+
               <li>BOYS WILL BE BOYS; TRACING THE ROOT OF POWER & TOXIC MASCULINITY by Solomon Buchi</li>
+
               <li>FACING AFRICA’S GOLIATH; YOUR DESIGNATION ON THE BATTLE FIELD by Kayode Adeniji</li>
+
               <li>NECESSARY REBELLION; MASTERING THE ART OF DEFYING THE NORM by Jimi Odukoya</li>
+
               <li>W.W.W. (WETIN WOMEN WANT SEF?) by Toju Dami-Oluwatoyinbo</li>
+
               <li>W.W.W. II (WETIN WOMEN WANT SEF?) by Tolulope ‘Solutions’ Adejumo</li>
+
               <li>FUTUR	NOLOGY; PLUGGING INTO THE FUTURE WE ARE ALREADY LATE FOR by Kitan David.</li>
+              
               <li>POP CULTURE & THE REDEFINITION OF THE 21ST CENTURY MAN by Olumide Oworu, Gaffy & PartyJollof.</li>
             </ul>
           </div>

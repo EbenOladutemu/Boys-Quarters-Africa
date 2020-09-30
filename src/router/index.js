@@ -86,6 +86,28 @@ Vue.use(VueRouter)
     component: () => import('../views/our-initiatives/OneBoyProject.vue')
   },
 
+  // Pillars of Impact
+  {
+    path: '/pillars-of-impact/leadership',
+    name: 'Leadership',
+    component: () => import('../views/pillars-of-impact/Leadership.vue')
+  },
+  {
+    path: '/pillars-of-impact/education',
+    name: 'Education',
+    component: () => import('../views/pillars-of-impact/Education.vue')
+  },
+  {
+    path: '/pillars-of-impact/empowerment',
+    name: 'Empowerment',
+    component: () => import('../views/pillars-of-impact/Empowerment.vue')
+  },
+  {
+    path: '/pillars-of-impact/advocacy',
+    name: 'Advocacy',
+    component: () => import('../views/pillars-of-impact/Advocacy.vue')
+  },
+
 
   // #BoysToo
   {

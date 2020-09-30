@@ -68,16 +68,16 @@
         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true">Pillars of Impact <i class="fa fa-chevron-down pull-right"></i></a>
         <ul class="collapse list-unstyled" id="pageSubmenu" data-parent="#sidebar-nav">
           <li>
-            <a href="#"><b>L</b>eadership</a>
+            <router-link :to="routes.leadership"><b>L</b>eadership</router-link>
           </li>
           <li>
-            <a href="#"><b>E</b>ducation</a>
+            <router-link :to="routes.education"><b>E</b>ducation</router-link>
           </li>
           <li>
-            <a href="#"><b>E</b>powerment</a>
+            <router-link :to="routes.empowerment"><b>E</b>powerment</router-link>
           </li>
           <li>
-            <a href="#"><b>Ad</b>vocacy</a>
+            <router-link :to="routes.advocacy"><b>Ad</b>vocacy</router-link>
           </li>
         </ul>
       </li>
@@ -132,7 +132,12 @@ export default {
         campusMentour: { name: 'CampusMentour' },
         digiStreet: { name: 'DigiStreet' },
         exchange: { name: 'Exchange' },
-        oneBoyProject: { name: 'OneBoyProject' }
+        oneBoyProject: { name: 'OneBoyProject' },
+        // Pillars of Impact
+        leadership: { name: 'Leadership' },
+        education: { name: 'Education' },
+        empowerment: { name: 'Empowerment' },
+        advocacy: { name: 'Advocacy' }
       }
     }
   },

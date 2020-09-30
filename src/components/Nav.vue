@@ -67,10 +67,10 @@
               Pillars of Impact
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#"><b>L</b>eadership</a>
-              <a class="dropdown-item" href="#"><b>E</b>ducation</a>
-              <a class="dropdown-item" href="#"><b>E</b>mpowerment</a>
-              <a class="dropdown-item" href="#"><b>Ad</b>vocacy</a>
+              <router-link class="dropdown-item" :to="routes.leadership"><b>L</b>eadership</router-link>
+              <router-link class="dropdown-item" :to="routes.education"><b>E</b>ducation</router-link>
+              <router-link class="dropdown-item" :to="routes.empowerment"><b>E</b>mpowerment</router-link>
+              <router-link class="dropdown-item" :to="routes.advocacy"><b>Ad</b>vocacy</router-link>
             </div>
           </li>
 
@@ -119,7 +119,12 @@ export default {
         campusMentour: { name: 'CampusMentour' },
         digiStreet: { name: 'DigiStreet' },
         exchange: { name: 'Exchange' },
-        oneBoyProject: { name: 'OneBoyProject' }
+        oneBoyProject: { name: 'OneBoyProject' },
+        // Pillars of Impact
+        leadership: { name: 'Leadership' },
+        education: { name: 'Education' },
+        empowerment: { name: 'Empowerment' },
+        advocacy: { name: 'Advocacy' }
       }
     }
   },
