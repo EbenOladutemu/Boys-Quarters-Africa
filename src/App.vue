@@ -22,7 +22,7 @@ export default {
       siteImage: 'https://boysqafrica.com/logo.png',
       siteName: 'Boys Quarters Africa',
       siteTitle: '',
-      siteDescription: 'We are solely missioned to facilitate a smooth transition from Boyhood to Manhood! Raising boys to become responsible fathers, reliable husbands and accountable citizens of the society. For the boy who will rise to the challenge of manhood. His Struggles & Strength are valid.',
+      siteDescription: 'We are a Movement resolved to educate, empower & advocate for a new tribe of boys who will deliberately & purposefully transition from Boyhood to Manhood.',
       siteKeywords: 'Boys Quarters Africa, Boys, Quarters, Africa, Nigeria, boy, young men, sexual abuse, manhood, masculinity, tansition, boyhood, guyversations, Solomon Ayodele, Oyindamola Ejiro, Louis Okoh, Oladutemu Ebenezer, Glory Odikagbue, Kolade Emmanuel, Busayo Fache, Ama Akiri, Ruby Onwudiwe, Busayo Morakinyo, Tomi Fowe, saving the boys, boys need attention'
     }
   },
