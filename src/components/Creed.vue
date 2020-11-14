@@ -36,10 +36,12 @@
                   <p>I am a Man, I am a god! When I cry, I am not weak. When I rise, I am not proud. I won’t give up until I become all of God’s intent for my life. I won’t sit back until I achieve my goals. I won’t rest until I hear my maker say to me, WELL DONE.</p>
                   <p>My life is planted in the hands of the Creator of the heavens and the Earth. I cannot die by mistake, by error or by accident.</p> 
                   <p class="text-uppercase"><b>I am a Warrior and this is my Creed!</b></p>
-                  <button class="btn btn-primary" type="button">
-                    <i class="fas fa-download"></i>
-                    <a href="http://boysqafrica.com/assets/docs/Boys Creed.pdf" style="color: white">Download Creed</a>
-                  </button>
+                   <div class="text-center mt-5">
+                    <button class="btn btn-primary" type="button">
+                      <i class="fas fa-download"></i>
+                      <a href="https://res.cloudinary.com/eben-web-krafts/image/upload/v1605313282/Boys_Creed.pdf" target="_blank" rel="noopener noreferrer" style="color: white" download> Download Creed</a>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
