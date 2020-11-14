@@ -160,6 +160,11 @@
               </ul>
             </div>
           </div>
+          <div class="text-center mt-5">
+            <button class="btn btn-primary" type="button">
+              <a href="https://res.cloudinary.com/eben-web-krafts/image/upload/v1605313250/BoysToo-Campaign-Report.pdf" target="_blank" rel="noopener noreferrer" style="color: white" download> Download The Boys Too Campaign Report</a>
+            </button>
+          </div>
         </div>
       </section>
     <Creed/>
