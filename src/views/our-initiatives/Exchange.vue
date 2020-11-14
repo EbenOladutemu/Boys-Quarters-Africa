@@ -63,6 +63,12 @@
               </a>
             </div>
           </div>
+          <div class="text-center mt-5">
+            <button class="btn btn-primary" type="button">
+              <!-- <i class="fas fa-download"></i> -->
+              <a href="https://res.cloudinary.com/eben-web-krafts/image/upload/v1605313250/The-Exchange-Campaign-Report.pdf" target="_blank" rel="noopener noreferrer" style="color: white" download> Download The Exchange Campaign Report</a>
+            </button>
+          </div>
         </div>
       </section>
     <Creed/>
