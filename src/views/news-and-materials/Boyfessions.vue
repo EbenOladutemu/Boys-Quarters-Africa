@@ -16,7 +16,7 @@
               Download and Enjoy the read!
             </p>
             <p>
-              <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="../../assets/docs/BOYFESSIONS.pdf" target="_blank"> <i class="fas fa-download"></i> Download</a>
+              <a class="btn btn-primary btn-l text-uppercase js-scroll-trigger" href="https://res.cloudinary.com/eben-web-krafts/image/upload/v1605313281/BOYFESSIONS.pdf" target="_blank"> <i class="fas fa-download"></i> Download</a>
             </p>
           </div>
         </div>
