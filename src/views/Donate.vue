@@ -13,7 +13,7 @@
             <p>
               Donations can be made via bank transfer or cheque to the bank detailed outlined below:<br>
               <strong>Bank Name: Stanbic IBTC Bank Plc</strong><br>
-              <strong>Account Number: 0034494786</strong>
+              <strong>Account Number: 0034494786</strong><br>
               <strong>Account Name: Boy Child Reformation Initiative</strong>
             </p>
             <p>To donate online, click the button below</p>
