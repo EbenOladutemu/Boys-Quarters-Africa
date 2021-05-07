@@ -30,6 +30,6 @@ export default {
 
 <style lang="scss" scoped>
 .masthead {
-  background-image: url('./../assets/img/BoysToo/Ile-Ife/IMG_5257.jpg');
+  background-image: url('./../../assets/img/BoysToo/Ile-Ife/IMG_5257.jpg');
 }
 </style>
