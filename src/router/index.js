@@ -167,7 +167,7 @@ Vue.use(VueRouter)
     
   // Events
   {
-    path: '/IBCD2021',
+    path: '/ibcd2021',
     name: 'IBCD2021',
     component: () => import('../views/events/IBCD2021.vue')
   },
