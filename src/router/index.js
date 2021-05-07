@@ -164,7 +164,13 @@ Vue.use(VueRouter)
     name: 'BoysTooIkare',
     component: () => import('../views/our-initiatives/BoysTooProjects/Ikare.vue')
   },
-
+    
+  // Events
+  {
+    path: '/IBCD2021',
+    name: 'IBCD2021',
+    component: () => import('../views/events/IBCD2021.vue')
+  },
 
 
   {
