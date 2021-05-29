@@ -5,7 +5,6 @@ export const sidebar = {
       var sidebarOverlay = document.getElementById('sidebarOverlay');
       sidebar.classList.remove('active');
       sidebarOverlay.classList.remove('active');
-      console.log('vro')
     }
   }
 } 
