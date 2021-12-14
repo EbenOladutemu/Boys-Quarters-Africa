@@ -9,7 +9,7 @@
             </li>
             <li class="list">
               <p :style="contactDetails"><i class="fas fa-phone" :style="bqaColor"></i>
-                <a href="tel:+2348137367389" :style="bqaColor"> 0813 736 7389</a>
+                <a href="tel:+2348034829520" :style="bqaColor">0803 482 9520</a>
               </p>
             </li>
             <li class="list">
